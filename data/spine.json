@@ -5,7 +5,7 @@
   "urls": {
     "rupl2_local": "http://localhost:8095/",
     "rupl3_local": "http://localhost:8094/",
-    "rupl2_pages": null,
+    "rupl2_pages": "https://pernath1200.github.io/rupl2/",
     "rupl3_pages": "https://pernath1200.github.io/rupl3/"
   },
   "steps": [

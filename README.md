@@ -3,11 +3,22 @@
 Productive **A1 Polish grammar** for English speakers (city / everyday).  
 Sibling of **RUCZ2** (Czech grammar shell) and **RUPL3** (Polish vocab) — **Polish syllabus from first principles**.
 
+**Live:** [https://pernath1200.github.io/rupl2/](https://pernath1200.github.io/rupl2/)  
+**Repo:** [Pernath1200/rupl2](https://github.com/Pernath1200/rupl2)  
+**Sibling vocab:** [https://pernath1200.github.io/rupl3/](https://pernath1200.github.io/rupl3/)
+
 Read **[CHARTER.md](./CHARTER.md)** before changing scope.
 
 ## One-liner
 
 Grow usable A1 Polish: high-frequency grammar patterns you can **understand and produce**, with honest local progress — not a full case textbook.
+
+## GitHub Pages
+
+Deploy: branch **`main`** · folder **`/` (root)** →  
+`https://pernath1200.github.io/rupl2/`
+
+Progress is **local to each browser** (`localStorage`).
 
 ## Run locally
 
