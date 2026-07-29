@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Polski · RUPL2</title>
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="util-bar">
+      <span class="brand">RUPL2</span>
+      <span class="sep">·</span>
+      <span>Polski · Korzenie · v0.1</span>
+      <span class="sep">·</span>
+      <span>wersja lokalna</span>
+      <span class="sep">·</span>
+      <button type="button" class="util-btn" id="btn-author-unlock" aria-pressed="false" title="Odblokowuje wyższe poziomy dla autora (tylko lokalnie). Także ?unlock=all">Tryb autorski</button>
+    </div>
+
+    <h1>Polski · Mapa ćwiczeń</h1>
+    <p class="sub">
+      Produktywna <strong>gramatyka polska A1</strong> dla anglojęzycznych.
+      Rodzeństwo <strong>RUPL3</strong> (słownictwo) i <strong>RUCZ2</strong> (gramatyka czeska) —
+      sylabus polski, produkcja EN → PL. Korzenie wypełniają się, gdy ćwiczysz.
+    </p>
+    <p id="author-hint" class="practice-hint" hidden style="color: var(--accent); margin-top: -0.75rem"></p>
+
+    <div id="boot-error" class="card" hidden></div>
+
+    <div id="view-map">
+      <div class="rail-label">Poziom</div>
+      <div id="level-rail" class="level-rail" role="toolbar" aria-label="Poziom CEFR"></div>
+
+      <div class="card" id="up-next-card">
+        <h2>Zrób to dalej · ścieżka</h2>
+        <div id="up-next"></div>
+      </div>
+
+      <div class="card">
+        <h2>System korzeni</h2>
+        <p class="tree-legend">Cienka mapa v0.1 · wypełnia się po uczciwym ćwiczeniu · kół + pięć bocznych</p>
+        <div id="roots-strip" class="roots-strip"></div>
+      </div>
+
+      <div class="card">
+        <h2>Ścieżka A1</h2>
+        <p class="tree-legend">Sugerowana kolejność · mapa wolna · planowane = treść przyjdzie</p>
+        <ul id="path-list" class="path-list"></ul>
+      </div>
+
+      <div class="card" id="node-detail-card">
+        <h2>Węzeł</h2>
+        <div id="node-detail"></div>
+      </div>
+    </div>
+
+    <div id="view-practice" class="card" hidden>
+      <div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
+        <button type="button" class="btn smoke-flag-btn" id="p-flag" title="Flag this item for smoke review">⚑ Flag item</button>
+        <button type="button" class="btn smoke-flag-list" id="p-flag-list" data-smoke-badge title="View flagged items · copy for agent">Flagged list</button>
+        <span class="smoke-toolbar-hint">Smoke · local notes for the agent</span>
+      </div>
+      <div id="practice-root"></div>
+      <div class="practice-exit">
+        <button type="button" class="btn-ghost" id="btn-practice-back" tabindex="-1" title="Wyjdź do mapy (mysz)">← Wstecz do mapy</button>
+      </div>
+    </div>
+
+    <div id="smoke-flags-host"></div>
+
+    <p class="foot">
+      Ścieżka → Wstęp → Kontrola → Pisanie → Użycie · owoc przy ≥80 % (Kontrola i Pisanie).
+      W ćwiczeniu: <strong>Flag</strong> / <strong>Flagged</strong> · smoke notatki.
+      Serwer: <code>py -m http.server 8095</code> → <code>http://localhost:8095</code>
+    </p>
+  </div>
+  <script type="module" src="./js/app.js?v=2026-07-28-learner-copy"></script>
+</body>
+</html>

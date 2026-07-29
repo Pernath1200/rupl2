@@ -1,0 +1,160 @@
+{
+  "id": "a1_miec",
+  "title": "Mieć + biernik",
+  "title_en": "Have + accusative light",
+  "level": "A1",
+  "tree_node": "a1_miec",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": { "mode": "ending_gap" },
+  "check": { "sequence": ["match", "quiz"] },
+  "note": "mieć grid (full word) + Acc f -ę gaps. Soft negation: nie mam.",
+  "intro": [
+    {
+      "title": "Mieć — to have",
+      "title_pl": "Mieć",
+      "body": "Learn the forms of mieć (to have). After mam / masz / ma you often need the object form of the noun.",
+      "body_pl": "Formy mieć. Po mam / masz / ma rzeczownik często zmienia końcówkę."
+    },
+    {
+      "title": "Person × form",
+      "table": {
+        "headers": ["Person", "Polish", "English"],
+        "rows": [
+          ["ja", "mam", "I have"],
+          ["ty", "masz", "you have (sg)"],
+          ["on / ona / ono", "ma", "he / she / it has"],
+          ["my", "mamy", "we have"],
+          ["wy", "macie", "you have (pl)"],
+          ["oni / one", "mają", "they have"]
+        ]
+      }
+    },
+    {
+      "title": "Objects you need (accusative light)",
+      "body": "Feminine -a often → -ę in the object slot. Some words look the same in nom and acc.",
+      "table": {
+        "headers": ["Nominative", "As object (acc)", "In a phrase"],
+        "rows": [
+          ["kawa (f)", "kawę", "mam kawę"],
+          ["herbata (f)", "herbatę", "chcę herbatę"],
+          ["książka (f)", "książkę", "mam książkę"],
+          ["czas (m)", "czas", "mam czas / nie mam czasu*"],
+          ["pieniądze (pl)", "pieniądze", "mam pieniądze"]
+        ]
+      }
+    },
+    {
+      "title": "A fixed phrase",
+      "title_pl": "Stała fraza",
+      "body": "Learn nie mam czasu as a whole phrase: I don’t have time.",
+      "body_pl": "Naucz się w całości: nie mam czasu."
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        { "en": "I have coffee.", "pl": "Mam kawę." },
+        { "en": "Do you have time?", "pl": "Masz czas?" },
+        { "en": "I don't have time.", "pl": "Nie mam czasu." },
+        { "en": "She has a book.", "pl": "Ona ma książkę." }
+      ]
+    }
+  ],
+  "match": [
+    { "en": "I have", "pl": "mam" },
+    { "en": "you have (sg)", "pl": "masz" },
+    { "en": "he/she has", "pl": "ma" },
+    { "en": "we have", "pl": "mamy" },
+    { "en": "coffee (as object)", "pl": "kawę" },
+    { "en": "I don't have time", "pl": "Nie mam czasu" }
+  ],
+  "quiz": [
+    {
+      "prompt": "I have → which form?",
+      "choices": ["mam", "masz", "ma", "mamy"],
+      "answer": "mam"
+    },
+    {
+      "prompt": "You (sg) have →",
+      "choices": ["mam", "masz", "mają", "macie"],
+      "answer": "masz"
+    },
+    {
+      "prompt": "Coffee as object of mam: mam ___",
+      "choices": ["kawa", "kawę", "kawy", "kawą"],
+      "answer": "kawę"
+    },
+    {
+      "prompt": "I don't have time (fixed chunk):",
+      "choices": ["Nie mam czas", "Nie mam czasu", "Nie masz czas", "Mam nie czas"],
+      "answer": "Nie mam czasu"
+    },
+    {
+      "prompt": "She has a book:",
+      "choices": ["Ona ma książka", "Ona ma książkę", "Ona mam książkę", "Ona masz książkę"],
+      "answer": "Ona ma książkę"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I have (full form)",
+      "mode": "full_word",
+      "answer": "mam",
+      "accepts": ["mam"]
+    },
+    {
+      "prompt_en": "you have (sg)",
+      "mode": "full_word",
+      "answer": "masz",
+      "accepts": ["masz"]
+    },
+    {
+      "prompt_en": "he/she has",
+      "mode": "full_word",
+      "answer": "ma",
+      "accepts": ["ma"]
+    },
+    {
+      "prompt_en": "we have",
+      "mode": "full_word",
+      "answer": "mamy",
+      "accepts": ["mamy"]
+    },
+    { "prompt_en": "kawa → Acc ending", "stem": "kaw", "ending": "ę" },
+    { "prompt_en": "herbata → Acc ending", "stem": "herbat", "ending": "ę" },
+    { "prompt_en": "książka → Acc ending", "stem": "książk", "ending": "ę" },
+    { "prompt_en": "woda → Acc ending", "stem": "wod", "ending": "ę" }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Say: I have coffee.",
+      "answer": "Mam kawę.",
+      "accepts": ["Mam kawę.", "Mam kawę", "Mam kawe."]
+    },
+    {
+      "prompt_en": "Say: You have time. (sg)",
+      "answer": "Masz czas.",
+      "accepts": ["Masz czas.", "Masz czas"]
+    },
+    {
+      "prompt_en": "Say: I don't have time.",
+      "answer": "Nie mam czasu.",
+      "accepts": ["Nie mam czasu.", "Nie mam czasu"]
+    },
+    {
+      "prompt_en": "Say: She has a book.",
+      "answer": "Ona ma książkę.",
+      "accepts": [
+        "Ona ma książkę.",
+        "Ona ma książkę",
+        "Ma książkę.",
+        "Ma książkę"
+      ]
+    },
+    {
+      "prompt_en": "Say: We have money.",
+      "answer": "Mamy pieniądze.",
+      "accepts": ["Mamy pieniądze.", "Mamy pieniądze", "Mamy pieniadze."]
+    }
+  ]
+}

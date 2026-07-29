@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "app": "rupl2",
+  "title": "Polski · Mapa ćwiczeń",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "levels_locked": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "levels_locked_note": "A1 open. A2+ locked until later gate or author unlock.",
+  "default_direction": "en_to_pl",
+  "path_order": [
+    "a1_gender",
+    "a1_hello",
+    "a1_gender_check",
+    "a1_miec",
+    "a1_acc_gym",
+    "a1_present",
+    "a1_present_gym",
+    "a1_questions",
+    "a1_negation",
+    "a1_pronouns",
+    "a1_acc_more",
+    "a1_prep_place",
+    "a1_links",
+    "a1_request_acc",
+    "a1_word_order",
+    "a1_inst_job"
+  ],
+  "path_order_note": "Nom solid before Acc: gender+to jest → być → gender check+dobry/a/e (still Nom) → then mieć+Acc → Acc gym → present… Past = A2.",
+  "tap_root": {
+    "id": "tap_root",
+    "label": "Kół",
+    "note": "Fundament. Grubieje z tematów foundation (hello+być, gender, questions)."
+  },
+  "roots": [
+    {
+      "id": "forms",
+      "label": "Formy",
+      "short": "Frm",
+      "note": "Rodzaj, mianownik, lekka zgoda przymiotnika, biernik lekko"
+    },
+    {
+      "id": "verbs",
+      "label": "Czasowniki",
+      "short": "Czs",
+      "note": "być, mieć, odmiana teraźniejsza, przeczenie"
+    },
+    {
+      "id": "sentence",
+      "label": "Zdanie",
+      "short": "Zdn",
+      "note": "Pytania, szyk, zaimki w kontekście"
+    },
+    {
+      "id": "chunks",
+      "label": "Chunki",
+      "short": "Chk",
+      "note": "Pozdrowienia, sklep, kawiarnia, tramwaj"
+    },
+    {
+      "id": "links",
+      "label": "Spójniki",
+      "short": "Spj",
+      "note": "a / ale / bo · przyimki z lekkim przypadkiem"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a1_gender",
+      "label": "Rodzaj + to jest",
+      "label_en": "Gender + this is",
+      "kind": "topic",
+      "root": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_gender.json",
+      "note": "JEDEN cel: to jest + N (mianownik) · m/ż/n feel",
+      "unit_id": "PL_NOM_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NOM_01"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_home_family",
+        "label": "Dom i rodzina",
+        "unit_id": "PL_NOM_01"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_hello",
+      "label": "Być · fundament",
+      "label_en": "Być seed (not greetings)",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_hello.json",
+      "note": "jestem jesteś jest … · to jest · grzeczność = RUPL3",
+      "unit_id": "PL_BE_SAFE_01",
+      "case_tags": [],
+      "spine_steps": [
+        "PL_BE_SAFE_01"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "trunk_be_have_a1",
+        "label": "Być · mieć (seed)",
+        "unit_id": "PL_BE_SAFE_01"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_gender_check",
+      "label": "Zgoda: rzeczownik + przymiotnik",
+      "label_en": "Noun–adjective agreement",
+      "kind": "topic",
+      "root": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_gender_check.json",
+      "note": "dobry / dobra / dobre + rzeczownik · mianownik",
+      "unit_id": "PL_NOM_02",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NOM_02"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_food_a1",
+        "label": "Jedzenie (zgoda w użyciu)",
+        "unit_id": "PL_NOM_02"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_present",
+      "label": "Teraźniejszy (ja/ty/on)",
+      "label_en": "Present I/you/he",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_present.json",
+      "note": "wzorce + gap: mówić, mieszkać, lubić, chcieć",
+      "unit_id": "PL_PRES_01",
+      "case_tags": [],
+      "spine_steps": [
+        "PL_PRES_01"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_freetime_a1",
+        "label": "Czas wolny",
+        "unit_id": "PL_PRES_01"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_miec",
+      "label": "Mieć + biernik",
+      "label_en": "Have + accusative light",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_miec.json",
+      "note": "mam/masz/ma + Acc -ę gaps",
+      "unit_id": "PL_ACC_01",
+      "case_tags": [
+        "acc"
+      ],
+      "spine_steps": [
+        "PL_ACC_01",
+        "PL_ACC_02"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_food_a1",
+        "label": "Jedzenie i picie",
+        "unit_id": "PL_ACC_01"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_acc_gym",
+      "label": "Siłownia · biernik -ę",
+      "label_en": "Accusative ending gym",
+      "kind": "topic",
+      "root": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_acc_gym.json",
+      "note": "volume after Acc teach · not a spine step",
+      "case_tags": [
+        "acc"
+      ],
+      "pedagogy": "drill",
+      "spine_support_of": "a1_miec"
+    },
+    {
+      "id": "a1_present_gym",
+      "label": "Siłownia · teraźniejszy",
+      "label_en": "Present ending gym",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_present_gym.json",
+      "note": "volume after present teach · not a spine step",
+      "pedagogy": "drill",
+      "spine_support_of": "a1_present"
+    },
+    {
+      "id": "a1_questions",
+      "label": "Pytania",
+      "label_en": "Questions",
+      "kind": "topic",
+      "root": "sentence",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "foundation": true,
+      "content": null,
+      "note": "czy · co · gdzie · jak"
+    },
+    {
+      "id": "a1_negation",
+      "label": "Przeczenie",
+      "label_en": "Negation",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "nie + czasownik · nie mam · nie jestem"
+    },
+    {
+      "id": "a1_pronouns",
+      "label": "Zaimki",
+      "label_en": "Pronouns",
+      "kind": "topic",
+      "root": "sentence",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "ja ty on ona my wy oni — lekko"
+    },
+    {
+      "id": "a1_acc_more",
+      "label": "Biernik (więcej)",
+      "label_en": "Accusative more",
+      "kind": "topic",
+      "root": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "chcę + N · widzę + N · częste obiekty"
+    },
+    {
+      "id": "a1_prep_place",
+      "label": "Przyimki miejsca",
+      "label_en": "Place prepositions + form",
+      "kind": "topic",
+      "root": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "w / na / do + lekki smak formy (nie lista miejsc)",
+      "unit_id": "PL_PREP_01",
+      "case_tags": [
+        "loc",
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_01",
+        "PL_PREP_02"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_places",
+        "label": "Miejsca",
+        "unit_id": "PL_PREP_01"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_links",
+      "label": "a / ale / bo",
+      "label_en": "Linkers",
+      "kind": "topic",
+      "root": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "wysokoczęstotliwe spójniki"
+    },
+    {
+      "id": "a1_request_acc",
+      "label": "Prośba + biernik",
+      "label_en": "Request + accusative",
+      "kind": "topic",
+      "root": "chunks",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "poproszę / chcę + N · kawa→kawę w użyciu"
+    },
+    {
+      "id": "a1_word_order",
+      "label": "Szyk zdania",
+      "label_en": "Word order light",
+      "kind": "topic",
+      "root": "sentence",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "stwierdzenie vs pytanie · co stoi gdzie (lekko)"
+    },
+    {
+      "id": "a1_inst_job",
+      "label": "Być + zawód (narzędnik)",
+      "label_en": "Be + job (instrumental)",
+      "kind": "topic",
+      "root": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "content": null,
+      "note": "AFTER Acc + place preps · identity frames only",
+      "unit_id": "PL_INST_01",
+      "case_tags": [
+        "inst"
+      ],
+      "spine_steps": [
+        "PL_INST_01"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_work_a1",
+        "label": "Praca",
+        "unit_id": "PL_INST_01"
+      },
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a2_past_endings",
+      "label": "Przeszły · końcówki",
+      "label_en": "Past · ending gym",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "foundation": true,
+      "content": null,
+      "note": "A2 open · person × gender · ruthless gap drill (not A1)"
+    }
+  ],
+  "spine": "data/spine.json"
+}

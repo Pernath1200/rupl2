@@ -1,0 +1,142 @@
+{
+  "id": "a1_present_gym",
+  "title": "Siłownia · teraźniejszy",
+  "title_en": "Present ending gym",
+  "level": "A1",
+  "tree_node": "a1_present_gym",
+  "kind": "morphology",
+  "default_direction": "en_to_pl",
+  "type": { "mode": "ending_gap" },
+  "check": { "sequence": ["match", "quiz"] },
+  "note": "Pure person endings. Stem fixed — type only the ending. Diacritics count.",
+  "intro": [
+    {
+      "title": "Ending gym — present",
+      "title_pl": "Siłownia końcówek — teraźniejszy",
+      "body": "Type only the ending. Same stems, many reps. Two patterns: -am/-asz/-a and -ę/-isz/-i (plus chcę).",
+      "body_pl": "Tylko końcówka. Dwa wzorce + chcę."
+    },
+    {
+      "title": "Pattern A · -am / -asz / -a",
+      "table": {
+        "headers": ["Person", "Ending", "mieszk-", "czyt-"],
+        "rows": [
+          ["ja", "-am", "mieszkam", "czytam"],
+          ["ty", "-asz", "mieszkasz", "czytasz"],
+          ["on/ona", "-a", "mieszka", "czyta"]
+        ]
+      }
+    },
+    {
+      "title": "Pattern B · -ę / -isz / -i  (+ chcę)",
+      "table": {
+        "headers": ["Person", "Ending", "mów-", "lub-", "chc-"],
+        "rows": [
+          ["ja", "-ę / -ię", "mówię", "lubię", "chcę"],
+          ["ty", "-isz / -esz", "mówisz", "lubisz", "chcesz"],
+          ["on/ona", "-i / -e", "mówi", "lubi", "chce"]
+        ]
+      }
+    }
+  ],
+  "match": [
+    { "en": "ja · mieszkać → ending", "pl": "am" },
+    { "en": "ty · mieszkać → ending", "pl": "asz" },
+    { "en": "on · mieszkać → ending", "pl": "a" },
+    { "en": "ja · mówić → ending", "pl": "ię" },
+    { "en": "ty · mówić → ending", "pl": "isz" },
+    { "en": "ona · mówić → ending", "pl": "i" },
+    { "en": "ja · chcieć → ending", "pl": "ę" },
+    { "en": "ty · chcieć → ending", "pl": "esz" }
+  ],
+  "quiz": [
+    {
+      "prompt": "mieszk__ (ja) — ending?",
+      "choices": ["am", "asz", "a", "ię"],
+      "answer": "am"
+    },
+    {
+      "prompt": "mów__ (ty) — ending?",
+      "choices": ["am", "isz", "ię", "ę"],
+      "answer": "isz"
+    },
+    {
+      "prompt": "lub__ (ja) — ending?",
+      "choices": ["am", "ię", "ę", "i"],
+      "answer": "ię"
+    },
+    {
+      "prompt": "chc__ (ja) — ending?",
+      "choices": ["am", "ię", "ę", "e"],
+      "answer": "ę"
+    },
+    {
+      "prompt": "czyt__ (on) — ending?",
+      "choices": ["am", "asz", "a", "i"],
+      "answer": "a"
+    },
+    {
+      "prompt": "rob__ (ona) — ending?",
+      "choices": ["a", "i", "e", "am"],
+      "answer": "i"
+    },
+    {
+      "prompt": "pisz__ (ja) — ending?",
+      "choices": ["am", "ę", "ię", "e"],
+      "answer": "ę"
+    },
+    {
+      "prompt": "chc__ (on) — ending?",
+      "choices": ["ę", "esz", "e", "i"],
+      "answer": "e"
+    }
+  ],
+  "type_items": [
+    { "prompt_en": "ja · mieszkać", "stem": "mieszk", "ending": "am", "hint": "pattern -am" },
+    { "prompt_en": "ty · mieszkać", "stem": "mieszk", "ending": "asz" },
+    { "prompt_en": "on · mieszkać", "stem": "mieszk", "ending": "a" },
+    { "prompt_en": "ja · czytać", "stem": "czyt", "ending": "am" },
+    { "prompt_en": "ty · czytać", "stem": "czyt", "ending": "asz" },
+    { "prompt_en": "ona · czytać", "stem": "czyt", "ending": "a" },
+    { "prompt_en": "ja · mówić", "stem": "mów", "ending": "ię" },
+    { "prompt_en": "ty · mówić", "stem": "mów", "ending": "isz" },
+    { "prompt_en": "on · mówić", "stem": "mów", "ending": "i" },
+    { "prompt_en": "ja · lubić", "stem": "lub", "ending": "ię" },
+    { "prompt_en": "ty · lubić", "stem": "lub", "ending": "isz" },
+    { "prompt_en": "ona · lubić", "stem": "lub", "ending": "i" },
+    { "prompt_en": "ja · robić", "stem": "rob", "ending": "ię" },
+    { "prompt_en": "ty · robić", "stem": "rob", "ending": "isz" },
+    { "prompt_en": "on · robić", "stem": "rob", "ending": "i" },
+    { "prompt_en": "ja · chcieć", "stem": "chc", "ending": "ę", "hint": "chcę — ę not e" },
+    { "prompt_en": "ty · chcieć", "stem": "chc", "ending": "esz" },
+    { "prompt_en": "ona · chcieć", "stem": "chc", "ending": "e" },
+    { "prompt_en": "ja · pisać", "stem": "pisz", "ending": "ę" },
+    { "prompt_en": "ty · pisać", "stem": "pisz", "ending": "esz" },
+    { "prompt_en": "on · pisać", "stem": "pisz", "ending": "e" },
+    { "prompt_en": "ja · uczyć", "stem": "ucz", "ending": "ę" },
+    { "prompt_en": "ty · uczyć", "stem": "ucz", "ending": "ysz" },
+    { "prompt_en": "ona · uczyć", "stem": "ucz", "ending": "y" }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Say: I live in Warsaw.",
+      "answer": "Mieszkam w Warszawie.",
+      "accepts": ["Mieszkam w Warszawie.", "Mieszkam w Warszawie"]
+    },
+    {
+      "prompt_en": "Say: I speak Polish.",
+      "answer": "Mówię po polsku.",
+      "accepts": ["Mówię po polsku.", "Mówię po polsku"]
+    },
+    {
+      "prompt_en": "Say: I want coffee.",
+      "answer": "Chcę kawę.",
+      "accepts": ["Chcę kawę.", "Chcę kawę"]
+    },
+    {
+      "prompt_en": "Say: You (sg) like tea.",
+      "answer": "Lubisz herbatę.",
+      "accepts": ["Lubisz herbatę.", "Lubisz herbatę"]
+    }
+  ]
+}

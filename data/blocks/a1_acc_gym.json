@@ -1,0 +1,127 @@
+{
+  "id": "a1_acc_gym",
+  "title": "Siłownia · biernik -ę",
+  "title_en": "Accusative ending gym (f -ę)",
+  "level": "A1",
+  "tree_node": "a1_acc_gym",
+  "kind": "morphology",
+  "default_direction": "en_to_pl",
+  "type": { "mode": "ending_gap" },
+  "check": { "sequence": ["match", "quiz"] },
+  "note": "Feminine -a → Acc -ę. Stem = form without -a; type ę. Diacritic required.",
+  "intro": [
+    {
+      "title": "Ending gym — accusative (feminine)",
+      "title_pl": "Siłownia — biernik żeński",
+      "body": "Most feminine nouns in -a take -ę as the object form. Stem shown without -a; you type only ę. No free pass without the ogonek.",
+      "body_pl": "kawa → kawę · tylko końcówka ę."
+    },
+    {
+      "title": "The slot",
+      "table": {
+        "headers": ["Nominative", "Stem + ending", "Accusative", "In a phrase"],
+        "rows": [
+          ["kawa", "kaw + ę", "kawę", "mam kawę"],
+          ["herbata", "herbat + ę", "herbatę", "chcę herbatę"],
+          ["książka", "książk + ę", "książkę", "czytam książkę"],
+          ["woda", "wod + ę", "wodę", "piję wodę"],
+          ["praca", "prac + ę", "pracę", "lubię pracę"]
+        ]
+      }
+    },
+    {
+      "title": "Only -ę today",
+      "title_pl": "Dziś tylko -ę",
+      "body": "Today: feminine -a nouns as objects (kawę, książkę). Other patterns come in other units.",
+      "body_pl": "Dziś: żeńskie na -a w dopełnieniu (kawę, książkę)."
+    }
+  ],
+  "match": [
+    { "en": "kawa → Acc ending", "pl": "ę" },
+    { "en": "herbata → Acc form", "pl": "herbatę" },
+    { "en": "książka → Acc form", "pl": "książkę" },
+    { "en": "woda → Acc form", "pl": "wodę" },
+    { "en": "szkoła → Acc form", "pl": "szkołę" },
+    { "en": "mapa → Acc form", "pl": "mapę" }
+  ],
+  "quiz": [
+    {
+      "prompt": "kawa as object — ending after kaw?",
+      "choices": ["a", "ę", "y", "ą"],
+      "answer": "ę"
+    },
+    {
+      "prompt": "I have coffee:",
+      "choices": ["Mam kawa.", "Mam kawę.", "Mam kawy.", "Mam kawą."],
+      "answer": "Mam kawę."
+    },
+    {
+      "prompt": "książka → Acc form?",
+      "choices": ["książka", "książkę", "książki", "książką"],
+      "answer": "książkę"
+    },
+    {
+      "prompt": "herbata → Acc ending only?",
+      "choices": ["a", "ę", "y", "e"],
+      "answer": "ę"
+    },
+    {
+      "prompt": "Which is Acc of woda?",
+      "choices": ["woda", "wody", "wodę", "wodą"],
+      "answer": "wodę"
+    },
+    {
+      "prompt": "I want work / a job (praca):",
+      "choices": ["Chcę praca.", "Chcę pracę.", "Chcę pracy.", "Chcę pracą."],
+      "answer": "Chcę pracę."
+    }
+  ],
+  "type_items": [
+    { "prompt_en": "kawa → Acc (ending only)", "stem": "kaw", "ending": "ę" },
+    { "prompt_en": "herbata → Acc", "stem": "herbat", "ending": "ę" },
+    { "prompt_en": "książka → Acc", "stem": "książk", "ending": "ę" },
+    { "prompt_en": "woda → Acc", "stem": "wod", "ending": "ę" },
+    { "prompt_en": "praca → Acc", "stem": "prac", "ending": "ę" },
+    { "prompt_en": "szkoła → Acc", "stem": "szkoł", "ending": "ę" },
+    { "prompt_en": "mapa → Acc", "stem": "map", "ending": "ę" },
+    { "prompt_en": "ulica → Acc", "stem": "ulic", "ending": "ę" },
+    { "prompt_en": "kawa → Acc", "stem": "kaw", "ending": "ę" },
+    { "prompt_en": "herbata → Acc", "stem": "herbat", "ending": "ę" },
+    { "prompt_en": "gazeta → Acc", "stem": "gazet", "ending": "ę" },
+    { "prompt_en": "kawa → Acc", "stem": "kaw", "ending": "ę" },
+    { "prompt_en": "kobieta → Acc", "stem": "kobiet", "ending": "ę" },
+    { "prompt_en": "godzina → Acc", "stem": "godzin", "ending": "ę" },
+    { "prompt_en": "minuta → Acc", "stem": "minut", "ending": "ę" },
+    { "prompt_en": "pizza → Acc", "stem": "pizz", "ending": "ę" },
+    { "prompt_en": "sałatka → Acc", "stem": "sałatk", "ending": "ę" },
+    { "prompt_en": "zupa → Acc", "stem": "zup", "ending": "ę" },
+    { "prompt_en": "ryba → Acc", "stem": "ryb", "ending": "ę" },
+    { "prompt_en": "kanapka → Acc", "stem": "kanapk", "ending": "ę" },
+    { "prompt_en": "książka → Acc", "stem": "książk", "ending": "ę" },
+    { "prompt_en": "praca → Acc", "stem": "prac", "ending": "ę" },
+    { "prompt_en": "szkoła → Acc", "stem": "szkoł", "ending": "ę" },
+    { "prompt_en": "woda → Acc", "stem": "wod", "ending": "ę" }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Say: I have coffee.",
+      "answer": "Mam kawę.",
+      "accepts": ["Mam kawę.", "Mam kawę"]
+    },
+    {
+      "prompt_en": "Say: I want tea.",
+      "answer": "Chcę herbatę.",
+      "accepts": ["Chcę herbatę.", "Chcę herbatę"]
+    },
+    {
+      "prompt_en": "Say: I am reading a book.",
+      "answer": "Czytam książkę.",
+      "accepts": ["Czytam książkę.", "Czytam książkę"]
+    },
+    {
+      "prompt_en": "Say: I like work / my job.",
+      "answer": "Lubię pracę.",
+      "accepts": ["Lubię pracę.", "Lubię pracę"]
+    }
+  ]
+}

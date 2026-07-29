@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "title": "Polish A1 zigzag spine · RUPL2 ↔ RUPL3",
+  "note": "Soft path only. Each app only knows its own progress. Other-app side is a deep-link suggestion, not a hard lock. Source doc: PL-A1-SPINE.md",
+  "urls": {
+    "rupl2_local": "http://localhost:8095/",
+    "rupl3_local": "http://localhost:8094/",
+    "rupl2_pages": null,
+    "rupl3_pages": "https://pernath1200.github.io/rupl3/"
+  },
+  "steps": [
+    {
+      "id": "PL_SOC_01",
+      "title": "Grzeczność (słownictwo)",
+      "case_tags": [],
+      "note": "Polite phrases are vocab — RUPL3 only. RUPL2 does not teach Dzień dobry as grammar.",
+      "rupl2": {
+        "node_id": null,
+        "label": "— (grzeczność = RUPL3)",
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "trunk_social_a1",
+        "label": "Społeczne",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_NOM_01",
+      "title": "Rodzaj · to jest",
+      "case_tags": ["nom"],
+      "rupl2": {
+        "node_id": "a1_gender",
+        "label": "Rodzaj + to jest",
+        "status": "live"
+      },
+      "rupl3": {
+        "node_id": "leaf_home_family",
+        "label": "Dom i rodzina",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_BE_SAFE_01",
+      "title": "Być · fundament (bez narzędnika tożsamości)",
+      "case_tags": [],
+      "rupl2": {
+        "node_id": "a1_hello",
+        "label": "Być · fundament",
+        "status": "live",
+        "note": "Present grid of być + to jest only — not greetings"
+      },
+      "rupl3": {
+        "node_id": "trunk_be_have_a1",
+        "label": "Być · mieć (seed)",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_NOM_02",
+      "title": "Zgoda: rzeczownik + przymiotnik",
+      "case_tags": ["nom"],
+      "note": "Noun–adjective agreement (dobry/a/e). Nominative only; Acc is a later step in the path.",
+      "rupl2": {
+        "node_id": "a1_gender_check",
+        "label": "Zgoda: rzeczownik + przymiotnik",
+        "status": "live"
+      },
+      "rupl3": {
+        "node_id": "leaf_food_a1",
+        "label": "Jedzenie (zgoda w użyciu)",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_ACC_01",
+      "title": "Mieć + biernik",
+      "case_tags": ["acc"],
+      "rupl2": {
+        "node_id": "a1_miec",
+        "label": "Mieć + biernik",
+        "status": "live"
+      },
+      "rupl3": {
+        "node_id": "leaf_food_a1",
+        "label": "Jedzenie i picie",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_PRES_01",
+      "title": "Teraźniejszy ja/ty/on",
+      "case_tags": [],
+      "rupl2": {
+        "node_id": "a1_present",
+        "label": "Teraźniejszy (ja/ty/on)",
+        "status": "live"
+      },
+      "rupl3": {
+        "node_id": "leaf_freetime_a1",
+        "label": "Czas wolny",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_ACC_02",
+      "title": "Biernik w użyciu",
+      "case_tags": ["acc"],
+      "rupl2": {
+        "node_id": "a1_miec",
+        "label": "Mieć + biernik (powtórz)",
+        "status": "live",
+        "note": "Until a1_acc_more / request_acc go live"
+      },
+      "rupl3": {
+        "node_id": "trunk_want_like_a1",
+        "label": "Chcę · lubię",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_PREP_01",
+      "title": "Przyimki miejsca",
+      "case_tags": ["loc", "gen"],
+      "rupl2": {
+        "node_id": "a1_prep_place",
+        "label": "Przyimki miejsca",
+        "status": "planned"
+      },
+      "rupl3": {
+        "node_id": "leaf_places",
+        "label": "Miejsca",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_PREP_02",
+      "title": "Do / z · miasto",
+      "case_tags": ["gen"],
+      "rupl2": {
+        "node_id": "a1_prep_place",
+        "label": "Przyimki miejsca",
+        "status": "planned"
+      },
+      "rupl3": {
+        "node_id": "leaf_city_a1",
+        "label": "Miasto i transport",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_INST_01",
+      "title": "Być + zawód · narzędnik",
+      "case_tags": ["inst"],
+      "rupl2": {
+        "node_id": "a1_inst_job",
+        "label": "Być + zawód (narzędnik)",
+        "status": "planned",
+        "note": "In tree as planned — author content only after Acc + prep place are solid"
+      },
+      "rupl3": {
+        "node_id": "leaf_work_a1",
+        "label": "Praca (lemmas now; identity frames later)",
+        "status": "live"
+      }
+    }
+  ]
+}

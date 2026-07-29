@@ -1,0 +1,153 @@
+{
+  "id": "a1_present",
+  "title": "Teraźniejszy (ja/ty/on)",
+  "title_en": "Present I / you / he",
+  "level": "A1",
+  "tree_node": "a1_present",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": { "mode": "ending_gap" },
+  "check": { "sequence": ["match", "quiz"] },
+  "note": "Small verb set: mówić, mieszkać, lubić, chcieć — Type = ending gap.",
+  "intro": [
+    {
+      "title": "A tiny present set",
+      "title_pl": "Mały zestaw teraźniejszy",
+      "body": "Polish present endings come in patterns. For A1 we lock four useful verbs and three persons: ja / ty / on·ona.",
+      "body_pl": "Cztery czasowniki, trzy osoby — nie cała odmiana."
+    },
+    {
+      "title": "mówić — to speak / say",
+      "table": {
+        "headers": ["Person", "Form", "English"],
+        "rows": [
+          ["ja", "mówię", "I speak"],
+          ["ty", "mówisz", "you speak"],
+          ["on / ona", "mówi", "he / she speaks"]
+        ]
+      }
+    },
+    {
+      "title": "mieszkać — to live (reside)",
+      "table": {
+        "headers": ["Person", "Form", "English"],
+        "rows": [
+          ["ja", "mieszkam", "I live"],
+          ["ty", "mieszkasz", "you live"],
+          ["on / ona", "mieszka", "he / she lives"]
+        ]
+      }
+    },
+    {
+      "title": "lubić — to like · chcieć — to want",
+      "table": {
+        "headers": ["Person", "lubić", "chcieć"],
+        "rows": [
+          ["ja", "lubię", "chcę"],
+          ["ty", "lubisz", "chcesz"],
+          ["on / ona", "lubi", "chce"]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        { "en": "I speak Polish.", "pl": "Mówię po polsku." },
+        { "en": "I live in Warsaw.", "pl": "Mieszkam w Warszawie." },
+        { "en": "I like coffee.", "pl": "Lubię kawę." },
+        { "en": "I want tea.", "pl": "Chcę herbatę." }
+      ]
+    }
+  ],
+  "match": [
+    { "en": "I speak", "pl": "mówię" },
+    { "en": "you speak (sg)", "pl": "mówisz" },
+    { "en": "I live (reside)", "pl": "mieszkam" },
+    { "en": "she lives", "pl": "mieszka" },
+    { "en": "I like", "pl": "lubię" },
+    { "en": "I want", "pl": "chcę" },
+    { "en": "you want (sg)", "pl": "chcesz" }
+  ],
+  "quiz": [
+    {
+      "prompt": "I speak →",
+      "choices": ["mówię", "mówisz", "mówi", "mówimy"],
+      "answer": "mówię"
+    },
+    {
+      "prompt": "You (sg) live →",
+      "choices": ["mieszkam", "mieszkasz", "mieszka", "mieszkamy"],
+      "answer": "mieszkasz"
+    },
+    {
+      "prompt": "I like →",
+      "choices": ["lubię", "lubisz", "lubi", "lubimy"],
+      "answer": "lubię"
+    },
+    {
+      "prompt": "I want →",
+      "choices": ["chcę", "chcesz", "chce", "chcemy"],
+      "answer": "chcę"
+    },
+    {
+      "prompt": "He speaks →",
+      "choices": ["mówię", "mówisz", "mówi", "mówicie"],
+      "answer": "mówi"
+    },
+    {
+      "prompt": "I speak Polish:",
+      "choices": [
+        "Mówię po polsku.",
+        "Mówisz po polsku.",
+        "Mówi po polsku.",
+        "Mieszkam po polsku."
+      ],
+      "answer": "Mówię po polsku."
+    }
+  ],
+  "type_items": [
+    { "prompt_en": "ja · mówić", "stem": "mów", "ending": "ię" },
+    { "prompt_en": "ty · mówić", "stem": "mów", "ending": "isz" },
+    { "prompt_en": "on/ona · mówić", "stem": "mów", "ending": "i" },
+    { "prompt_en": "ja · mieszkać", "stem": "mieszk", "ending": "am" },
+    { "prompt_en": "ty · mieszkać", "stem": "mieszk", "ending": "asz" },
+    { "prompt_en": "ja · lubić", "stem": "lub", "ending": "ię" },
+    { "prompt_en": "ja · chcieć", "stem": "chc", "ending": "ę", "hint": "ę not e" },
+    { "prompt_en": "ty · chcieć", "stem": "chc", "ending": "esz" }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Say: I speak Polish.",
+      "answer": "Mówię po polsku.",
+      "accepts": ["Mówię po polsku.", "Mówię po polsku", "Mowie po polsku."]
+    },
+    {
+      "prompt_en": "Say: I live in Warsaw.",
+      "answer": "Mieszkam w Warszawie.",
+      "accepts": [
+        "Mieszkam w Warszawie.",
+        "Mieszkam w Warszawie",
+        "Mieszkam w Warszawie"
+      ]
+    },
+    {
+      "prompt_en": "Say: I like coffee.",
+      "answer": "Lubię kawę.",
+      "accepts": ["Lubię kawę.", "Lubię kawę", "Lubie kawe."]
+    },
+    {
+      "prompt_en": "Say: I want tea.",
+      "answer": "Chcę herbatę.",
+      "accepts": ["Chcę herbatę.", "Chcę herbatę", "Chce herbate."]
+    },
+    {
+      "prompt_en": "Say: You speak English. (sg)",
+      "answer": "Mówisz po angielsku.",
+      "accepts": [
+        "Mówisz po angielsku.",
+        "Mówisz po angielsku",
+        "Mowisz po angielsku."
+      ]
+    }
+  ]
+}

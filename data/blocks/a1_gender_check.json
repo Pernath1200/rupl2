@@ -1,0 +1,186 @@
+{
+  "id": "a1_gender_check",
+  "title": "Zgoda: rzeczownik + przymiotnik",
+  "title_en": "Noun–adjective agreement",
+  "level": "A1",
+  "tree_node": "a1_gender_check",
+  "default_direction": "en_to_pl",
+  "type": { "mode": "full_word" },
+  "check": { "sequence": ["match", "quiz"] },
+  "note": "Author only: Nom agreement. Path sits before Acc.",
+  "intro": [
+    {
+      "title": "The adjective follows the noun",
+      "title_pl": "Przymiotnik dopasowuje się do rzeczownika",
+      "body": "In Polish the adjective must match the noun’s gender. Learn one useful word: dobry (good).",
+      "body_pl": "Przymiotnik ma ten sam rodzaj co rzeczownik. Dziś: dobry."
+    },
+    {
+      "title": "Words for this unit",
+      "title_pl": "Słowa na dziś",
+      "table": {
+        "headers": ["męski", "żeński", "nijaki"],
+        "rows": [
+          ["dom · kot · sklep · ser", "kawa · herbata · książka · woda", "miasto · piwo · morze · auto"]
+        ]
+      }
+    },
+    {
+      "title": "dobry + noun",
+      "title_pl": "dobry + rzeczownik",
+      "body": "Use the form that matches the noun.",
+      "body_pl": "Dopasuj formę do rzeczownika.",
+      "table": {
+        "headers": ["Rodzaj", "Forma", "Przykład"],
+        "rows": [
+          ["męski", "dobry", "dobry dom · dobry ser"],
+          ["żeński", "dobra", "dobra kawa · dobra książka"],
+          ["nijaki", "dobre", "dobre piwo · dobre miasto"]
+        ]
+      }
+    },
+    {
+      "title": "In a sentence",
+      "title_pl": "W zdaniu",
+      "examples": [
+        { "en": "This is a good house.", "pl": "To jest dobry dom." },
+        { "en": "This is good coffee.", "pl": "To jest dobra kawa." },
+        { "en": "This is good beer.", "pl": "To jest dobre piwo." }
+      ]
+    }
+  ],
+  "match": [
+    { "en": "good house", "pl": "dobry dom" },
+    { "en": "good coffee", "pl": "dobra kawa" },
+    { "en": "good beer", "pl": "dobre piwo" },
+    { "en": "good book", "pl": "dobra książka" },
+    { "en": "good city", "pl": "dobre miasto" },
+    { "en": "good shop", "pl": "dobry sklep" }
+  ],
+  "quiz": [
+    {
+      "prompt": "kawa — rodzaj?",
+      "choices": ["męski", "żeński", "nijaki"],
+      "answer": "żeński"
+    },
+    {
+      "prompt": "dom — rodzaj?",
+      "choices": ["męski", "żeński", "nijaki"],
+      "answer": "męski"
+    },
+    {
+      "prompt": "piwo — rodzaj?",
+      "choices": ["męski", "żeński", "nijaki"],
+      "answer": "nijaki"
+    },
+    {
+      "prompt": "good coffee →",
+      "choices": ["dobry kawa", "dobra kawa", "dobre kawa", "dobrym kawa"],
+      "answer": "dobra kawa"
+    },
+    {
+      "prompt": "good house →",
+      "choices": ["dobry dom", "dobra dom", "dobre dom", "dobrego dom"],
+      "answer": "dobry dom"
+    },
+    {
+      "prompt": "good beer →",
+      "choices": ["dobry piwo", "dobra piwo", "dobre piwo", "dobrym piwo"],
+      "answer": "dobre piwo"
+    },
+    {
+      "prompt": "This is a good book.",
+      "choices": [
+        "To jest dobra książka.",
+        "To jest dobry książka.",
+        "To jest dobre książka.",
+        "To jest książka dobry."
+      ],
+      "answer": "To jest dobra książka."
+    },
+    {
+      "prompt": "This is a good city.",
+      "choices": [
+        "To jest dobre miasto.",
+        "To jest dobry miasto.",
+        "To jest dobra miasto.",
+        "To jest miasto dobry."
+      ],
+      "answer": "To jest dobre miasto."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "good + house",
+      "answer": "dobry dom",
+      "accepts": ["dobry dom"]
+    },
+    {
+      "prompt_en": "good + coffee",
+      "answer": "dobra kawa",
+      "accepts": ["dobra kawa"]
+    },
+    {
+      "prompt_en": "good + beer",
+      "answer": "dobre piwo",
+      "accepts": ["dobre piwo"]
+    },
+    {
+      "prompt_en": "good + book",
+      "answer": "dobra książka",
+      "accepts": ["dobra książka"]
+    },
+    {
+      "prompt_en": "good + city",
+      "answer": "dobre miasto",
+      "accepts": ["dobre miasto"]
+    },
+    {
+      "prompt_en": "good + shop",
+      "answer": "dobry sklep",
+      "accepts": ["dobry sklep"]
+    },
+    {
+      "prompt_en": "good + tea",
+      "answer": "dobra herbata",
+      "accepts": ["dobra herbata"]
+    },
+    {
+      "prompt_en": "good + cheese (ser)",
+      "answer": "dobry ser",
+      "accepts": ["dobry ser"]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Say: This is a good house.",
+      "answer": "To jest dobry dom.",
+      "accepts": ["To jest dobry dom.", "To jest dobry dom"]
+    },
+    {
+      "prompt_en": "Say: This is good coffee.",
+      "answer": "To jest dobra kawa.",
+      "accepts": ["To jest dobra kawa.", "To jest dobra kawa"]
+    },
+    {
+      "prompt_en": "Say: This is good beer.",
+      "answer": "To jest dobre piwo.",
+      "accepts": ["To jest dobre piwo.", "To jest dobre piwo"]
+    },
+    {
+      "prompt_en": "Say: This is a good book.",
+      "answer": "To jest dobra książka.",
+      "accepts": ["To jest dobra książka.", "To jest dobra książka"]
+    },
+    {
+      "prompt_en": "Say: This is a good city.",
+      "answer": "To jest dobre miasto.",
+      "accepts": ["To jest dobre miasto.", "To jest dobre miasto"]
+    },
+    {
+      "prompt_en": "Say: This is a good shop.",
+      "answer": "To jest dobry sklep.",
+      "accepts": ["To jest dobry sklep.", "To jest dobry sklep"]
+    }
+  ]
+}
