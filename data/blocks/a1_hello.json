@@ -104,22 +104,22 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Say: I am Anna.",
+      "prompt_en": "Type: I am Anna.",
       "answer": "Jestem Anna.",
       "accepts": ["Jestem Anna.", "Jestem Anna"]
     },
     {
-      "prompt_en": "Say: This is coffee.",
+      "prompt_en": "Type: This is coffee.",
       "answer": "To jest kawa.",
       "accepts": ["To jest kawa.", "To jest kawa"]
     },
     {
-      "prompt_en": "Say: You are here. (sg)",
+      "prompt_en": "Type: You are here. (sg)",
       "answer": "Jesteś tutaj.",
       "accepts": ["Jesteś tutaj.", "Jesteś tutaj"]
     },
     {
-      "prompt_en": "Say: We are in Warsaw.",
+      "prompt_en": "Type: We are in Warsaw.",
       "answer": "Jesteśmy w Warszawie.",
       "accepts": ["Jesteśmy w Warszawie.", "Jesteśmy w Warszawie"]
     }

@@ -153,32 +153,32 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Say: This is a good house.",
+      "prompt_en": "Type: This is a good house.",
       "answer": "To jest dobry dom.",
       "accepts": ["To jest dobry dom.", "To jest dobry dom"]
     },
     {
-      "prompt_en": "Say: This is good coffee.",
+      "prompt_en": "Type: This is good coffee.",
       "answer": "To jest dobra kawa.",
       "accepts": ["To jest dobra kawa.", "To jest dobra kawa"]
     },
     {
-      "prompt_en": "Say: This is good beer.",
+      "prompt_en": "Type: This is good beer.",
       "answer": "To jest dobre piwo.",
       "accepts": ["To jest dobre piwo.", "To jest dobre piwo"]
     },
     {
-      "prompt_en": "Say: This is a good book.",
+      "prompt_en": "Type: This is a good book.",
       "answer": "To jest dobra książka.",
       "accepts": ["To jest dobra książka.", "To jest dobra książka"]
     },
     {
-      "prompt_en": "Say: This is a good city.",
+      "prompt_en": "Type: This is a good city.",
       "answer": "To jest dobre miasto.",
       "accepts": ["To jest dobre miasto.", "To jest dobre miasto"]
     },
     {
-      "prompt_en": "Say: This is a good shop.",
+      "prompt_en": "Type: This is a good shop.",
       "answer": "To jest dobry sklep.",
       "accepts": ["To jest dobry sklep.", "To jest dobry sklep"]
     }

@@ -128,32 +128,32 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Say: This is a house.",
+      "prompt_en": "Type: This is a house.",
       "answer": "To jest dom.",
       "accepts": ["To jest dom.", "To jest dom"]
     },
     {
-      "prompt_en": "Say: This is coffee.",
+      "prompt_en": "Type: This is coffee.",
       "answer": "To jest kawa.",
       "accepts": ["To jest kawa.", "To jest kawa"]
     },
     {
-      "prompt_en": "Say: This is a city.",
+      "prompt_en": "Type: This is a city.",
       "answer": "To jest miasto.",
       "accepts": ["To jest miasto.", "To jest miasto"]
     },
     {
-      "prompt_en": "Say: This is a book.",
+      "prompt_en": "Type: This is a book.",
       "answer": "To jest książka.",
       "accepts": ["To jest książka.", "To jest książka"]
     },
     {
-      "prompt_en": "Say: This is beer.",
+      "prompt_en": "Type: This is beer.",
       "answer": "To jest piwo.",
       "accepts": ["To jest piwo.", "To jest piwo"]
     },
     {
-      "prompt_en": "Say: This is a cat.",
+      "prompt_en": "Type: This is a cat.",
       "answer": "To jest kot.",
       "accepts": ["To jest kot.", "To jest kot"]
     }

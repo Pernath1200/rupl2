@@ -127,22 +127,22 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Say: I have coffee.",
+      "prompt_en": "Type: I have coffee.",
       "answer": "Mam kawę.",
       "accepts": ["Mam kawę.", "Mam kawę", "Mam kawe."]
     },
     {
-      "prompt_en": "Say: You have time. (sg)",
+      "prompt_en": "Type: You have time. (sg)",
       "answer": "Masz czas.",
       "accepts": ["Masz czas.", "Masz czas"]
     },
     {
-      "prompt_en": "Say: I don't have time.",
+      "prompt_en": "Type: I don't have time.",
       "answer": "Nie mam czasu.",
       "accepts": ["Nie mam czasu.", "Nie mam czasu"]
     },
     {
-      "prompt_en": "Say: She has a book.",
+      "prompt_en": "Type: She has a book.",
       "answer": "Ona ma książkę.",
       "accepts": [
         "Ona ma książkę.",
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "prompt_en": "Say: We have money.",
+      "prompt_en": "Type: We have money.",
       "answer": "Mamy pieniądze.",
       "accepts": ["Mamy pieniądze.", "Mamy pieniądze", "Mamy pieniadze."]
     }

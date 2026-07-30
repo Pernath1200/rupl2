@@ -117,12 +117,12 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Say: I speak Polish.",
+      "prompt_en": "Type: I speak Polish.",
       "answer": "Mówię po polsku.",
       "accepts": ["Mówię po polsku.", "Mówię po polsku", "Mowie po polsku."]
     },
     {
-      "prompt_en": "Say: I live in Warsaw.",
+      "prompt_en": "Type: I live in Warsaw.",
       "answer": "Mieszkam w Warszawie.",
       "accepts": [
         "Mieszkam w Warszawie.",
@@ -131,17 +131,17 @@
       ]
     },
     {
-      "prompt_en": "Say: I like coffee.",
+      "prompt_en": "Type: I like coffee.",
       "answer": "Lubię kawę.",
       "accepts": ["Lubię kawę.", "Lubię kawę", "Lubie kawe."]
     },
     {
-      "prompt_en": "Say: I want tea.",
+      "prompt_en": "Type: I want tea.",
       "answer": "Chcę herbatę.",
       "accepts": ["Chcę herbatę.", "Chcę herbatę", "Chce herbate."]
     },
     {
-      "prompt_en": "Say: You speak English. (sg)",
+      "prompt_en": "Type: You speak English. (sg)",
       "answer": "Mówisz po angielsku.",
       "accepts": [
         "Mówisz po angielsku.",

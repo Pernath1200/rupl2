@@ -77,49 +77,49 @@
     }
   ],
   "type_items": [
-    { "prompt_en": "kawa → Acc (ending only)", "stem": "kaw", "ending": "ę" },
-    { "prompt_en": "herbata → Acc", "stem": "herbat", "ending": "ę" },
-    { "prompt_en": "książka → Acc", "stem": "książk", "ending": "ę" },
-    { "prompt_en": "woda → Acc", "stem": "wod", "ending": "ę" },
-    { "prompt_en": "praca → Acc", "stem": "prac", "ending": "ę" },
-    { "prompt_en": "szkoła → Acc", "stem": "szkoł", "ending": "ę" },
-    { "prompt_en": "mapa → Acc", "stem": "map", "ending": "ę" },
-    { "prompt_en": "ulica → Acc", "stem": "ulic", "ending": "ę" },
-    { "prompt_en": "kawa → Acc", "stem": "kaw", "ending": "ę" },
-    { "prompt_en": "herbata → Acc", "stem": "herbat", "ending": "ę" },
-    { "prompt_en": "gazeta → Acc", "stem": "gazet", "ending": "ę" },
-    { "prompt_en": "kawa → Acc", "stem": "kaw", "ending": "ę" },
-    { "prompt_en": "kobieta → Acc", "stem": "kobiet", "ending": "ę" },
-    { "prompt_en": "godzina → Acc", "stem": "godzin", "ending": "ę" },
-    { "prompt_en": "minuta → Acc", "stem": "minut", "ending": "ę" },
-    { "prompt_en": "pizza → Acc", "stem": "pizz", "ending": "ę" },
-    { "prompt_en": "sałatka → Acc", "stem": "sałatk", "ending": "ę" },
-    { "prompt_en": "zupa → Acc", "stem": "zup", "ending": "ę" },
-    { "prompt_en": "ryba → Acc", "stem": "ryb", "ending": "ę" },
-    { "prompt_en": "kanapka → Acc", "stem": "kanapk", "ending": "ę" },
-    { "prompt_en": "książka → Acc", "stem": "książk", "ending": "ę" },
-    { "prompt_en": "praca → Acc", "stem": "prac", "ending": "ę" },
-    { "prompt_en": "szkoła → Acc", "stem": "szkoł", "ending": "ę" },
-    { "prompt_en": "woda → Acc", "stem": "wod", "ending": "ę" }
+    { "prompt_en": "I have coffee.", "stem": "Mam kaw", "ending": "ę", "full": "Mam kawę" },
+    { "prompt_en": "I want tea.", "stem": "Chcę herbat", "ending": "ę", "full": "Chcę herbatę" },
+    { "prompt_en": "I'm reading a book.", "stem": "Czytam książk", "ending": "ę", "full": "Czytam książkę" },
+    { "prompt_en": "I'm drinking water.", "stem": "Piję wod", "ending": "ę", "full": "Piję wodę" },
+    { "prompt_en": "I like work / my job.", "stem": "Lubię prac", "ending": "ę", "full": "Lubię pracę" },
+    { "prompt_en": "I see a woman.", "stem": "Widzę kobiet", "ending": "ę", "full": "Widzę kobietę" },
+    { "prompt_en": "I'm buying a newspaper.", "stem": "Kupuję gazet", "ending": "ę", "full": "Kupuję gazetę" },
+    { "prompt_en": "I want soup.", "stem": "Chcę zup", "ending": "ę", "full": "Chcę zupę" },
+    { "prompt_en": "I'm eating a salad.", "stem": "Jem sałatk", "ending": "ę", "full": "Jem sałatkę" },
+    { "prompt_en": "I'm eating fish.", "stem": "Jem ryb", "ending": "ę", "full": "Jem rybę" },
+    { "prompt_en": "I have a sandwich.", "stem": "Mam kanapk", "ending": "ę", "full": "Mam kanapkę" },
+    { "prompt_en": "I want pizza.", "stem": "Chcę pizz", "ending": "ę", "full": "Chcę pizzę" },
+    { "prompt_en": "I know the street.", "stem": "Znam ulic", "ending": "ę", "full": "Znam ulicę" },
+    { "prompt_en": "I see the school.", "stem": "Widzę szkoł", "ending": "ę", "full": "Widzę szkołę" },
+    { "prompt_en": "I have a map.", "stem": "Mam map", "ending": "ę", "full": "Mam mapę" },
+    { "prompt_en": "I'm waiting an hour.", "stem": "Czekam godzin", "ending": "ę", "full": "Czekam godzinę" },
+    { "prompt_en": "I have a minute.", "stem": "Mam minut", "ending": "ę", "full": "Mam minutę" },
+    { "prompt_en": "I like music.", "stem": "Lubię muzyk", "ending": "ę", "full": "Lubię muzykę" },
+    { "prompt_en": "I'm making dinner.", "stem": "Robię kolacj", "ending": "ę", "full": "Robię kolację" },
+    { "prompt_en": "I have a sister.", "stem": "Mam siostr", "ending": "ę", "full": "Mam siostrę" },
+    { "prompt_en": "I like coffee.", "stem": "Lubię kaw", "ending": "ę", "full": "Lubię kawę" },
+    { "prompt_en": "I'm drinking tea.", "stem": "Piję herbat", "ending": "ę", "full": "Piję herbatę" },
+    { "prompt_en": "I'm reading a newspaper.", "stem": "Czytam gazet", "ending": "ę", "full": "Czytam gazetę" },
+    { "prompt_en": "I want water.", "stem": "Chcę wod", "ending": "ę", "full": "Chcę wodę" }
   ],
   "use_items": [
     {
-      "prompt_en": "Say: I have coffee.",
+      "prompt_en": "Type: I have coffee.",
       "answer": "Mam kawę.",
       "accepts": ["Mam kawę.", "Mam kawę"]
     },
     {
-      "prompt_en": "Say: I want tea.",
+      "prompt_en": "Type: I want tea.",
       "answer": "Chcę herbatę.",
       "accepts": ["Chcę herbatę.", "Chcę herbatę"]
     },
     {
-      "prompt_en": "Say: I am reading a book.",
+      "prompt_en": "Type: I am reading a book.",
       "answer": "Czytam książkę.",
       "accepts": ["Czytam książkę.", "Czytam książkę"]
     },
     {
-      "prompt_en": "Say: I like work / my job.",
+      "prompt_en": "Type: I like work / my job.",
       "answer": "Lubię pracę.",
       "accepts": ["Lubię pracę.", "Lubię pracę"]
     }
