@@ -17,23 +17,22 @@
   "default_direction": "en_to_pl",
   "path_order": [
     "a1_gender",
+    "a1_poss_simple",
     "a1_hello",
     "a1_gender_check",
     "a1_miec",
     "a1_acc_gym",
     "a1_present",
+    "a1_present_e_isz",
+    "a1_present_e_esz",
     "a1_present_gym",
     "a1_questions",
-    "a1_negation",
-    "a1_pronouns",
-    "a1_acc_more",
     "a1_prep_place",
-    "a1_links",
-    "a1_request_acc",
-    "a1_word_order",
+    "a1_prep_do_z",
+    "a1_negation",
     "a1_inst_job"
   ],
-  "path_order_note": "Nom solid before Acc: gender+to jest → być → gender check+dobry/a/e (still Nom) → then mieć+Acc → Acc gym → present… Past = A2.",
+  "path_order_note": "Path-24 combined (exp): social→…→food→present×3+gym→freetime→want_like→questions→prep w/na→places→prep do/z→city→negation→inst→work. This list is grammar nodes only.",
   "tap_root": {
     "id": "tap_root",
     "label": "Kół",
@@ -84,7 +83,7 @@
       "status": "live",
       "foundation": true,
       "content": "blocks/a1_gender.json",
-      "note": "JEDEN cel: to jest + N (mianownik) · m/ż/n feel",
+      "note": "JEDEN cel: to jest + N (mianownik) · m/ż/n feel · before possessives",
       "unit_id": "PL_NOM_01",
       "case_tags": [
         "nom"
@@ -92,11 +91,33 @@
       "spine_steps": [
         "PL_NOM_01"
       ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_poss_simple",
+      "label": "Mój / twój · mianownik",
+      "label_en": "My / your · nominative",
+      "kind": "topic",
+      "root": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_poss_simple.json",
+      "note": "mój/moja/moje + twój/twoja/twoje · Nom only · before Dom use",
+      "unit_id": "PL_POSS_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_POSS_01"
+      ],
       "vocab_link": {
         "app": "rupl3",
         "node_id": "leaf_home_family",
         "label": "Dom i rodzina",
-        "unit_id": "PL_NOM_01"
+        "unit_id": "PL_POSS_01"
       },
       "pedagogy": "teach"
     },
@@ -146,18 +167,12 @@
       "spine_steps": [
         "PL_NOM_02"
       ],
-      "vocab_link": {
-        "app": "rupl3",
-        "node_id": "leaf_food_a1",
-        "label": "Jedzenie (zgoda w użyciu)",
-        "unit_id": "PL_NOM_02"
-      },
       "pedagogy": "teach"
     },
     {
       "id": "a1_present",
-      "label": "Teraźniejszy (ja/ty/on)",
-      "label_en": "Present I/you/he",
+      "label": "Teraźniejszy · wzór -am (mieszkać / czytać)",
+      "label_en": "Present · -am (mieszkać / czytać)",
       "kind": "topic",
       "root": "verbs",
       "levels": [
@@ -166,17 +181,57 @@
       "status": "live",
       "foundation": true,
       "content": "blocks/a1_present.json",
-      "note": "wzorce + gap: mówić, mieszkać, lubić, chcieć",
-      "unit_id": "PL_PRES_01",
+      "note": "ONE class: mieszkać · full 6 persons · not być/mieć",
+      "unit_id": "PL_PRES_AM",
       "case_tags": [],
       "spine_steps": [
-        "PL_PRES_01"
+        "PL_PRES_AM"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_present_e_isz",
+      "label": "Teraźniejszy · mówić / lubić",
+      "label_en": "Present · -ę/-isz class",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_present_e_isz.json",
+      "note": "ONE class: mówić+lubić · full 6 persons",
+      "unit_id": "PL_PRES_ISZ",
+      "case_tags": [],
+      "spine_steps": [
+        "PL_PRES_ISZ"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_present_e_esz",
+      "label": "Teraźniejszy · chcieć",
+      "label_en": "Present · -ę/-esz class",
+      "kind": "topic",
+      "root": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_present_e_esz.json",
+      "note": "ONE class: chcieć · full 6 persons",
+      "unit_id": "PL_PRES_ESZ",
+      "case_tags": [],
+      "spine_steps": [
+        "PL_PRES_ESZ"
       ],
       "vocab_link": {
         "app": "rupl3",
         "node_id": "leaf_freetime_a1",
         "label": "Czas wolny",
-        "unit_id": "PL_PRES_01"
+        "unit_id": "PL_PRES_ESZ"
       },
       "pedagogy": "teach"
     },
@@ -211,8 +266,8 @@
     },
     {
       "id": "a1_acc_gym",
-      "label": "Siłownia · biernik -ę",
-      "label_en": "Accusative ending gym",
+      "label": "Siłownia · biernik",
+      "label_en": "Accusative gym · nom vs acc",
       "kind": "topic",
       "root": "forms",
       "levels": [
@@ -240,36 +295,51 @@
       "status": "live",
       "foundation": true,
       "content": "blocks/a1_present_gym.json",
-      "note": "volume after present teach · not a spine step",
+      "note": "Mixed present classes · after all three teaches · volume",
       "pedagogy": "drill",
-      "spine_support_of": "a1_present"
+      "spine_support_of": "a1_present_e_esz"
     },
     {
       "id": "a1_questions",
-      "label": "Pytania",
-      "label_en": "Questions",
+      "label": "Pytania · skorupy",
+      "label_en": "Question shells",
       "kind": "topic",
       "root": "sentence",
       "levels": [
         "A1"
       ],
-      "status": "planned",
+      "status": "live",
       "foundation": true,
-      "content": null,
-      "note": "czy · co · gdzie · jak"
+      "content": "blocks/a1_questions.json",
+      "note": "Phrase shells · no new case",
+      "unit_id": "PL_Q_01",
+      "pedagogy": "teach",
+      "case_tags": [],
+      "spine_steps": [
+        "PL_Q_01"
+      ]
     },
     {
       "id": "a1_negation",
-      "label": "Przeczenie",
-      "label_en": "Negation",
+      "label": "Przeczenie · nie mam",
+      "label_en": "Negation · nie mam + Gen",
       "kind": "topic",
       "root": "verbs",
       "levels": [
         "A1"
       ],
-      "status": "planned",
-      "content": null,
-      "note": "nie + czasownik · nie mam · nie jestem"
+      "status": "live",
+      "content": "blocks/a1_negation.json",
+      "note": "Genitive of negation after nie mam",
+      "foundation": true,
+      "unit_id": "PL_NEG_01",
+      "pedagogy": "teach",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_NEG_01"
+      ]
     },
     {
       "id": "a1_pronouns",
@@ -299,30 +369,57 @@
     },
     {
       "id": "a1_prep_place",
-      "label": "Przyimki miejsca",
-      "label_en": "Place prepositions + form",
+      "label": "Przyimki · w / na + miejscownik",
+      "label_en": "w/na + locative",
       "kind": "topic",
       "root": "links",
       "levels": [
         "A1"
       ],
-      "status": "planned",
-      "content": null,
-      "note": "w / na / do + lekki smak formy (nie lista miejsc)",
+      "status": "live",
+      "content": "blocks/a1_prep_place.json",
+      "note": "Static place · Loc · before Miejsca",
       "unit_id": "PL_PREP_01",
       "case_tags": [
-        "loc",
-        "gen"
+        "loc"
       ],
       "spine_steps": [
-        "PL_PREP_01",
-        "PL_PREP_02"
+        "PL_PREP_01"
       ],
       "vocab_link": {
         "app": "rupl3",
         "node_id": "leaf_places",
         "label": "Miejsca",
         "unit_id": "PL_PREP_01"
+      },
+      "pedagogy": "teach",
+      "foundation": true
+    },
+    {
+      "id": "a1_prep_do_z",
+      "label": "Przyimki · do / z + dopełniacz",
+      "label_en": "do/z + genitive",
+      "kind": "topic",
+      "root": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "blocks/a1_prep_do_z.json",
+      "note": "Direction/origin · Gen · after w/na Loc · before city",
+      "unit_id": "PL_PREP_02",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_02"
+      ],
+      "vocab_link": {
+        "app": "rupl3",
+        "node_id": "leaf_city_a1",
+        "label": "Miasto",
+        "unit_id": "PL_PREP_02"
       },
       "pedagogy": "teach"
     },
@@ -374,9 +471,9 @@
       "levels": [
         "A1"
       ],
-      "status": "planned",
-      "content": null,
-      "note": "AFTER Acc + place preps · identity frames only",
+      "status": "live",
+      "content": "blocks/a1_inst_job.json",
+      "note": "After Acc + preps · identity frames only",
       "unit_id": "PL_INST_01",
       "case_tags": [
         "inst"
@@ -390,7 +487,8 @@
         "label": "Praca",
         "unit_id": "PL_INST_01"
       },
-      "pedagogy": "teach"
+      "pedagogy": "teach",
+      "foundation": true
     },
     {
       "id": "a2_past_endings",

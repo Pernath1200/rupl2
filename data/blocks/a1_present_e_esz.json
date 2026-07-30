@@ -1,0 +1,505 @@
+{
+  "id": "a1_present_e_esz",
+  "title": "Teraźniejszy · wzór chcieć",
+  "title_en": "Present · -ę/-esz class (chcieć)",
+  "level": "A1",
+  "tree_node": "a1_present_e_esz",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Third class only. chcieć · 6 persons. Match = clean + error-spot (no duplicate rows).",
+  "focus_structures": [
+    "present_e_esz"
+  ],
+  "intro": [
+    {
+      "title": "Third pattern — watch -esz",
+      "title_pl": "Trzeci wzorzec — uwaga na -esz",
+      "body": "chcieć (to want) is not the mówić set: ty is chcesz (not *chcisz).\n\nOne verb, full six persons. After this, want·like and free-time can use chcę safely.",
+      "body_pl": "chcieć to nie wzór mówić: ty = chcesz (nie *chcisz).\n\nJeden czasownik, 6 osób."
+    },
+    {
+      "title": "chcieć — full grid",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "chcę",
+            "I want"
+          ],
+          [
+            "ty",
+            "chcesz",
+            "you want (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "chce",
+            "he / she wants"
+          ],
+          [
+            "my",
+            "chcemy",
+            "we want"
+          ],
+          [
+            "wy",
+            "chcecie",
+            "you want (pl)"
+          ],
+          [
+            "oni / one",
+            "chcą",
+            "they want"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "I want.",
+          "pl": "Chcę."
+        },
+        {
+          "en": "Do you want? (sg)",
+          "pl": "Chcesz?"
+        },
+        {
+          "en": "We want.",
+          "pl": "Chcemy."
+        },
+        {
+          "en": "They want.",
+          "pl": "Chcą."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I want",
+      "pl": "chcę"
+    },
+    {
+      "en": "you want (sg)",
+      "pl": "chcesz"
+    },
+    {
+      "en": "he/she wants",
+      "pl": "chce"
+    },
+    {
+      "en": "we want",
+      "pl": "chcemy"
+    },
+    {
+      "en": "you want (pl)",
+      "pl": "chcecie"
+    },
+    {
+      "en": "they want",
+      "pl": "chcą"
+    },
+    {
+      "en": "I want coffee",
+      "pl": "chcę kawę"
+    },
+    {
+      "en": "you want tea (sg)",
+      "pl": "chcesz herbatę"
+    },
+    {
+      "en": "he wants water",
+      "pl": "chce wodę"
+    },
+    {
+      "en": "we want coffee",
+      "pl": "chcemy kawę"
+    },
+    {
+      "en": "you want a book (pl)",
+      "pl": "chcecie książkę"
+    },
+    {
+      "en": "they want tea",
+      "pl": "chcą herbatę"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I want →",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "chce",
+        "chcemy"
+      ],
+      "answer": "chcę"
+    },
+    {
+      "prompt": "You want (sg) →",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "chce",
+        "chcecie"
+      ],
+      "answer": "chcesz"
+    },
+    {
+      "prompt": "He/she wants →",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "chce",
+        "chcą"
+      ],
+      "answer": "chce"
+    },
+    {
+      "prompt": "We want →",
+      "choices": [
+        "chcę",
+        "chcemy",
+        "chcecie",
+        "chcą"
+      ],
+      "answer": "chcemy"
+    },
+    {
+      "prompt": "You want (pl) →",
+      "choices": [
+        "chcesz",
+        "chcemy",
+        "chcecie",
+        "chcą"
+      ],
+      "answer": "chcecie"
+    },
+    {
+      "prompt": "They want →",
+      "choices": [
+        "chce",
+        "chcemy",
+        "chcecie",
+        "chcą"
+      ],
+      "answer": "chcą"
+    },
+    {
+      "prompt": "ERROR — ty *chcisz →",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "chce",
+        "chcisz"
+      ],
+      "answer": "chcesz"
+    },
+    {
+      "prompt": "ERROR — ja *chce →",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "chce",
+        "chcemy"
+      ],
+      "answer": "chcę"
+    },
+    {
+      "prompt": "ERROR — my *chcę →",
+      "choices": [
+        "chcę",
+        "chcemy",
+        "chcecie",
+        "chcą"
+      ],
+      "answer": "chcemy"
+    },
+    {
+      "prompt": "I want coffee → form of want",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "lubię",
+        "mam"
+      ],
+      "answer": "chcę"
+    },
+    {
+      "prompt": "You (sg) want tea → form of want",
+      "choices": [
+        "chcę",
+        "chcesz",
+        "lubisz",
+        "masz"
+      ],
+      "answer": "chcesz"
+    },
+    {
+      "prompt": "They want → form",
+      "choices": [
+        "chce",
+        "chcemy",
+        "chcecie",
+        "chcą"
+      ],
+      "answer": "chcą"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I want",
+      "mode": "full_word",
+      "answer": "chcę",
+      "accepts": [
+        "chcę"
+      ]
+    },
+    {
+      "prompt_en": "you want (sg)",
+      "mode": "full_word",
+      "answer": "chcesz",
+      "accepts": [
+        "chcesz"
+      ]
+    },
+    {
+      "prompt_en": "he/she wants",
+      "mode": "full_word",
+      "answer": "chce",
+      "accepts": [
+        "chce"
+      ]
+    },
+    {
+      "prompt_en": "we want",
+      "mode": "full_word",
+      "answer": "chcemy",
+      "accepts": [
+        "chcemy"
+      ]
+    },
+    {
+      "prompt_en": "you want (pl)",
+      "mode": "full_word",
+      "answer": "chcecie",
+      "accepts": [
+        "chcecie"
+      ]
+    },
+    {
+      "prompt_en": "they want",
+      "mode": "full_word",
+      "answer": "chcą",
+      "accepts": [
+        "chcą"
+      ]
+    },
+    {
+      "prompt_en": "I want coffee",
+      "mode": "full_word",
+      "answer": "chcę kawę",
+      "accepts": [
+        "chcę kawę",
+        "Chcę kawę"
+      ]
+    },
+    {
+      "prompt_en": "you want tea (sg)",
+      "mode": "full_word",
+      "answer": "chcesz herbatę",
+      "accepts": [
+        "chcesz herbatę"
+      ]
+    },
+    {
+      "prompt_en": "we want water",
+      "mode": "full_word",
+      "answer": "chcemy wodę",
+      "accepts": [
+        "chcemy wodę"
+      ]
+    },
+    {
+      "prompt_en": "they want coffee",
+      "mode": "full_word",
+      "answer": "chcą kawę",
+      "accepts": [
+        "chcą kawę"
+      ]
+    },
+    {
+      "prompt_en": "she wants a book",
+      "mode": "full_word",
+      "answer": "chce książkę",
+      "accepts": [
+        "chce książkę"
+      ]
+    },
+    {
+      "prompt_en": "you want coffee (pl)",
+      "mode": "full_word",
+      "answer": "chcecie kawę",
+      "accepts": [
+        "chcecie kawę"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I want.",
+      "answer": "Chcę.",
+      "accepts": [
+        "Chcę.",
+        "Chcę"
+      ]
+    },
+    {
+      "prompt_en": "Type: You want. (sg)",
+      "answer": "Chcesz.",
+      "accepts": [
+        "Chcesz.",
+        "Chcesz"
+      ]
+    },
+    {
+      "prompt_en": "Type: She wants.",
+      "answer": "Ona chce.",
+      "accepts": [
+        "Ona chce.",
+        "Chce.",
+        "Ona chce"
+      ]
+    },
+    {
+      "prompt_en": "Type: We want.",
+      "answer": "Chcemy.",
+      "accepts": [
+        "Chcemy.",
+        "Chcemy"
+      ]
+    },
+    {
+      "prompt_en": "Type: You want. (pl)",
+      "answer": "Chcecie.",
+      "accepts": [
+        "Chcecie.",
+        "Chcecie"
+      ]
+    },
+    {
+      "prompt_en": "Type: They want.",
+      "answer": "Chcą.",
+      "accepts": [
+        "Chcą.",
+        "Chcą"
+      ]
+    },
+    {
+      "prompt_en": "Type: I want coffee.",
+      "answer": "Chcę kawę.",
+      "accepts": [
+        "Chcę kawę.",
+        "Chcę kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: You want tea. (sg)",
+      "answer": "Chcesz herbatę.",
+      "accepts": [
+        "Chcesz herbatę.",
+        "Chcesz herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: We want water.",
+      "answer": "Chcemy wodę.",
+      "accepts": [
+        "Chcemy wodę.",
+        "Chcemy wodę"
+      ]
+    },
+    {
+      "prompt_en": "Type: They want beer.",
+      "answer": "Chcą piwo.",
+      "accepts": [
+        "Chcą piwo.",
+        "Chcą piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: He wants a book.",
+      "answer": "On chce książkę.",
+      "accepts": [
+        "On chce książkę.",
+        "Chce książkę."
+      ]
+    },
+    {
+      "prompt_en": "Type: You want coffee. (pl)",
+      "answer": "Chcecie kawę.",
+      "accepts": [
+        "Chcecie kawę.",
+        "Chcecie kawę"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "present_e_esz",
+    "present"
+  ],
+  "uses_structures": [
+    "present_e_esz",
+    "present",
+    "miec_acc"
+  ],
+  "teaches_lemmas": [
+    "chcieć",
+    "chcę",
+    "chcesz",
+    "chce",
+    "chcemy",
+    "chcecie",
+    "chcą"
+  ],
+  "uses_lemmas": [
+    "chcieć",
+    "chcę",
+    "chcesz",
+    "chce",
+    "chcemy",
+    "chcecie",
+    "chcą",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "woda",
+    "wodę",
+    "piwo",
+    "książka",
+    "książkę"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_present_e_esz",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

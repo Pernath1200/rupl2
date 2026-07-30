@@ -1,0 +1,550 @@
+{
+  "id": "a1_prep_place",
+  "title": "Przyimki · w / na + miejscownik",
+  "title_en": "Prepositions · w/na + locative",
+  "level": "A1",
+  "tree_node": "a1_prep_place",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "P0: static place only. w + Loc, na + Loc. Closed form set. No do/z yet.",
+  "focus_structures": [
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "Where something is (static)",
+      "title_pl": "Gdzie coś jest (statycznie)",
+      "body": "To say in / on / at a place (not going to it), Polish often uses w or na + the locative case (miejscownik).\n\nw = in / inside (w domu, w sklepie, w mieście)\nna = on / at some places (na stole, na dworcu)\n\nDirection (do / z) is the next prep unit — do not mix.",
+      "body_pl": "Miejsce (nie kierunek): w / na + miejscownik. Kierunek (do / z) — następna jednostka."
+    },
+    {
+      "title": "w + locative · closed set",
+      "table": {
+        "headers": [
+          "Nominative",
+          "w + Loc",
+          "English"
+        ],
+        "rows": [
+          [
+            "dom",
+            "w domu",
+            "in the house / at home"
+          ],
+          [
+            "sklep",
+            "w sklepie",
+            "in the shop"
+          ],
+          [
+            "miasto",
+            "w mieście",
+            "in the city"
+          ],
+          [
+            "szkoła",
+            "w szkole",
+            "at school"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "na + locative · light",
+      "table": {
+        "headers": [
+          "Phrase",
+          "English"
+        ],
+        "rows": [
+          [
+            "na stole",
+            "on the table"
+          ],
+          [
+            "na dworcu",
+            "at the station"
+          ]
+        ]
+      },
+      "body": "Learn these as fixed place phrases. More na-places come with Miejsca vocab."
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "at home / in the house",
+          "pl": "w domu"
+        },
+        {
+          "en": "in the shop",
+          "pl": "w sklepie"
+        },
+        {
+          "en": "in the city",
+          "pl": "w mieście"
+        },
+        {
+          "en": "at school",
+          "pl": "w szkole"
+        },
+        {
+          "en": "on the table",
+          "pl": "na stole"
+        },
+        {
+          "en": "I live at home.",
+          "pl": "Mieszkam w domu."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "at home",
+      "pl": "w domu"
+    },
+    {
+      "en": "in the shop",
+      "pl": "w sklepie"
+    },
+    {
+      "en": "in the city",
+      "pl": "w mieście"
+    },
+    {
+      "en": "at school",
+      "pl": "w szkole"
+    },
+    {
+      "en": "on the table",
+      "pl": "na stole"
+    },
+    {
+      "en": "at the station",
+      "pl": "na dworcu"
+    },
+    {
+      "en": "I live at home",
+      "pl": "Mieszkam w domu"
+    },
+    {
+      "en": "she is in the shop",
+      "pl": "Ona jest w sklepie"
+    },
+    {
+      "en": "he is in the city",
+      "pl": "On jest w mieście"
+    },
+    {
+      "en": "I am at school",
+      "pl": "Jestem w szkole"
+    },
+    {
+      "en": "coffee is on the table",
+      "pl": "Kawa jest na stole"
+    },
+    {
+      "en": "we live at home",
+      "pl": "Mieszkamy w domu"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "in the house →",
+      "choices": [
+        "w domu",
+        "do domu",
+        "z domu",
+        "na domu"
+      ],
+      "answer": "w domu"
+    },
+    {
+      "prompt": "in the shop →",
+      "choices": [
+        "w sklepie",
+        "w sklep",
+        "do sklepu",
+        "na sklepie"
+      ],
+      "answer": "w sklepie"
+    },
+    {
+      "prompt": "in the city →",
+      "choices": [
+        "w mieście",
+        "w miasto",
+        "do miasta",
+        "na mieście"
+      ],
+      "answer": "w mieście"
+    },
+    {
+      "prompt": "at school →",
+      "choices": [
+        "w szkole",
+        "w szkoła",
+        "do szkoły",
+        "na szkole"
+      ],
+      "answer": "w szkole"
+    },
+    {
+      "prompt": "on the table →",
+      "choices": [
+        "na stole",
+        "w stole",
+        "do stołu",
+        "na stół"
+      ],
+      "answer": "na stole"
+    },
+    {
+      "prompt": "at the station →",
+      "choices": [
+        "na dworcu",
+        "w dworcu",
+        "do dworca",
+        "na dworzec"
+      ],
+      "answer": "na dworcu"
+    },
+    {
+      "prompt": "ERROR — w dom →",
+      "choices": [
+        "w domu",
+        "w dom",
+        "do domu",
+        "na domu"
+      ],
+      "answer": "w domu"
+    },
+    {
+      "prompt": "ERROR — w miasto →",
+      "choices": [
+        "w mieście",
+        "w miasto",
+        "do miasta",
+        "na mieście"
+      ],
+      "answer": "w mieście"
+    },
+    {
+      "prompt": "I live at home →",
+      "choices": [
+        "Mieszkam w domu.",
+        "Mieszkam do domu.",
+        "Mieszkam z domu.",
+        "Mieszkam."
+      ],
+      "answer": "Mieszkam w domu."
+    },
+    {
+      "prompt": "She is at school →",
+      "choices": [
+        "Ona jest w szkole.",
+        "Ona jest do szkoły.",
+        "Ona jest szkoła.",
+        "Jest szkoła."
+      ],
+      "answer": "Ona jest w szkole."
+    },
+    {
+      "prompt": "static place (shop) · not direction →",
+      "choices": [
+        "w sklepie",
+        "do sklepu",
+        "z sklepu",
+        "na sklepie"
+      ],
+      "answer": "w sklepie"
+    },
+    {
+      "prompt": "on the table · not in →",
+      "choices": [
+        "na stole",
+        "w stole",
+        "do stołu",
+        "na stół"
+      ],
+      "answer": "na stole"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "at home",
+      "mode": "full_word",
+      "answer": "w domu",
+      "accepts": [
+        "w domu"
+      ]
+    },
+    {
+      "prompt_en": "in the shop",
+      "mode": "full_word",
+      "answer": "w sklepie",
+      "accepts": [
+        "w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "in the city",
+      "mode": "full_word",
+      "answer": "w mieście",
+      "accepts": [
+        "w mieście"
+      ]
+    },
+    {
+      "prompt_en": "at school",
+      "mode": "full_word",
+      "answer": "w szkole",
+      "accepts": [
+        "w szkole"
+      ]
+    },
+    {
+      "prompt_en": "on the table",
+      "mode": "full_word",
+      "answer": "na stole",
+      "accepts": [
+        "na stole"
+      ]
+    },
+    {
+      "prompt_en": "at the station",
+      "mode": "full_word",
+      "answer": "na dworcu",
+      "accepts": [
+        "na dworcu"
+      ]
+    },
+    {
+      "prompt_en": "I live at home",
+      "mode": "full_word",
+      "answer": "Mieszkam w domu",
+      "accepts": [
+        "Mieszkam w domu",
+        "mieszkam w domu"
+      ]
+    },
+    {
+      "prompt_en": "she is in the shop",
+      "mode": "full_word",
+      "answer": "Ona jest w sklepie",
+      "accepts": [
+        "Ona jest w sklepie",
+        "Jest w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "I am at school",
+      "mode": "full_word",
+      "answer": "Jestem w szkole",
+      "accepts": [
+        "Jestem w szkole"
+      ]
+    },
+    {
+      "prompt_en": "he is in the city",
+      "mode": "full_word",
+      "answer": "On jest w mieście",
+      "accepts": [
+        "On jest w mieście",
+        "Jest w mieście"
+      ]
+    },
+    {
+      "prompt_en": "coffee is on the table",
+      "mode": "full_word",
+      "answer": "Kawa jest na stole",
+      "accepts": [
+        "Kawa jest na stole"
+      ]
+    },
+    {
+      "prompt_en": "we live at home",
+      "mode": "full_word",
+      "answer": "Mieszkamy w domu",
+      "accepts": [
+        "Mieszkamy w domu"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I live at home.",
+      "answer": "Mieszkam w domu.",
+      "accepts": [
+        "Mieszkam w domu.",
+        "Mieszkam w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: You live at home. (sg)",
+      "answer": "Mieszkasz w domu.",
+      "accepts": [
+        "Mieszkasz w domu.",
+        "Mieszkasz w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum lives at home.",
+      "answer": "Mama mieszka w domu.",
+      "accepts": [
+        "Mama mieszka w domu.",
+        "Mama mieszka w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: We live at home.",
+      "answer": "Mieszkamy w domu.",
+      "accepts": [
+        "Mieszkamy w domu.",
+        "Mieszkamy w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: She is in the shop.",
+      "answer": "Ona jest w sklepie.",
+      "accepts": [
+        "Ona jest w sklepie.",
+        "Ona jest w sklepie",
+        "Jest w sklepie.",
+        "Jest w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: He is in the city.",
+      "answer": "On jest w mieście.",
+      "accepts": [
+        "On jest w mieście.",
+        "On jest w mieście",
+        "Jest w mieście.",
+        "Jest w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am at school.",
+      "answer": "Jestem w szkole.",
+      "accepts": [
+        "Jestem w szkole.",
+        "Jestem w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: You are at school. (sg)",
+      "answer": "Jesteś w szkole.",
+      "accepts": [
+        "Jesteś w szkole.",
+        "Jesteś w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: The coffee is on the table.",
+      "answer": "Kawa jest na stole.",
+      "accepts": [
+        "Kawa jest na stole.",
+        "Kawa jest na stole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Brother lives at home.",
+      "answer": "Brat mieszka w domu.",
+      "accepts": [
+        "Brat mieszka w domu.",
+        "Brat mieszka w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: They live at home.",
+      "answer": "Mieszkają w domu.",
+      "accepts": [
+        "Mieszkają w domu.",
+        "Mieszkają w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am in the shop.",
+      "answer": "Jestem w sklepie.",
+      "accepts": [
+        "Jestem w sklepie.",
+        "Jestem w sklepie"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "prep_w_loc",
+    "prep_place"
+  ],
+  "uses_structures": [
+    "prep_w_loc",
+    "prep_place",
+    "present_am",
+    "byc_present"
+  ],
+  "teaches_lemmas": [
+    "w domu",
+    "w sklepie",
+    "w mieście",
+    "w szkole",
+    "na stole",
+    "na dworcu",
+    "domu",
+    "sklepie",
+    "mieście",
+    "szkole",
+    "stole",
+    "dworcu",
+    "szkoła",
+    "stół",
+    "dworzec"
+  ],
+  "uses_lemmas": [
+    "w domu",
+    "w sklepie",
+    "w mieście",
+    "w szkole",
+    "na stole",
+    "na dworcu",
+    "dom",
+    "domu",
+    "sklep",
+    "sklepie",
+    "miasto",
+    "mieście",
+    "szkoła",
+    "szkole",
+    "stół",
+    "stole",
+    "dworzec",
+    "dworcu",
+    "mieszkam",
+    "mieszkasz",
+    "mieszka",
+    "mieszkamy",
+    "mieszkają",
+    "jestem",
+    "jesteś",
+    "jest",
+    "mama",
+    "brat",
+    "kawa"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_prep_place",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

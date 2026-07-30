@@ -5,8 +5,15 @@
   "level": "A1",
   "tree_node": "a1_gender",
   "default_direction": "en_to_pl",
-  "type": { "mode": "full_word" },
-  "check": { "sequence": ["match", "quiz"] },
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
   "note": "Author: to jest + N. Agreement pack is separate.",
   "intro": [
     {
@@ -19,11 +26,27 @@
       "title": "Three genders",
       "title_pl": "Trzy rodzaje",
       "table": {
-        "headers": ["Rodzaj", "Często", "Słowa na dziś"],
+        "headers": [
+          "Rodzaj",
+          "Często",
+          "Słowa na dziś"
+        ],
         "rows": [
-          ["męski", "spółgłoska na końcu", "dom · kot · sklep"],
-          ["żeński", "końcówka -a", "kawa · książka · herbata"],
-          ["nijaki", "końcówka -o / -e", "miasto · piwo · morze"]
+          [
+            "męski",
+            "spółgłoska na końcu",
+            "dom · kot · sklep"
+          ],
+          [
+            "żeński",
+            "końcówka -a",
+            "kawa · książka · herbata"
+          ],
+          [
+            "nijaki",
+            "końcówka -o / -e",
+            "miasto · piwo · morze"
+          ]
         ]
       }
     },
@@ -33,129 +56,425 @@
       "body": "Use To jest + the noun to say “this is…”.",
       "body_pl": "To jest + rzeczownik = „this is…”.",
       "examples": [
-        { "en": "This is a house.", "pl": "To jest dom." },
-        { "en": "This is coffee.", "pl": "To jest kawa." },
-        { "en": "This is a city.", "pl": "To jest miasto." },
-        { "en": "This is a book.", "pl": "To jest książka." }
+        {
+          "en": "This is a house.",
+          "pl": "To jest dom."
+        },
+        {
+          "en": "This is coffee.",
+          "pl": "To jest kawa."
+        },
+        {
+          "en": "This is a city.",
+          "pl": "To jest miasto."
+        },
+        {
+          "en": "This is a book.",
+          "pl": "To jest książka."
+        }
       ]
     }
   ],
   "match": [
-    { "en": "This is a house.", "pl": "To jest dom." },
-    { "en": "This is coffee.", "pl": "To jest kawa." },
-    { "en": "This is a city.", "pl": "To jest miasto." },
-    { "en": "This is a book.", "pl": "To jest książka." }
+    {
+      "en": "This is a house.",
+      "pl": "To jest dom."
+    },
+    {
+      "en": "This is coffee.",
+      "pl": "To jest kawa."
+    },
+    {
+      "en": "This is a city.",
+      "pl": "To jest miasto."
+    },
+    {
+      "en": "This is a book.",
+      "pl": "To jest książka."
+    },
+    {
+      "en": "This is a cat.",
+      "pl": "To jest kot."
+    },
+    {
+      "en": "This is beer.",
+      "pl": "To jest piwo."
+    },
+    {
+      "en": "This is tea.",
+      "pl": "To jest herbata."
+    },
+    {
+      "en": "This is a shop.",
+      "pl": "To jest sklep."
+    },
+    {
+      "en": "This is a sea.",
+      "pl": "To jest morze."
+    },
+    {
+      "en": "This is a house. (2)",
+      "pl": "To jest dom."
+    },
+    {
+      "en": "This is coffee. (2)",
+      "pl": "To jest kawa."
+    },
+    {
+      "en": "This is a book. (2)",
+      "pl": "To jest książka."
+    }
   ],
   "quiz": [
     {
       "prompt": "This is a house.",
-      "choices": ["To jest dom.", "To jest domu.", "To jest domem.", "Jest to domem."],
+      "choices": [
+        "To jest dom.",
+        "To jest domu.",
+        "To jest domem.",
+        "Jest to domem."
+      ],
       "answer": "To jest dom."
     },
     {
       "prompt": "This is coffee.",
-      "choices": ["To jest kawa.", "To jest kawę.", "To jest kawy.", "To kawa jest."],
+      "choices": [
+        "To jest kawa.",
+        "To jest kawę.",
+        "To jest kawy.",
+        "To kawa jest."
+      ],
       "answer": "To jest kawa."
     },
     {
       "prompt": "This is a city.",
-      "choices": ["To jest miasto.", "To jest miasta.", "To jest miastem.", "Jest miasto to."],
+      "choices": [
+        "To jest miasto.",
+        "To jest miasta.",
+        "To jest miastem.",
+        "Jest miasto to."
+      ],
       "answer": "To jest miasto."
     },
     {
       "prompt": "This is a book.",
-      "choices": ["To jest książka.", "To jest książkę.", "To jest książki.", "To książka jest."],
+      "choices": [
+        "To jest książka.",
+        "To jest książkę.",
+        "To jest książki.",
+        "To książka jest."
+      ],
       "answer": "To jest książka."
     },
     {
-      "prompt": "kawa — which gender? (PL labels)",
-      "choices": ["męski", "żeński", "nijaki"],
+      "prompt": "This is a cat.",
+      "choices": [
+        "To jest kot.",
+        "To jest kota.",
+        "To jest kotem.",
+        "To kot jest."
+      ],
+      "answer": "To jest kot."
+    },
+    {
+      "prompt": "This is beer.",
+      "choices": [
+        "To jest piwo.",
+        "To jest piwa.",
+        "To jest piwem.",
+        "To piwo jest."
+      ],
+      "answer": "To jest piwo."
+    },
+    {
+      "prompt": "This is tea.",
+      "choices": [
+        "To jest herbata.",
+        "To jest herbatę.",
+        "To jest herbaty.",
+        "To herbata jest."
+      ],
+      "answer": "To jest herbata."
+    },
+    {
+      "prompt": "This is a shop.",
+      "choices": [
+        "To jest sklep.",
+        "To jest sklepu.",
+        "To jest sklepem.",
+        "To sklep jest."
+      ],
+      "answer": "To jest sklep."
+    },
+    {
+      "prompt": "This is a sea.",
+      "choices": [
+        "To jest morze.",
+        "To jest morza.",
+        "To jest morzem.",
+        "To morze jest."
+      ],
+      "answer": "To jest morze."
+    },
+    {
+      "prompt": "kawa — gender?",
+      "choices": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
       "answer": "żeński"
     },
     {
-      "prompt": "miasto — which gender?",
-      "choices": ["męski", "żeński", "nijaki"],
-      "answer": "nijaki"
+      "prompt": "dom — gender?",
+      "choices": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": "męski"
     },
     {
-      "prompt": "dom — which gender?",
-      "choices": ["męski", "żeński", "nijaki"],
-      "answer": "męski"
+      "prompt": "miasto — gender?",
+      "choices": [
+        "męski",
+        "żeński",
+        "nijaki"
+      ],
+      "answer": "nijaki"
     }
   ],
   "type_items": [
     {
-      "prompt_en": "This is a house. → full sentence",
+      "prompt_en": "This is a house.",
       "answer": "To jest dom.",
-      "accepts": ["To jest dom.", "To jest dom"],
-      "hint": "To jest + nom"
+      "accepts": [
+        "To jest dom.",
+        "To jest dom"
+      ]
     },
     {
       "prompt_en": "This is coffee.",
       "answer": "To jest kawa.",
-      "accepts": ["To jest kawa.", "To jest kawa"]
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
     },
     {
       "prompt_en": "This is a city.",
       "answer": "To jest miasto.",
-      "accepts": ["To jest miasto.", "To jest miasto"]
+      "accepts": [
+        "To jest miasto.",
+        "To jest miasto"
+      ]
     },
     {
       "prompt_en": "This is a book.",
       "answer": "To jest książka.",
-      "accepts": ["To jest książka.", "To jest książka"]
+      "accepts": [
+        "To jest książka.",
+        "To jest książka"
+      ]
     },
     {
       "prompt_en": "This is a cat.",
       "answer": "To jest kot.",
-      "accepts": ["To jest kot.", "To jest kot"]
+      "accepts": [
+        "To jest kot.",
+        "To jest kot"
+      ]
     },
     {
       "prompt_en": "This is beer.",
       "answer": "To jest piwo.",
-      "accepts": ["To jest piwo.", "To jest piwo"]
+      "accepts": [
+        "To jest piwo.",
+        "To jest piwo"
+      ]
     },
     {
       "prompt_en": "This is tea.",
       "answer": "To jest herbata.",
-      "accepts": ["To jest herbata.", "To jest herbata"]
+      "accepts": [
+        "To jest herbata.",
+        "To jest herbata"
+      ]
     },
     {
       "prompt_en": "This is a shop.",
       "answer": "To jest sklep.",
-      "accepts": ["To jest sklep.", "To jest sklep"]
+      "accepts": [
+        "To jest sklep.",
+        "To jest sklep"
+      ]
+    },
+    {
+      "prompt_en": "This is a sea.",
+      "answer": "To jest morze.",
+      "accepts": [
+        "To jest morze.",
+        "To jest morze"
+      ]
+    },
+    {
+      "prompt_en": "This is a house. (2)",
+      "answer": "To jest dom.",
+      "accepts": [
+        "To jest dom.",
+        "To jest dom"
+      ]
+    },
+    {
+      "prompt_en": "This is coffee. (2)",
+      "answer": "To jest kawa.",
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
+    },
+    {
+      "prompt_en": "This is a book. (2)",
+      "answer": "To jest książka.",
+      "accepts": [
+        "To jest książka.",
+        "To jest książka"
+      ]
     }
   ],
   "use_items": [
     {
       "prompt_en": "Type: This is a house.",
       "answer": "To jest dom.",
-      "accepts": ["To jest dom.", "To jest dom"]
+      "accepts": [
+        "To jest dom.",
+        "To jest dom"
+      ]
     },
     {
       "prompt_en": "Type: This is coffee.",
       "answer": "To jest kawa.",
-      "accepts": ["To jest kawa.", "To jest kawa"]
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
     },
     {
       "prompt_en": "Type: This is a city.",
       "answer": "To jest miasto.",
-      "accepts": ["To jest miasto.", "To jest miasto"]
+      "accepts": [
+        "To jest miasto.",
+        "To jest miasto"
+      ]
     },
     {
       "prompt_en": "Type: This is a book.",
       "answer": "To jest książka.",
-      "accepts": ["To jest książka.", "To jest książka"]
-    },
-    {
-      "prompt_en": "Type: This is beer.",
-      "answer": "To jest piwo.",
-      "accepts": ["To jest piwo.", "To jest piwo"]
+      "accepts": [
+        "To jest książka.",
+        "To jest książka"
+      ]
     },
     {
       "prompt_en": "Type: This is a cat.",
       "answer": "To jest kot.",
-      "accepts": ["To jest kot.", "To jest kot"]
+      "accepts": [
+        "To jest kot.",
+        "To jest kot"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is beer.",
+      "answer": "To jest piwo.",
+      "accepts": [
+        "To jest piwo.",
+        "To jest piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is tea.",
+      "answer": "To jest herbata.",
+      "accepts": [
+        "To jest herbata.",
+        "To jest herbata"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a shop.",
+      "answer": "To jest sklep.",
+      "accepts": [
+        "To jest sklep.",
+        "To jest sklep"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a sea.",
+      "answer": "To jest morze.",
+      "accepts": [
+        "To jest morze.",
+        "To jest morze"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a house.",
+      "answer": "To jest dom.",
+      "accepts": [
+        "To jest dom.",
+        "To jest dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is coffee.",
+      "answer": "To jest kawa.",
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a book.",
+      "answer": "To jest książka.",
+      "accepts": [
+        "To jest książka.",
+        "To jest książka"
+      ]
     }
+  ],
+  "teaches_structures": [
+    "to_jest"
+  ],
+  "uses_structures": [
+    "to_jest"
+  ],
+  "teaches_lemmas": [
+    "dom",
+    "kawa",
+    "miasto",
+    "książka",
+    "kot",
+    "piwo",
+    "herbata",
+    "sklep",
+    "morze"
+  ],
+  "uses_lemmas": [
+    "dom",
+    "kawa",
+    "miasto",
+    "książka",
+    "kot",
+    "piwo",
+    "herbata",
+    "sklep",
+    "morze"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_gender",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "to_jest"
   ]
 }

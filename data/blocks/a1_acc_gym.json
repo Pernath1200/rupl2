@@ -1,127 +1,513 @@
 {
   "id": "a1_acc_gym",
-  "title": "Siłownia · biernik -ę",
-  "title_en": "Accusative ending gym (f -ę)",
+  "title": "Siłownia · biernik",
+  "title_en": "Accusative gym · nom vs acc",
   "level": "A1",
   "tree_node": "a1_acc_gym",
   "kind": "morphology",
   "default_direction": "en_to_pl",
-  "type": { "mode": "ending_gap" },
-  "check": { "sequence": ["match", "quiz"] },
-  "note": "Feminine -a → Acc -ę. Stem = form without -a; type ę. Diacritic required.",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Volume after a1_miec. Drill m/f/n Acc · nom vs acc forms · nom vs acc sentences · error correction. Known lemmas only. Positive mieć only (no negation).",
+  "focus_structures": [
+    "miec_acc",
+    "miec_present",
+    "to_jest"
+  ],
   "intro": [
     {
-      "title": "Ending gym — accusative (feminine)",
-      "title_pl": "Siłownia — biernik żeński",
-      "body": "Most feminine nouns in -a take -ę as the object form. Stem shown without -a; you type only ę. No free pass without the ogonek.",
-      "body_pl": "kawa → kawę · tylko końcówka ę."
+      "title": "Gym goal",
+      "title_pl": "Cel siłowni",
+      "body": "Repeat until automatic: (1) name something = nominative, (2) have / want it = accusative. Three genders behave differently.",
+      "body_pl": "Powtarzaj: nazwać = mianownik · mieć = biernik. Trzy rodzaje — trzy wzorce."
     },
     {
-      "title": "The slot",
+      "title": "Nom sentence vs Acc sentence",
+      "title_pl": "Zdanie w mianowniku vs bierniku",
+      "body": "To jest X names the thing (nominative after to jest).\nMam X puts the thing in the object slot (accusative after mieć).",
+      "body_pl": "To jest X — nazywasz (mianownik).\nMam X — masz to (biernik).",
+      "examples": [
+        {
+          "en": "This is coffee. (name it)",
+          "pl": "To jest kawa."
+        },
+        {
+          "en": "I have coffee. (have it)",
+          "pl": "Mam kawę."
+        },
+        {
+          "en": "This is a book.",
+          "pl": "To jest książka."
+        },
+        {
+          "en": "I have a book.",
+          "pl": "Mam książkę."
+        },
+        {
+          "en": "This is beer.",
+          "pl": "To jest piwo."
+        },
+        {
+          "en": "I have beer.",
+          "pl": "Mam piwo."
+        }
+      ]
+    },
+    {
+      "title": "Forms by gender (drill set)",
+      "title_pl": "Formy według rodzaju",
+      "body": "Same words you already know — watch what changes.",
+      "body_pl": "Znane słowa — patrz, co się zmienia.",
       "table": {
-        "headers": ["Nominative", "Stem + ending", "Accusative", "In a phrase"],
+        "headers": [
+          "Gender",
+          "Nom (to jest…)",
+          "Acc (mam…)",
+          "Change?"
+        ],
         "rows": [
-          ["kawa", "kaw + ę", "kawę", "mam kawę"],
-          ["herbata", "herbat + ę", "herbatę", "chcę herbatę"],
-          ["książka", "książk + ę", "książkę", "czytam książkę"],
-          ["woda", "wod + ę", "wodę", "piję wodę"],
-          ["praca", "prac + ę", "pracę", "lubię pracę"]
+          [
+            "feminine",
+            "kawa · książka · woda · siostra",
+            "kawę · książkę · wodę · siostrę",
+            "yes: -a → -ę"
+          ],
+          [
+            "masculine thing",
+            "dom · sklep",
+            "dom · sklep",
+            "often no change"
+          ],
+          [
+            "masculine person/animal",
+            "kot",
+            "kota",
+            "often -a"
+          ],
+          [
+            "neuter",
+            "piwo · miasto",
+            "piwo · miasto",
+            "often no change"
+          ]
         ]
       }
     },
     {
-      "title": "Only -ę today",
-      "title_pl": "Dziś tylko -ę",
-      "body": "Today: feminine -a nouns as objects (kawę, książkę). Other patterns come in other units.",
-      "body_pl": "Dziś: żeńskie na -a w dopełnieniu (kawę, książkę)."
+      "title": "Spot the error",
+      "title_pl": "Znajdź błąd",
+      "body": "In Kontrola you will fix wrong case: e.g. Mam kawa. is wrong → Mam kawę. · To jest kawę. is wrong → To jest kawa.",
+      "body_pl": "W Kontroli poprawiasz przypadek: Mam kawa. → Mam kawę. · To jest kawę. → To jest kawa."
     }
   ],
   "match": [
-    { "en": "kawa → Acc ending", "pl": "ę" },
-    { "en": "herbata → Acc form", "pl": "herbatę" },
-    { "en": "książka → Acc form", "pl": "książkę" },
-    { "en": "woda → Acc form", "pl": "wodę" },
-    { "en": "szkoła → Acc form", "pl": "szkołę" },
-    { "en": "mapa → Acc form", "pl": "mapę" }
+    {
+      "en": "coffee · name it (nom)",
+      "pl": "kawa"
+    },
+    {
+      "en": "coffee · have it (acc)",
+      "pl": "kawę"
+    },
+    {
+      "en": "book · name it (nom)",
+      "pl": "książka"
+    },
+    {
+      "en": "book · have it (acc)",
+      "pl": "książkę"
+    },
+    {
+      "en": "water · name it (nom)",
+      "pl": "woda"
+    },
+    {
+      "en": "water · have it (acc)",
+      "pl": "wodę"
+    },
+    {
+      "en": "tea · have it (acc)",
+      "pl": "herbatę"
+    },
+    {
+      "en": "sister · have it (acc)",
+      "pl": "siostrę"
+    },
+    {
+      "en": "house · name / have (same form)",
+      "pl": "dom"
+    },
+    {
+      "en": "beer · name / have (same form)",
+      "pl": "piwo"
+    },
+    {
+      "en": "cat · have it (acc)",
+      "pl": "kota"
+    },
+    {
+      "en": "tea · name it (nom)",
+      "pl": "herbata"
+    }
   ],
   "quiz": [
     {
-      "prompt": "kawa as object — ending after kaw?",
-      "choices": ["a", "ę", "y", "ą"],
-      "answer": "ę"
+      "prompt": "Name it: This is coffee. Which form after To jest?",
+      "choices": [
+        "kawa",
+        "kawę",
+        "kawy",
+        "kawą"
+      ],
+      "answer": "kawa"
     },
     {
-      "prompt": "I have coffee:",
-      "choices": ["Mam kawa.", "Mam kawę.", "Mam kawy.", "Mam kawą."],
-      "answer": "Mam kawę."
+      "prompt": "Have it: I have coffee. Which form after mam?",
+      "choices": [
+        "kawa",
+        "kawę",
+        "kawy",
+        "kawą"
+      ],
+      "answer": "kawę"
     },
     {
-      "prompt": "książka → Acc form?",
-      "choices": ["książka", "książkę", "książki", "książką"],
+      "prompt": "Which is the accusative of book?",
+      "choices": [
+        "książka",
+        "książkę",
+        "książki",
+        "książką"
+      ],
       "answer": "książkę"
     },
     {
-      "prompt": "herbata → Acc ending only?",
-      "choices": ["a", "ę", "y", "e"],
-      "answer": "ę"
+      "prompt": "Which is the nominative of book?",
+      "choices": [
+        "książka",
+        "książkę",
+        "książki",
+        "książką"
+      ],
+      "answer": "książka"
     },
     {
-      "prompt": "Which is Acc of woda?",
-      "choices": ["woda", "wody", "wodę", "wodą"],
-      "answer": "wodę"
+      "prompt": "Beer: This is beer / I have beer — does the form change?",
+      "choices": [
+        "No change (neuter)",
+        "Becomes piwę",
+        "Becomes piwa",
+        "Becomes piwem"
+      ],
+      "answer": "No change (neuter)"
     },
     {
-      "prompt": "I want work / a job (praca):",
-      "choices": ["Chcę praca.", "Chcę pracę.", "Chcę pracy.", "Chcę pracą."],
-      "answer": "Chcę pracę."
+      "prompt": "House: This is a house / I have a house — does the form change?",
+      "choices": [
+        "No change (m thing)",
+        "Becomes domu",
+        "Becomes doma",
+        "Becomes domę"
+      ],
+      "answer": "No change (m thing)"
+    },
+    {
+      "prompt": "Which is the accusative of cat? (I have a cat)",
+      "choices": [
+        "kot",
+        "kota",
+        "kotem",
+        "kocie"
+      ],
+      "answer": "kota"
+    },
+    {
+      "prompt": "ERROR CORRECTION — Mam kawa.",
+      "choices": [
+        "Mam kawę.",
+        "Mam kawy.",
+        "To jest kawę.",
+        "Mam kawa. (OK)"
+      ],
+      "answer": "Mam kawę."
+    },
+    {
+      "prompt": "ERROR CORRECTION — To jest kawę.",
+      "choices": [
+        "To jest kawa.",
+        "Mam kawa.",
+        "To jest kawę. (OK)",
+        "To jest kawy."
+      ],
+      "answer": "To jest kawa."
+    },
+    {
+      "prompt": "ERROR CORRECTION — Mam książka.",
+      "choices": [
+        "Mam książkę.",
+        "To jest książkę.",
+        "Mam książka. (OK)",
+        "Mam książki."
+      ],
+      "answer": "Mam książkę."
+    },
+    {
+      "prompt": "ERROR CORRECTION — To jest książkę.",
+      "choices": [
+        "To jest książka.",
+        "Mam książka.",
+        "To jest książkę. (OK)",
+        "To jest książki."
+      ],
+      "answer": "To jest książka."
+    },
+    {
+      "prompt": "ERROR CORRECTION — Ona ma siostra.",
+      "choices": [
+        "Ona ma siostrę.",
+        "Ona ma siostra. (OK)",
+        "To jest siostrę.",
+        "Ona jest siostrę."
+      ],
+      "answer": "Ona ma siostrę."
     }
   ],
   "type_items": [
-    { "prompt_en": "I have coffee.", "stem": "Mam kaw", "ending": "ę", "full": "Mam kawę" },
-    { "prompt_en": "I want tea.", "stem": "Chcę herbat", "ending": "ę", "full": "Chcę herbatę" },
-    { "prompt_en": "I'm reading a book.", "stem": "Czytam książk", "ending": "ę", "full": "Czytam książkę" },
-    { "prompt_en": "I'm drinking water.", "stem": "Piję wod", "ending": "ę", "full": "Piję wodę" },
-    { "prompt_en": "I like work / my job.", "stem": "Lubię prac", "ending": "ę", "full": "Lubię pracę" },
-    { "prompt_en": "I see a woman.", "stem": "Widzę kobiet", "ending": "ę", "full": "Widzę kobietę" },
-    { "prompt_en": "I'm buying a newspaper.", "stem": "Kupuję gazet", "ending": "ę", "full": "Kupuję gazetę" },
-    { "prompt_en": "I want soup.", "stem": "Chcę zup", "ending": "ę", "full": "Chcę zupę" },
-    { "prompt_en": "I'm eating a salad.", "stem": "Jem sałatk", "ending": "ę", "full": "Jem sałatkę" },
-    { "prompt_en": "I'm eating fish.", "stem": "Jem ryb", "ending": "ę", "full": "Jem rybę" },
-    { "prompt_en": "I have a sandwich.", "stem": "Mam kanapk", "ending": "ę", "full": "Mam kanapkę" },
-    { "prompt_en": "I want pizza.", "stem": "Chcę pizz", "ending": "ę", "full": "Chcę pizzę" },
-    { "prompt_en": "I know the street.", "stem": "Znam ulic", "ending": "ę", "full": "Znam ulicę" },
-    { "prompt_en": "I see the school.", "stem": "Widzę szkoł", "ending": "ę", "full": "Widzę szkołę" },
-    { "prompt_en": "I have a map.", "stem": "Mam map", "ending": "ę", "full": "Mam mapę" },
-    { "prompt_en": "I'm waiting an hour.", "stem": "Czekam godzin", "ending": "ę", "full": "Czekam godzinę" },
-    { "prompt_en": "I have a minute.", "stem": "Mam minut", "ending": "ę", "full": "Mam minutę" },
-    { "prompt_en": "I like music.", "stem": "Lubię muzyk", "ending": "ę", "full": "Lubię muzykę" },
-    { "prompt_en": "I'm making dinner.", "stem": "Robię kolacj", "ending": "ę", "full": "Robię kolację" },
-    { "prompt_en": "I have a sister.", "stem": "Mam siostr", "ending": "ę", "full": "Mam siostrę" },
-    { "prompt_en": "I like coffee.", "stem": "Lubię kaw", "ending": "ę", "full": "Lubię kawę" },
-    { "prompt_en": "I'm drinking tea.", "stem": "Piję herbat", "ending": "ę", "full": "Piję herbatę" },
-    { "prompt_en": "I'm reading a newspaper.", "stem": "Czytam gazet", "ending": "ę", "full": "Czytam gazetę" },
-    { "prompt_en": "I want water.", "stem": "Chcę wod", "ending": "ę", "full": "Chcę wodę" }
+    {
+      "prompt_en": "coffee → accusative (one word)",
+      "mode": "full_word",
+      "answer": "kawę",
+      "accepts": [
+        "kawę"
+      ]
+    },
+    {
+      "prompt_en": "book → accusative (one word)",
+      "mode": "full_word",
+      "answer": "książkę",
+      "accepts": [
+        "książkę"
+      ]
+    },
+    {
+      "prompt_en": "water → accusative (one word)",
+      "mode": "full_word",
+      "answer": "wodę",
+      "accepts": [
+        "wodę"
+      ]
+    },
+    {
+      "prompt_en": "tea → accusative (one word)",
+      "mode": "full_word",
+      "answer": "herbatę",
+      "accepts": [
+        "herbatę"
+      ]
+    },
+    {
+      "prompt_en": "sister → accusative (one word)",
+      "mode": "full_word",
+      "answer": "siostrę",
+      "accepts": [
+        "siostrę"
+      ]
+    },
+    {
+      "prompt_en": "cat → accusative (one word)",
+      "mode": "full_word",
+      "answer": "kota",
+      "accepts": [
+        "kota"
+      ]
+    },
+    {
+      "prompt_en": "coffee → nominative (name it)",
+      "mode": "full_word",
+      "answer": "kawa",
+      "accepts": [
+        "kawa"
+      ]
+    },
+    {
+      "prompt_en": "book → nominative (name it)",
+      "mode": "full_word",
+      "answer": "książka",
+      "accepts": [
+        "książka"
+      ]
+    },
+    {
+      "prompt_en": "water → nominative (name it)",
+      "mode": "full_word",
+      "answer": "woda",
+      "accepts": [
+        "woda"
+      ]
+    },
+    {
+      "prompt_en": "tea → nominative (name it)",
+      "mode": "full_word",
+      "answer": "herbata",
+      "accepts": [
+        "herbata"
+      ]
+    },
+    {
+      "prompt_en": "house → form after mam (one word)",
+      "mode": "full_word",
+      "answer": "dom",
+      "accepts": [
+        "dom"
+      ]
+    },
+    {
+      "prompt_en": "beer → form after mam (one word)",
+      "mode": "full_word",
+      "answer": "piwo",
+      "accepts": [
+        "piwo"
+      ]
+    }
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I have coffee.",
+      "prompt_en": "Type: This is coffee. (name it · nom)",
+      "answer": "To jest kawa.",
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have coffee. (have it · acc)",
       "answer": "Mam kawę.",
-      "accepts": ["Mam kawę.", "Mam kawę"]
+      "accepts": [
+        "Mam kawę.",
+        "Mam kawę"
+      ]
     },
     {
-      "prompt_en": "Type: I want tea.",
-      "answer": "Chcę herbatę.",
-      "accepts": ["Chcę herbatę.", "Chcę herbatę"]
+      "prompt_en": "Type: This is a book.",
+      "answer": "To jest książka.",
+      "accepts": [
+        "To jest książka.",
+        "To jest książka"
+      ]
     },
     {
-      "prompt_en": "Type: I am reading a book.",
-      "answer": "Czytam książkę.",
-      "accepts": ["Czytam książkę.", "Czytam książkę"]
+      "prompt_en": "Type: I have a book.",
+      "answer": "Mam książkę.",
+      "accepts": [
+        "Mam książkę.",
+        "Mam książkę"
+      ]
     },
     {
-      "prompt_en": "Type: I like work / my job.",
-      "answer": "Lubię pracę.",
-      "accepts": ["Lubię pracę.", "Lubię pracę"]
+      "prompt_en": "Type: This is beer.",
+      "answer": "To jest piwo.",
+      "accepts": [
+        "To jest piwo.",
+        "To jest piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have beer.",
+      "answer": "Mam piwo.",
+      "accepts": [
+        "Mam piwo.",
+        "Mam piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a house.",
+      "answer": "To jest dom.",
+      "accepts": [
+        "To jest dom.",
+        "To jest dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a house.",
+      "answer": "Mam dom.",
+      "accepts": [
+        "Mam dom.",
+        "Mam dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a sister.",
+      "answer": "Mam siostrę.",
+      "accepts": [
+        "Mam siostrę.",
+        "Mam siostrę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a cat.",
+      "answer": "Mam kota.",
+      "accepts": [
+        "Mam kota.",
+        "Mam kota"
+      ]
+    },
+    {
+      "prompt_en": "Type: You have tea. (sg)",
+      "answer": "Masz herbatę.",
+      "accepts": [
+        "Masz herbatę.",
+        "Masz herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: She has water.",
+      "answer": "Ona ma wodę.",
+      "accepts": [
+        "Ona ma wodę.",
+        "Ma wodę.",
+        "Ona ma wodę"
+      ]
     }
-  ]
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "miec_acc",
+    "miec_present",
+    "to_jest"
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "mam",
+    "masz",
+    "ma",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "woda",
+    "wodę",
+    "książka",
+    "książkę",
+    "siostra",
+    "siostrę",
+    "dom",
+    "piwo",
+    "kot",
+    "kota",
+    "sklep",
+    "miasto"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_acc_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
 }

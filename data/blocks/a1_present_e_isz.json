@@ -1,0 +1,557 @@
+{
+  "id": "a1_present_e_isz",
+  "title": "Teraźniejszy · wzór mówić / lubić",
+  "title_en": "Present · -ę/-isz class",
+  "level": "A1",
+  "tree_node": "a1_present_e_isz",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "P0: second class only. Full 6 persons. Verbs: mówić, lubić. Not mixed with -am or chcieć.",
+  "focus_structures": [
+    "present_e_isz"
+  ],
+  "intro": [
+    {
+      "title": "Second pattern",
+      "title_pl": "Drugi wzorzec",
+      "body": "Not the -am set (mieszkać). This set uses -ę/-ię, -isz, -i, -imy, -icie, -ią.\n\nTwo verbs, full six persons each: mówić (speak) and lubić (like).",
+      "body_pl": "Nie wzór -am. Tu: -ę/-ię, -isz, -i, -imy, -icie, -ią.\n\nDwa czasowniki, 6 osób: mówić i lubić."
+    },
+    {
+      "title": "mówić — full grid",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mówię",
+            "I speak"
+          ],
+          [
+            "ty",
+            "mówisz",
+            "you speak (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "mówi",
+            "he / she speaks"
+          ],
+          [
+            "my",
+            "mówimy",
+            "we speak"
+          ],
+          [
+            "wy",
+            "mówicie",
+            "you speak (pl)"
+          ],
+          [
+            "oni / one",
+            "mówią",
+            "they speak"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "lubić — full grid",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "lubię",
+            "I like"
+          ],
+          [
+            "ty",
+            "lubisz",
+            "you like (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "lubi",
+            "he / she likes"
+          ],
+          [
+            "my",
+            "lubimy",
+            "we like"
+          ],
+          [
+            "wy",
+            "lubicie",
+            "you like (pl)"
+          ],
+          [
+            "oni / one",
+            "lubią",
+            "they like"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "body": "Pisanie = one word. Użycie may add known objects (kawę) after the form is secure.",
+      "examples": [
+        {
+          "en": "I speak.",
+          "pl": "Mówię."
+        },
+        {
+          "en": "We speak.",
+          "pl": "Mówimy."
+        },
+        {
+          "en": "I like.",
+          "pl": "Lubię."
+        },
+        {
+          "en": "They like.",
+          "pl": "Lubią."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I speak",
+      "pl": "mówię"
+    },
+    {
+      "en": "you speak (sg)",
+      "pl": "mówisz"
+    },
+    {
+      "en": "he/she speaks",
+      "pl": "mówi"
+    },
+    {
+      "en": "we speak",
+      "pl": "mówimy"
+    },
+    {
+      "en": "you speak (pl)",
+      "pl": "mówicie"
+    },
+    {
+      "en": "they speak",
+      "pl": "mówią"
+    },
+    {
+      "en": "I like",
+      "pl": "lubię"
+    },
+    {
+      "en": "you like (sg)",
+      "pl": "lubisz"
+    },
+    {
+      "en": "he/she likes",
+      "pl": "lubi"
+    },
+    {
+      "en": "we like",
+      "pl": "lubimy"
+    },
+    {
+      "en": "you like (pl)",
+      "pl": "lubicie"
+    },
+    {
+      "en": "they like",
+      "pl": "lubią"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I speak →",
+      "choices": [
+        "mówię",
+        "mówisz",
+        "mówi",
+        "mówimy"
+      ],
+      "answer": "mówię"
+    },
+    {
+      "prompt": "You speak (sg) →",
+      "choices": [
+        "mówię",
+        "mówisz",
+        "mówicie",
+        "mówią"
+      ],
+      "answer": "mówisz"
+    },
+    {
+      "prompt": "He/she speaks →",
+      "choices": [
+        "mówię",
+        "mówisz",
+        "mówi",
+        "mówią"
+      ],
+      "answer": "mówi"
+    },
+    {
+      "prompt": "We speak →",
+      "choices": [
+        "mówię",
+        "mówimy",
+        "mówicie",
+        "mówią"
+      ],
+      "answer": "mówimy"
+    },
+    {
+      "prompt": "You speak (pl) →",
+      "choices": [
+        "mówisz",
+        "mówimy",
+        "mówicie",
+        "mówią"
+      ],
+      "answer": "mówicie"
+    },
+    {
+      "prompt": "They speak →",
+      "choices": [
+        "mówi",
+        "mówimy",
+        "mówicie",
+        "mówią"
+      ],
+      "answer": "mówią"
+    },
+    {
+      "prompt": "I like →",
+      "choices": [
+        "lubię",
+        "lubisz",
+        "lubi",
+        "lubimy"
+      ],
+      "answer": "lubię"
+    },
+    {
+      "prompt": "You like (sg) →",
+      "choices": [
+        "lubię",
+        "lubisz",
+        "lubicie",
+        "lubią"
+      ],
+      "answer": "lubisz"
+    },
+    {
+      "prompt": "We like →",
+      "choices": [
+        "lubię",
+        "lubimy",
+        "lubicie",
+        "lubią"
+      ],
+      "answer": "lubimy"
+    },
+    {
+      "prompt": "They like →",
+      "choices": [
+        "lubi",
+        "lubimy",
+        "lubicie",
+        "lubią"
+      ],
+      "answer": "lubią"
+    },
+    {
+      "prompt": "ERROR — ja mówi",
+      "choices": [
+        "mówię",
+        "mówisz",
+        "mówi",
+        "mówimy"
+      ],
+      "answer": "mówię"
+    },
+    {
+      "prompt": "ERROR — my lubię",
+      "choices": [
+        "lubię",
+        "lubimy",
+        "lubicie",
+        "lubią"
+      ],
+      "answer": "lubimy"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I speak",
+      "mode": "full_word",
+      "answer": "mówię",
+      "accepts": [
+        "mówię"
+      ]
+    },
+    {
+      "prompt_en": "you speak (sg)",
+      "mode": "full_word",
+      "answer": "mówisz",
+      "accepts": [
+        "mówisz"
+      ]
+    },
+    {
+      "prompt_en": "he/she speaks",
+      "mode": "full_word",
+      "answer": "mówi",
+      "accepts": [
+        "mówi"
+      ]
+    },
+    {
+      "prompt_en": "we speak",
+      "mode": "full_word",
+      "answer": "mówimy",
+      "accepts": [
+        "mówimy"
+      ]
+    },
+    {
+      "prompt_en": "you speak (pl)",
+      "mode": "full_word",
+      "answer": "mówicie",
+      "accepts": [
+        "mówicie"
+      ]
+    },
+    {
+      "prompt_en": "they speak",
+      "mode": "full_word",
+      "answer": "mówią",
+      "accepts": [
+        "mówią"
+      ]
+    },
+    {
+      "prompt_en": "I like",
+      "mode": "full_word",
+      "answer": "lubię",
+      "accepts": [
+        "lubię"
+      ]
+    },
+    {
+      "prompt_en": "you like (sg)",
+      "mode": "full_word",
+      "answer": "lubisz",
+      "accepts": [
+        "lubisz"
+      ]
+    },
+    {
+      "prompt_en": "he/she likes",
+      "mode": "full_word",
+      "answer": "lubi",
+      "accepts": [
+        "lubi"
+      ]
+    },
+    {
+      "prompt_en": "we like",
+      "mode": "full_word",
+      "answer": "lubimy",
+      "accepts": [
+        "lubimy"
+      ]
+    },
+    {
+      "prompt_en": "you like (pl)",
+      "mode": "full_word",
+      "answer": "lubicie",
+      "accepts": [
+        "lubicie"
+      ]
+    },
+    {
+      "prompt_en": "they like",
+      "mode": "full_word",
+      "answer": "lubią",
+      "accepts": [
+        "lubią"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I speak.",
+      "answer": "Mówię.",
+      "accepts": [
+        "Mówię.",
+        "Mówię"
+      ]
+    },
+    {
+      "prompt_en": "Type: We speak.",
+      "answer": "Mówimy.",
+      "accepts": [
+        "Mówimy.",
+        "Mówimy"
+      ]
+    },
+    {
+      "prompt_en": "Type: They speak.",
+      "answer": "Mówią.",
+      "accepts": [
+        "Mówią.",
+        "Mówią"
+      ]
+    },
+    {
+      "prompt_en": "Type: You speak. (pl)",
+      "answer": "Mówicie.",
+      "accepts": [
+        "Mówicie.",
+        "Mówicie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I like coffee.",
+      "answer": "Lubię kawę.",
+      "accepts": [
+        "Lubię kawę.",
+        "Lubię kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: You like tea. (sg)",
+      "answer": "Lubisz herbatę.",
+      "accepts": [
+        "Lubisz herbatę.",
+        "Lubisz herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: We like beer.",
+      "answer": "Lubimy piwo.",
+      "accepts": [
+        "Lubimy piwo.",
+        "Lubimy piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: They like coffee.",
+      "answer": "Lubią kawę.",
+      "accepts": [
+        "Lubią kawę.",
+        "Lubią kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: She speaks.",
+      "answer": "Ona mówi.",
+      "accepts": [
+        "Ona mówi.",
+        "Mówi.",
+        "Ona mówi"
+      ]
+    },
+    {
+      "prompt_en": "Type: He likes tea.",
+      "answer": "On lubi herbatę.",
+      "accepts": [
+        "On lubi herbatę.",
+        "Lubi herbatę."
+      ]
+    },
+    {
+      "prompt_en": "Type: You speak. (sg)",
+      "answer": "Mówisz.",
+      "accepts": [
+        "Mówisz.",
+        "Mówisz"
+      ]
+    },
+    {
+      "prompt_en": "Type: You like coffee. (pl)",
+      "answer": "Lubicie kawę.",
+      "accepts": [
+        "Lubicie kawę.",
+        "Lubicie kawę"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "present_e_isz",
+    "present"
+  ],
+  "uses_structures": [
+    "present_e_isz",
+    "present",
+    "miec_acc"
+  ],
+  "teaches_lemmas": [
+    "mówić",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "mówimy",
+    "mówicie",
+    "mówią",
+    "lubić",
+    "lubię",
+    "lubisz",
+    "lubi",
+    "lubimy",
+    "lubicie",
+    "lubią"
+  ],
+  "uses_lemmas": [
+    "mówić",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "mówimy",
+    "mówicie",
+    "mówią",
+    "lubić",
+    "lubię",
+    "lubisz",
+    "lubi",
+    "lubimy",
+    "lubicie",
+    "lubią",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "piwo"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_present_e_isz",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

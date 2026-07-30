@@ -1,0 +1,463 @@
+{
+  "id": "a1_prep_do_z",
+  "title": "Przyimki · do / z + dopełniacz",
+  "title_en": "Prepositions · do/z + genitive",
+  "level": "A1",
+  "tree_node": "a1_prep_do_z",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "P1: direction/origin. do + Gen (to), z + Gen (from). Not static w/na.",
+  "focus_structures": [
+    "prep_do_gen",
+    "prep_z_gen"
+  ],
+  "intro": [
+    {
+      "title": "Going to / coming from",
+      "title_pl": "Kierunek i pochodzenie",
+      "body": "Static place was w/na + locative.\n\nDirection uses different prepositions and usually the genitive:\n· do + Gen = to / into (do domu, do sklepu, do miasta)\n· z + Gen = from / out of (z domu, z sklepu, z miasta)\n\nDo not mix: w domu (location) ≠ do domu (destination).",
+      "body_pl": "Statycznie: w/na + miejscownik. Kierunek: do / z + dopełniacz."
+    },
+    {
+      "title": "do / z · closed set",
+      "table": {
+        "headers": [
+          "Nom",
+          "do + Gen",
+          "z + Gen"
+        ],
+        "rows": [
+          [
+            "dom",
+            "do domu",
+            "z domu"
+          ],
+          [
+            "sklep",
+            "do sklepu",
+            "z sklepu"
+          ],
+          [
+            "miasto",
+            "do miasta",
+            "z miasta"
+          ],
+          [
+            "szkoła",
+            "do szkoły",
+            "ze szkoły"
+          ]
+        ]
+      },
+      "body": "Note ze szkoły (ze before s-cluster) — learn as a fixed form."
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "to the house / home",
+          "pl": "do domu"
+        },
+        {
+          "en": "from home",
+          "pl": "z domu"
+        },
+        {
+          "en": "to the shop",
+          "pl": "do sklepu"
+        },
+        {
+          "en": "from the shop",
+          "pl": "z sklepu"
+        },
+        {
+          "en": "to the city",
+          "pl": "do miasta"
+        },
+        {
+          "en": "from school",
+          "pl": "ze szkoły"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "to home",
+      "pl": "do domu"
+    },
+    {
+      "en": "from home",
+      "pl": "z domu"
+    },
+    {
+      "en": "to the shop",
+      "pl": "do sklepu"
+    },
+    {
+      "en": "from the shop",
+      "pl": "z sklepu"
+    },
+    {
+      "en": "to the city",
+      "pl": "do miasta"
+    },
+    {
+      "en": "from the city",
+      "pl": "z miasta"
+    },
+    {
+      "en": "to school",
+      "pl": "do szkoły"
+    },
+    {
+      "en": "from school",
+      "pl": "ze szkoły"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "to the house →",
+      "choices": [
+        "do domu",
+        "w domu",
+        "z domu",
+        "na domu"
+      ],
+      "answer": "do domu"
+    },
+    {
+      "prompt": "from home →",
+      "choices": [
+        "z domu",
+        "do domu",
+        "w domu",
+        "na domu"
+      ],
+      "answer": "z domu"
+    },
+    {
+      "prompt": "to the shop →",
+      "choices": [
+        "do sklepu",
+        "w sklepie",
+        "z sklepu",
+        "do sklep"
+      ],
+      "answer": "do sklepu"
+    },
+    {
+      "prompt": "from the shop →",
+      "choices": [
+        "z sklepu",
+        "do sklepu",
+        "w sklepie",
+        "ze sklep"
+      ],
+      "answer": "z sklepu"
+    },
+    {
+      "prompt": "to the city →",
+      "choices": [
+        "do miasta",
+        "w mieście",
+        "z miasta",
+        "do miasto"
+      ],
+      "answer": "do miasta"
+    },
+    {
+      "prompt": "from the city →",
+      "choices": [
+        "z miasta",
+        "do miasta",
+        "w mieście",
+        "ze miasto"
+      ],
+      "answer": "z miasta"
+    },
+    {
+      "prompt": "to school →",
+      "choices": [
+        "do szkoły",
+        "w szkole",
+        "ze szkoły",
+        "do szkoła"
+      ],
+      "answer": "do szkoły"
+    },
+    {
+      "prompt": "from school →",
+      "choices": [
+        "ze szkoły",
+        "do szkoły",
+        "w szkole",
+        "z szkoła"
+      ],
+      "answer": "ze szkoły"
+    },
+    {
+      "prompt": "ERROR — do dom →",
+      "choices": [
+        "do domu",
+        "do dom",
+        "w domu",
+        "z domu"
+      ],
+      "answer": "do domu"
+    },
+    {
+      "prompt": "direction (shop) · not location →",
+      "choices": [
+        "do sklepu",
+        "w sklepie",
+        "z sklepu",
+        "w sklepu"
+      ],
+      "answer": "do sklepu"
+    },
+    {
+      "prompt": "origin (home) · not destination →",
+      "choices": [
+        "z domu",
+        "do domu",
+        "w domu",
+        "na domu"
+      ],
+      "answer": "z domu"
+    },
+    {
+      "prompt": "from school · ze not z →",
+      "choices": [
+        "ze szkoły",
+        "z szkoły",
+        "do szkoły",
+        "w szkole"
+      ],
+      "answer": "ze szkoły"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to home",
+      "mode": "full_word",
+      "answer": "do domu",
+      "accepts": [
+        "do domu"
+      ]
+    },
+    {
+      "prompt_en": "from home",
+      "mode": "full_word",
+      "answer": "z domu",
+      "accepts": [
+        "z domu"
+      ]
+    },
+    {
+      "prompt_en": "to the shop",
+      "mode": "full_word",
+      "answer": "do sklepu",
+      "accepts": [
+        "do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "from the shop",
+      "mode": "full_word",
+      "answer": "z sklepu",
+      "accepts": [
+        "z sklepu"
+      ]
+    },
+    {
+      "prompt_en": "to the city",
+      "mode": "full_word",
+      "answer": "do miasta",
+      "accepts": [
+        "do miasta"
+      ]
+    },
+    {
+      "prompt_en": "from the city",
+      "mode": "full_word",
+      "answer": "z miasta",
+      "accepts": [
+        "z miasta"
+      ]
+    },
+    {
+      "prompt_en": "to school",
+      "mode": "full_word",
+      "answer": "do szkoły",
+      "accepts": [
+        "do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "from school",
+      "mode": "full_word",
+      "answer": "ze szkoły",
+      "accepts": [
+        "ze szkoły"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: to home",
+      "answer": "do domu.",
+      "accepts": [
+        "do domu.",
+        "do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: from home",
+      "answer": "z domu.",
+      "accepts": [
+        "z domu.",
+        "z domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: to the shop",
+      "answer": "do sklepu.",
+      "accepts": [
+        "do sklepu.",
+        "do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: from the shop",
+      "answer": "z sklepu.",
+      "accepts": [
+        "z sklepu.",
+        "z sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: to the city",
+      "answer": "do miasta.",
+      "accepts": [
+        "do miasta.",
+        "do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: from the city",
+      "answer": "z miasta.",
+      "accepts": [
+        "z miasta.",
+        "z miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: to school",
+      "answer": "do szkoły.",
+      "accepts": [
+        "do szkoły.",
+        "do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: from school",
+      "answer": "ze szkoły.",
+      "accepts": [
+        "ze szkoły.",
+        "ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: going home (to home)",
+      "answer": "do domu.",
+      "accepts": [
+        "do domu.",
+        "do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: coming from school",
+      "answer": "ze szkoły.",
+      "accepts": [
+        "ze szkoły.",
+        "ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: to the shop (destination)",
+      "answer": "do sklepu.",
+      "accepts": [
+        "do sklepu.",
+        "do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: from home (origin)",
+      "answer": "z domu.",
+      "accepts": [
+        "z domu.",
+        "z domu"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place"
+  ],
+  "uses_structures": [
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "prep_w_loc"
+  ],
+  "teaches_lemmas": [
+    "do domu",
+    "z domu",
+    "do sklepu",
+    "z sklepu",
+    "do miasta",
+    "z miasta",
+    "do szkoły",
+    "ze szkoły",
+    "sklepu",
+    "miasta",
+    "szkoły"
+  ],
+  "uses_lemmas": [
+    "do domu",
+    "z domu",
+    "do sklepu",
+    "z sklepu",
+    "do miasta",
+    "z miasta",
+    "do szkoły",
+    "ze szkoły",
+    "dom",
+    "domu",
+    "sklep",
+    "sklepu",
+    "miasto",
+    "miasta",
+    "szkoła",
+    "szkoły",
+    "w domu",
+    "w sklepie"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_prep_do_z",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

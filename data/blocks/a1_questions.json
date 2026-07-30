@@ -1,0 +1,511 @@
+{
+  "id": "a1_questions",
+  "title": "Pytania · skorupy",
+  "title_en": "Question shells",
+  "level": "A1",
+  "tree_node": "a1_questions",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "P2: phrase shells — high-frequency question words and fixed patterns. No new case theory.",
+  "focus_structures": [
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Question words as chunks",
+      "title_pl": "Pytajniki jako kawałki",
+      "body": "Learn these as ready-made shells. Answers come from earlier units (to jest…, jestem…, mieszkam…, mam…).\n\nCo? — What?\nKto? — Who?\nGdzie? — Where?\nJak? — How?\nCzy…? — Yes/no starter",
+      "body_pl": "Skorupy pytań. Odpowiedzi z wcześniejszych jednostek."
+    },
+    {
+      "title": "Useful shells",
+      "table": {
+        "headers": [
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "Co to jest?",
+            "What is this?"
+          ],
+          [
+            "Kto to jest?",
+            "Who is this?"
+          ],
+          [
+            "Gdzie jest…?",
+            "Where is…?"
+          ],
+          [
+            "Jak się masz?",
+            "How are you?"
+          ],
+          [
+            "Czy masz…?",
+            "Do you have…?"
+          ],
+          [
+            "Gdzie mieszkasz?",
+            "Where do you live?"
+          ]
+        ]
+      },
+      "body": "Gdzie mieszkasz? is a shell — answer can be bare Mieszkam. or later Mieszkam w domu. after prep."
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "What is this?",
+          "pl": "Co to jest?"
+        },
+        {
+          "en": "Who is this?",
+          "pl": "Kto to jest?"
+        },
+        {
+          "en": "How are you?",
+          "pl": "Jak się masz?"
+        },
+        {
+          "en": "Where do you live?",
+          "pl": "Gdzie mieszkasz?"
+        },
+        {
+          "en": "Do you have coffee?",
+          "pl": "Czy masz kawę?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "What?",
+      "pl": "Co?"
+    },
+    {
+      "en": "Who?",
+      "pl": "Kto?"
+    },
+    {
+      "en": "Where?",
+      "pl": "Gdzie?"
+    },
+    {
+      "en": "How?",
+      "pl": "Jak?"
+    },
+    {
+      "en": "What is this?",
+      "pl": "Co to jest?"
+    },
+    {
+      "en": "Who is this?",
+      "pl": "Kto to jest?"
+    },
+    {
+      "en": "How are you?",
+      "pl": "Jak się masz?"
+    },
+    {
+      "en": "Where do you live?",
+      "pl": "Gdzie mieszkasz?"
+    },
+    {
+      "en": "Do you have…?",
+      "pl": "Czy masz…?"
+    },
+    {
+      "en": "Where is…?",
+      "pl": "Gdzie jest…?"
+    },
+    {
+      "en": "Do you have coffee?",
+      "pl": "Czy masz kawę?"
+    },
+    {
+      "en": "Where is mum?",
+      "pl": "Gdzie jest mama?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "What is this? →",
+      "choices": [
+        "Co to jest?",
+        "Kto to jest?",
+        "Gdzie to jest?",
+        "Jak to jest?"
+      ],
+      "answer": "Co to jest?"
+    },
+    {
+      "prompt": "Who is this? →",
+      "choices": [
+        "Kto to jest?",
+        "Co to jest?",
+        "Gdzie to jest?",
+        "Jak się masz?"
+      ],
+      "answer": "Kto to jest?"
+    },
+    {
+      "prompt": "How are you? →",
+      "choices": [
+        "Jak się masz?",
+        "Gdzie mieszkasz?",
+        "Co to jest?",
+        "Czy masz?"
+      ],
+      "answer": "Jak się masz?"
+    },
+    {
+      "prompt": "Where do you live? →",
+      "choices": [
+        "Gdzie mieszkasz?",
+        "Jak się masz?",
+        "Co to jest?",
+        "Czy masz kawę?"
+      ],
+      "answer": "Gdzie mieszkasz?"
+    },
+    {
+      "prompt": "What? →",
+      "choices": [
+        "Co?",
+        "Kto?",
+        "Gdzie?",
+        "Jak?"
+      ],
+      "answer": "Co?"
+    },
+    {
+      "prompt": "Who? →",
+      "choices": [
+        "Kto?",
+        "Co?",
+        "Gdzie?",
+        "Jak?"
+      ],
+      "answer": "Kto?"
+    },
+    {
+      "prompt": "Where? →",
+      "choices": [
+        "Gdzie?",
+        "Co?",
+        "Kto?",
+        "Jak?"
+      ],
+      "answer": "Gdzie?"
+    },
+    {
+      "prompt": "How? →",
+      "choices": [
+        "Jak?",
+        "Gdzie?",
+        "Co?",
+        "Czy?"
+      ],
+      "answer": "Jak?"
+    },
+    {
+      "prompt": "Do you have coffee? →",
+      "choices": [
+        "Czy masz kawę?",
+        "Masz kawę?",
+        "Co masz kawę?",
+        "Gdzie masz kawę?"
+      ],
+      "answer": "Czy masz kawę?"
+    },
+    {
+      "prompt": "Where is mum? →",
+      "choices": [
+        "Gdzie jest mama?",
+        "Co jest mama?",
+        "Kto jest mama?",
+        "Jak jest mama?"
+      ],
+      "answer": "Gdzie jest mama?"
+    },
+    {
+      "prompt": "ERROR — Co? when asking who →",
+      "choices": [
+        "Kto?",
+        "Co?",
+        "Gdzie?",
+        "Jak?"
+      ],
+      "answer": "Kto?"
+    },
+    {
+      "prompt": "ERROR — Kto to jest? when asking what →",
+      "choices": [
+        "Co to jest?",
+        "Kto to jest?",
+        "Gdzie to jest?",
+        "Jak to jest?"
+      ],
+      "answer": "Co to jest?"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "What?",
+      "mode": "full_word",
+      "answer": "Co?",
+      "accepts": [
+        "Co?",
+        "co"
+      ]
+    },
+    {
+      "prompt_en": "Who?",
+      "mode": "full_word",
+      "answer": "Kto?",
+      "accepts": [
+        "Kto?",
+        "kto"
+      ]
+    },
+    {
+      "prompt_en": "Where?",
+      "mode": "full_word",
+      "answer": "Gdzie?",
+      "accepts": [
+        "Gdzie?",
+        "gdzie"
+      ]
+    },
+    {
+      "prompt_en": "How?",
+      "mode": "full_word",
+      "answer": "Jak?",
+      "accepts": [
+        "Jak?",
+        "jak"
+      ]
+    },
+    {
+      "prompt_en": "What is this?",
+      "mode": "full_word",
+      "answer": "Co to jest?",
+      "accepts": [
+        "Co to jest?"
+      ]
+    },
+    {
+      "prompt_en": "Who is this?",
+      "mode": "full_word",
+      "answer": "Kto to jest?",
+      "accepts": [
+        "Kto to jest?"
+      ]
+    },
+    {
+      "prompt_en": "How are you?",
+      "mode": "full_word",
+      "answer": "Jak się masz?",
+      "accepts": [
+        "Jak się masz?"
+      ]
+    },
+    {
+      "prompt_en": "Where do you live?",
+      "mode": "full_word",
+      "answer": "Gdzie mieszkasz?",
+      "accepts": [
+        "Gdzie mieszkasz?"
+      ]
+    },
+    {
+      "prompt_en": "Do you have coffee?",
+      "mode": "full_word",
+      "answer": "Czy masz kawę?",
+      "accepts": [
+        "Czy masz kawę?"
+      ]
+    },
+    {
+      "prompt_en": "Where is mum?",
+      "mode": "full_word",
+      "answer": "Gdzie jest mama?",
+      "accepts": [
+        "Gdzie jest mama?"
+      ]
+    },
+    {
+      "prompt_en": "Do you have tea?",
+      "mode": "full_word",
+      "answer": "Czy masz herbatę?",
+      "accepts": [
+        "Czy masz herbatę?"
+      ]
+    },
+    {
+      "prompt_en": "Where is dad?",
+      "mode": "full_word",
+      "answer": "Gdzie jest tata?",
+      "accepts": [
+        "Gdzie jest tata?"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: What is this?",
+      "answer": "Co to jest?",
+      "accepts": [
+        "Co to jest?",
+        "Co to jest"
+      ]
+    },
+    {
+      "prompt_en": "Type: Who is this?",
+      "answer": "Kto to jest?",
+      "accepts": [
+        "Kto to jest?",
+        "Kto to jest"
+      ]
+    },
+    {
+      "prompt_en": "Type: How are you?",
+      "answer": "Jak się masz?",
+      "accepts": [
+        "Jak się masz?",
+        "Jak się masz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where do you live?",
+      "answer": "Gdzie mieszkasz?",
+      "accepts": [
+        "Gdzie mieszkasz?",
+        "Gdzie mieszkasz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you have coffee?",
+      "answer": "Czy masz kawę?",
+      "accepts": [
+        "Czy masz kawę?",
+        "Czy masz kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where is mum?",
+      "answer": "Gdzie jest mama?",
+      "accepts": [
+        "Gdzie jest mama?",
+        "Gdzie jest mama"
+      ]
+    },
+    {
+      "prompt_en": "Type: What?",
+      "answer": "Co?",
+      "accepts": [
+        "Co?",
+        "Co"
+      ]
+    },
+    {
+      "prompt_en": "Type: Who?",
+      "answer": "Kto?",
+      "accepts": [
+        "Kto?",
+        "Kto"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where?",
+      "answer": "Gdzie?",
+      "accepts": [
+        "Gdzie?",
+        "Gdzie"
+      ]
+    },
+    {
+      "prompt_en": "Type: How?",
+      "answer": "Jak?",
+      "accepts": [
+        "Jak?",
+        "Jak"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you have tea?",
+      "answer": "Czy masz herbatę?",
+      "accepts": [
+        "Czy masz herbatę?",
+        "Czy masz herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where is dad?",
+      "answer": "Gdzie jest tata?",
+      "accepts": [
+        "Gdzie jest tata?",
+        "Gdzie jest tata",
+        "Gdzie jest ojciec?",
+        "Gdzie jest ojciec"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "question"
+  ],
+  "uses_structures": [
+    "question",
+    "to_jest",
+    "miec_acc",
+    "miec_present",
+    "byc_present",
+    "present_am"
+  ],
+  "teaches_lemmas": [
+    "co",
+    "kto",
+    "gdzie",
+    "jak",
+    "czy",
+    "co to jest",
+    "kto to jest",
+    "jak się masz",
+    "gdzie mieszkasz",
+    "czy masz"
+  ],
+  "uses_lemmas": [
+    "co",
+    "kto",
+    "gdzie",
+    "jak",
+    "czy",
+    "co to jest",
+    "kto to jest",
+    "jak się masz",
+    "gdzie mieszkasz",
+    "mama",
+    "kawa",
+    "kawę",
+    "masz",
+    "jest",
+    "mieszkasz"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_questions",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,153 +1,566 @@
 {
   "id": "a1_present",
-  "title": "Teraźniejszy (ja/ty/on)",
-  "title_en": "Present I / you / he",
+  "title": "Teraźniejszy · wzór -am (mieszkać / czytać)",
+  "title_en": "Present · -am class (mieszkać / czytać)",
   "level": "A1",
   "tree_node": "a1_present",
   "default_direction": "en_to_pl",
   "kind": "morphology",
-  "type": { "mode": "ending_gap" },
-  "check": { "sequence": ["match", "quiz"] },
-  "note": "Small verb set: mówić, mieszkać, lubić, chcieć — Type = ending gap.",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "ONE class (-am). mieszkać + czytać. Match = clean EN→form only (no error-cues on the match board). ERROR items live in Quiz. No w/na.",
+  "focus_structures": [
+    "present_am"
+  ],
   "intro": [
     {
-      "title": "A tiny present set",
-      "title_pl": "Mały zestaw teraźniejszy",
-      "body": "Polish present endings come in patterns. For A1 we lock four useful verbs and three persons: ja / ty / on·ona.",
-      "body_pl": "Cztery czasowniki, trzy osoby — nie cała odmiana."
+      "title": "One pattern · two verbs",
+      "title_pl": "Jeden wzorzec · dwa czasowniki",
+      "body": "This unit is only the -am set.\n\nmieszkać (to live) and czytać (to read) share the same endings:\n-am / -asz / -a / -amy / -acie / -ają\n\nAll six persons. Not być / mieć.",
+      "body_pl": "Tylko wzór -am: mieszkać i czytać. 6 osób."
     },
     {
-      "title": "mówić — to speak / say",
+      "title": "mieszkać",
       "table": {
-        "headers": ["Person", "Form", "English"],
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
         "rows": [
-          ["ja", "mówię", "I speak"],
-          ["ty", "mówisz", "you speak"],
-          ["on / ona", "mówi", "he / she speaks"]
+          [
+            "ja",
+            "mieszkam",
+            "I live"
+          ],
+          [
+            "ty",
+            "mieszkasz",
+            "you live (sg)"
+          ],
+          [
+            "on / ona",
+            "mieszka",
+            "he / she lives"
+          ],
+          [
+            "my",
+            "mieszkamy",
+            "we live"
+          ],
+          [
+            "wy",
+            "mieszkacie",
+            "you live (pl)"
+          ],
+          [
+            "oni / one",
+            "mieszkają",
+            "they live"
+          ]
         ]
       }
     },
     {
-      "title": "mieszkać — to live (reside)",
+      "title": "czytać — same endings",
       "table": {
-        "headers": ["Person", "Form", "English"],
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
         "rows": [
-          ["ja", "mieszkam", "I live"],
-          ["ty", "mieszkasz", "you live"],
-          ["on / ona", "mieszka", "he / she lives"]
-        ]
-      }
-    },
-    {
-      "title": "lubić — to like · chcieć — to want",
-      "table": {
-        "headers": ["Person", "lubić", "chcieć"],
-        "rows": [
-          ["ja", "lubię", "chcę"],
-          ["ty", "lubisz", "chcesz"],
-          ["on / ona", "lubi", "chce"]
+          [
+            "ja",
+            "czytam",
+            "I read"
+          ],
+          [
+            "ty",
+            "czytasz",
+            "you read (sg)"
+          ],
+          [
+            "on / ona",
+            "czyta",
+            "he / she reads"
+          ],
+          [
+            "my",
+            "czytamy",
+            "we read"
+          ],
+          [
+            "wy",
+            "czytacie",
+            "you read (pl)"
+          ],
+          [
+            "oni / one",
+            "czytają",
+            "they read"
+          ]
         ]
       }
     },
     {
       "title": "Examples",
       "examples": [
-        { "en": "I speak Polish.", "pl": "Mówię po polsku." },
-        { "en": "I live in Warsaw.", "pl": "Mieszkam w Warszawie." },
-        { "en": "I like coffee.", "pl": "Lubię kawę." },
-        { "en": "I want tea.", "pl": "Chcę herbatę." }
+        {
+          "en": "I live.",
+          "pl": "Mieszkam."
+        },
+        {
+          "en": "I read.",
+          "pl": "Czytam."
+        },
+        {
+          "en": "Mum lives.",
+          "pl": "Mama mieszka."
+        },
+        {
+          "en": "Brother reads.",
+          "pl": "Brat czyta."
+        },
+        {
+          "en": "We live.",
+          "pl": "Mieszkamy."
+        },
+        {
+          "en": "They read.",
+          "pl": "Czytają."
+        }
       ]
     }
   ],
   "match": [
-    { "en": "I speak", "pl": "mówię" },
-    { "en": "you speak (sg)", "pl": "mówisz" },
-    { "en": "I live (reside)", "pl": "mieszkam" },
-    { "en": "she lives", "pl": "mieszka" },
-    { "en": "I like", "pl": "lubię" },
-    { "en": "I want", "pl": "chcę" },
-    { "en": "you want (sg)", "pl": "chcesz" }
+    {
+      "en": "I live",
+      "pl": "mieszkam"
+    },
+    {
+      "en": "you live (sg)",
+      "pl": "mieszkasz"
+    },
+    {
+      "en": "he/she lives",
+      "pl": "mieszka"
+    },
+    {
+      "en": "we live",
+      "pl": "mieszkamy"
+    },
+    {
+      "en": "you live (pl)",
+      "pl": "mieszkacie"
+    },
+    {
+      "en": "they live",
+      "pl": "mieszkają"
+    },
+    {
+      "en": "I read",
+      "pl": "czytam"
+    },
+    {
+      "en": "you read (sg)",
+      "pl": "czytasz"
+    },
+    {
+      "en": "he/she reads",
+      "pl": "czyta"
+    },
+    {
+      "en": "we read",
+      "pl": "czytamy"
+    },
+    {
+      "en": "you read (pl)",
+      "pl": "czytacie"
+    },
+    {
+      "en": "they read",
+      "pl": "czytają"
+    }
   ],
   "quiz": [
     {
-      "prompt": "I speak →",
-      "choices": ["mówię", "mówisz", "mówi", "mówimy"],
-      "answer": "mówię"
+      "prompt": "I live →",
+      "choices": [
+        "mieszkam",
+        "mieszkasz",
+        "mieszka",
+        "mieszkamy"
+      ],
+      "answer": "mieszkam"
     },
     {
-      "prompt": "You (sg) live →",
-      "choices": ["mieszkam", "mieszkasz", "mieszka", "mieszkamy"],
+      "prompt": "You live (sg) →",
+      "choices": [
+        "mieszkam",
+        "mieszkasz",
+        "mieszka",
+        "mieszkacie"
+      ],
       "answer": "mieszkasz"
     },
     {
-      "prompt": "I like →",
-      "choices": ["lubię", "lubisz", "lubi", "lubimy"],
-      "answer": "lubię"
-    },
-    {
-      "prompt": "I want →",
-      "choices": ["chcę", "chcesz", "chce", "chcemy"],
-      "answer": "chcę"
-    },
-    {
-      "prompt": "He speaks →",
-      "choices": ["mówię", "mówisz", "mówi", "mówicie"],
-      "answer": "mówi"
-    },
-    {
-      "prompt": "I speak Polish:",
+      "prompt": "He/she lives →",
       "choices": [
-        "Mówię po polsku.",
-        "Mówisz po polsku.",
-        "Mówi po polsku.",
-        "Mieszkam po polsku."
+        "mieszkam",
+        "mieszkasz",
+        "mieszka",
+        "mieszkają"
       ],
-      "answer": "Mówię po polsku."
+      "answer": "mieszka"
+    },
+    {
+      "prompt": "We live →",
+      "choices": [
+        "mieszkam",
+        "mieszkamy",
+        "mieszkacie",
+        "mieszkają"
+      ],
+      "answer": "mieszkamy"
+    },
+    {
+      "prompt": "You live (pl) →",
+      "choices": [
+        "mieszkasz",
+        "mieszkamy",
+        "mieszkacie",
+        "mieszkają"
+      ],
+      "answer": "mieszkacie"
+    },
+    {
+      "prompt": "They live →",
+      "choices": [
+        "mieszka",
+        "mieszkamy",
+        "mieszkacie",
+        "mieszkają"
+      ],
+      "answer": "mieszkają"
+    },
+    {
+      "prompt": "I read →",
+      "choices": [
+        "czytam",
+        "czytasz",
+        "czyta",
+        "czytamy"
+      ],
+      "answer": "czytam"
+    },
+    {
+      "prompt": "You read (sg) →",
+      "choices": [
+        "czytam",
+        "czytasz",
+        "czyta",
+        "czytacie"
+      ],
+      "answer": "czytasz"
+    },
+    {
+      "prompt": "He/she reads →",
+      "choices": [
+        "czytam",
+        "czytasz",
+        "czyta",
+        "czytają"
+      ],
+      "answer": "czyta"
+    },
+    {
+      "prompt": "We read →",
+      "choices": [
+        "czytam",
+        "czytamy",
+        "czytacie",
+        "czytają"
+      ],
+      "answer": "czytamy"
+    },
+    {
+      "prompt": "ERROR — ja mieszka →",
+      "choices": [
+        "mieszkam",
+        "mieszkasz",
+        "mieszka",
+        "mieszkamy"
+      ],
+      "answer": "mieszkam"
+    },
+    {
+      "prompt": "ERROR — ty czytam →",
+      "choices": [
+        "czytam",
+        "czytasz",
+        "czyta",
+        "czytacie"
+      ],
+      "answer": "czytasz"
     }
   ],
   "type_items": [
-    { "prompt_en": "ja · mówić", "stem": "mów", "ending": "ię" },
-    { "prompt_en": "ty · mówić", "stem": "mów", "ending": "isz" },
-    { "prompt_en": "on/ona · mówić", "stem": "mów", "ending": "i" },
-    { "prompt_en": "ja · mieszkać", "stem": "mieszk", "ending": "am" },
-    { "prompt_en": "ty · mieszkać", "stem": "mieszk", "ending": "asz" },
-    { "prompt_en": "ja · lubić", "stem": "lub", "ending": "ię" },
-    { "prompt_en": "ja · chcieć", "stem": "chc", "ending": "ę", "hint": "ę not e" },
-    { "prompt_en": "ty · chcieć", "stem": "chc", "ending": "esz" }
+    {
+      "prompt_en": "I live",
+      "mode": "full_word",
+      "answer": "mieszkam",
+      "accepts": [
+        "mieszkam"
+      ]
+    },
+    {
+      "prompt_en": "you live (sg)",
+      "mode": "full_word",
+      "answer": "mieszkasz",
+      "accepts": [
+        "mieszkasz"
+      ]
+    },
+    {
+      "prompt_en": "he/she lives",
+      "mode": "full_word",
+      "answer": "mieszka",
+      "accepts": [
+        "mieszka"
+      ]
+    },
+    {
+      "prompt_en": "we live",
+      "mode": "full_word",
+      "answer": "mieszkamy",
+      "accepts": [
+        "mieszkamy"
+      ]
+    },
+    {
+      "prompt_en": "you live (pl)",
+      "mode": "full_word",
+      "answer": "mieszkacie",
+      "accepts": [
+        "mieszkacie"
+      ]
+    },
+    {
+      "prompt_en": "they live",
+      "mode": "full_word",
+      "answer": "mieszkają",
+      "accepts": [
+        "mieszkają"
+      ]
+    },
+    {
+      "prompt_en": "I read",
+      "mode": "full_word",
+      "answer": "czytam",
+      "accepts": [
+        "czytam"
+      ]
+    },
+    {
+      "prompt_en": "you read (sg)",
+      "mode": "full_word",
+      "answer": "czytasz",
+      "accepts": [
+        "czytasz"
+      ]
+    },
+    {
+      "prompt_en": "he/she reads",
+      "mode": "full_word",
+      "answer": "czyta",
+      "accepts": [
+        "czyta"
+      ]
+    },
+    {
+      "prompt_en": "we read",
+      "mode": "full_word",
+      "answer": "czytamy",
+      "accepts": [
+        "czytamy"
+      ]
+    },
+    {
+      "prompt_en": "you read (pl)",
+      "mode": "full_word",
+      "answer": "czytacie",
+      "accepts": [
+        "czytacie"
+      ]
+    },
+    {
+      "prompt_en": "they read",
+      "mode": "full_word",
+      "answer": "czytają",
+      "accepts": [
+        "czytają"
+      ]
+    }
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I speak Polish.",
-      "answer": "Mówię po polsku.",
-      "accepts": ["Mówię po polsku.", "Mówię po polsku", "Mowie po polsku."]
-    },
-    {
-      "prompt_en": "Type: I live in Warsaw.",
-      "answer": "Mieszkam w Warszawie.",
+      "prompt_en": "Type: I live.",
+      "answer": "Mieszkam.",
       "accepts": [
-        "Mieszkam w Warszawie.",
-        "Mieszkam w Warszawie",
-        "Mieszkam w Warszawie"
+        "Mieszkam.",
+        "Mieszkam"
       ]
     },
     {
-      "prompt_en": "Type: I like coffee.",
-      "answer": "Lubię kawę.",
-      "accepts": ["Lubię kawę.", "Lubię kawę", "Lubie kawe."]
-    },
-    {
-      "prompt_en": "Type: I want tea.",
-      "answer": "Chcę herbatę.",
-      "accepts": ["Chcę herbatę.", "Chcę herbatę", "Chce herbate."]
-    },
-    {
-      "prompt_en": "Type: You speak English. (sg)",
-      "answer": "Mówisz po angielsku.",
+      "prompt_en": "Type: You live. (sg)",
+      "answer": "Mieszkasz.",
       "accepts": [
-        "Mówisz po angielsku.",
-        "Mówisz po angielsku",
-        "Mowisz po angielsku."
+        "Mieszkasz.",
+        "Mieszkasz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum lives.",
+      "answer": "Mama mieszka.",
+      "accepts": [
+        "Mama mieszka.",
+        "Mama mieszka",
+        "Ona mieszka.",
+        "Ona mieszka"
+      ]
+    },
+    {
+      "prompt_en": "Type: We live.",
+      "answer": "Mieszkamy.",
+      "accepts": [
+        "Mieszkamy.",
+        "Mieszkamy"
+      ]
+    },
+    {
+      "prompt_en": "Type: You live. (pl)",
+      "answer": "Mieszkacie.",
+      "accepts": [
+        "Mieszkacie.",
+        "Mieszkacie"
+      ]
+    },
+    {
+      "prompt_en": "Type: They live.",
+      "answer": "Mieszkają.",
+      "accepts": [
+        "Mieszkają.",
+        "Mieszkają"
+      ]
+    },
+    {
+      "prompt_en": "Type: I read.",
+      "answer": "Czytam.",
+      "accepts": [
+        "Czytam.",
+        "Czytam"
+      ]
+    },
+    {
+      "prompt_en": "Type: You read. (sg)",
+      "answer": "Czytasz.",
+      "accepts": [
+        "Czytasz.",
+        "Czytasz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Brother reads.",
+      "answer": "Brat czyta.",
+      "accepts": [
+        "Brat czyta.",
+        "Brat czyta",
+        "On czyta.",
+        "On czyta"
+      ]
+    },
+    {
+      "prompt_en": "Type: We read.",
+      "answer": "Czytamy.",
+      "accepts": [
+        "Czytamy.",
+        "Czytamy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Sister reads.",
+      "answer": "Siostra czyta.",
+      "accepts": [
+        "Siostra czyta.",
+        "Siostra czyta"
+      ]
+    },
+    {
+      "prompt_en": "Type: They read.",
+      "answer": "Czytają.",
+      "accepts": [
+        "Czytają.",
+        "Czytają"
       ]
     }
-  ]
+  ],
+  "teaches_structures": [
+    "present_am",
+    "present"
+  ],
+  "uses_structures": [
+    "present_am",
+    "present"
+  ],
+  "teaches_lemmas": [
+    "mieszkać",
+    "mieszkam",
+    "mieszkasz",
+    "mieszka",
+    "mieszkamy",
+    "mieszkacie",
+    "mieszkają",
+    "czytać",
+    "czytam",
+    "czytasz",
+    "czyta",
+    "czytamy",
+    "czytacie",
+    "czytają"
+  ],
+  "uses_lemmas": [
+    "mieszkać",
+    "mieszkam",
+    "mieszkasz",
+    "mieszka",
+    "mieszkamy",
+    "mieszkacie",
+    "mieszkają",
+    "czytać",
+    "czytam",
+    "czytasz",
+    "czyta",
+    "czytamy",
+    "czytacie",
+    "czytają",
+    "mama",
+    "tata",
+    "ojciec",
+    "brat",
+    "siostra"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_present",
+    "pool_model": "cumulative_focus_recycle"
+  }
 }

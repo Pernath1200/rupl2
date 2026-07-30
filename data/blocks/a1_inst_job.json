@@ -1,0 +1,509 @@
+{
+  "id": "a1_inst_job",
+  "title": "Być + zawód · narzędnik",
+  "title_en": "Be + job · instrumental",
+  "level": "A1",
+  "tree_node": "a1_inst_job",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "P1: identity only — jestem + Inst job. After Acc + place preps.",
+  "focus_structures": [
+    "inst_identity"
+  ],
+  "intro": [
+    {
+      "title": "Who you are (job / role)",
+      "title_pl": "Kim jesteś (zawód)",
+      "body": "English: I am a teacher (same form as the noun).\nPolish: Jestem nauczycielem — the job noun often takes the instrumental (narzędnik) after być for identity.\n\nThis unit: a small job set, masculine and feminine pairs.",
+      "body_pl": "Jestem + narzędnik zawodu. Mały zestaw."
+    },
+    {
+      "title": "jestem / jesteś / jest + Inst",
+      "table": {
+        "headers": [
+          "EN",
+          "PL (m)",
+          "PL (f)"
+        ],
+        "rows": [
+          [
+            "student",
+            "studentem",
+            "studentką"
+          ],
+          [
+            "teacher",
+            "nauczycielem",
+            "nauczycielką"
+          ],
+          [
+            "doctor",
+            "lekarzem",
+            "lekarką"
+          ],
+          [
+            "waiter / waitress",
+            "kelnerem",
+            "kelnerką"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "I am a student. (m)",
+          "pl": "Jestem studentem."
+        },
+        {
+          "en": "I am a student. (f)",
+          "pl": "Jestem studentką."
+        },
+        {
+          "en": "You are a teacher. (sg, m)",
+          "pl": "Jesteś nauczycielem."
+        },
+        {
+          "en": "She is a doctor.",
+          "pl": "Ona jest lekarką."
+        },
+        {
+          "en": "He is a waiter.",
+          "pl": "On jest kelnerem."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I am a student (m)",
+      "pl": "Jestem studentem"
+    },
+    {
+      "en": "I am a student (f)",
+      "pl": "Jestem studentką"
+    },
+    {
+      "en": "you are a teacher (sg, m)",
+      "pl": "Jesteś nauczycielem"
+    },
+    {
+      "en": "you are a teacher (sg, f)",
+      "pl": "Jesteś nauczycielką"
+    },
+    {
+      "en": "he is a doctor",
+      "pl": "On jest lekarzem"
+    },
+    {
+      "en": "she is a doctor",
+      "pl": "Ona jest lekarką"
+    },
+    {
+      "en": "he is a waiter",
+      "pl": "On jest kelnerem"
+    },
+    {
+      "en": "she is a waitress",
+      "pl": "Ona jest kelnerką"
+    },
+    {
+      "en": "I am a teacher (m)",
+      "pl": "Jestem nauczycielem"
+    },
+    {
+      "en": "I am a doctor (f)",
+      "pl": "Jestem lekarką"
+    },
+    {
+      "en": "you are a student (sg, m)",
+      "pl": "Jesteś studentem"
+    },
+    {
+      "en": "she is a teacher",
+      "pl": "Ona jest nauczycielką"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I am a student (m) →",
+      "choices": [
+        "Jestem studentem.",
+        "Jestem student.",
+        "Jestem studenta.",
+        "To jest student."
+      ],
+      "answer": "Jestem studentem."
+    },
+    {
+      "prompt": "I am a student (f) →",
+      "choices": [
+        "Jestem studentką.",
+        "Jestem studentka.",
+        "Jestem studentem.",
+        "Jestem student."
+      ],
+      "answer": "Jestem studentką."
+    },
+    {
+      "prompt": "You are a teacher (sg, m) →",
+      "choices": [
+        "Jesteś nauczycielem.",
+        "Jesteś nauczyciel.",
+        "Jesteś nauczyciela.",
+        "Jest nauczycielem."
+      ],
+      "answer": "Jesteś nauczycielem."
+    },
+    {
+      "prompt": "She is a doctor →",
+      "choices": [
+        "Ona jest lekarką.",
+        "Ona jest lekarz.",
+        "Ona jest lekarka.",
+        "Jest lekarzem."
+      ],
+      "answer": "Ona jest lekarką."
+    },
+    {
+      "prompt": "He is a waiter →",
+      "choices": [
+        "On jest kelnerem.",
+        "On jest kelner.",
+        "On jest kelnera.",
+        "Jest kelnerką."
+      ],
+      "answer": "On jest kelnerem."
+    },
+    {
+      "prompt": "I am a teacher (f) →",
+      "choices": [
+        "Jestem nauczycielką.",
+        "Jestem nauczycielka.",
+        "Jestem nauczycielem.",
+        "Jesteś nauczycielką."
+      ],
+      "answer": "Jestem nauczycielką."
+    },
+    {
+      "prompt": "ERROR — Jestem student →",
+      "choices": [
+        "Jestem studentem.",
+        "Jestem student.",
+        "Jestem studenta.",
+        "To student."
+      ],
+      "answer": "Jestem studentem."
+    },
+    {
+      "prompt": "You are a doctor (sg, m) →",
+      "choices": [
+        "Jesteś lekarzem.",
+        "Jesteś lekarz.",
+        "Jesteś lekarza.",
+        "Jestem lekarzem."
+      ],
+      "answer": "Jesteś lekarzem."
+    },
+    {
+      "prompt": "She is a waitress →",
+      "choices": [
+        "Ona jest kelnerką.",
+        "Ona jest kelnerka.",
+        "Ona jest kelnerem.",
+        "Jest kelner."
+      ],
+      "answer": "Ona jest kelnerką."
+    },
+    {
+      "prompt": "I am a doctor (m) →",
+      "choices": [
+        "Jestem lekarzem.",
+        "Jestem lekarz.",
+        "Jestem lekarką.",
+        "Jesteś lekarzem."
+      ],
+      "answer": "Jestem lekarzem."
+    },
+    {
+      "prompt": "He is a student →",
+      "choices": [
+        "On jest studentem.",
+        "On jest student.",
+        "On jest studenta.",
+        "Jestem studentem."
+      ],
+      "answer": "On jest studentem."
+    },
+    {
+      "prompt": "You are a teacher (sg, f) →",
+      "choices": [
+        "Jesteś nauczycielką.",
+        "Jesteś nauczycielka.",
+        "Jesteś nauczycielem.",
+        "Jest nauczycielką."
+      ],
+      "answer": "Jesteś nauczycielką."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "student (m)",
+      "mode": "full_word",
+      "answer": "studentem",
+      "accepts": [
+        "studentem"
+      ]
+    },
+    {
+      "prompt_en": "student (f)",
+      "mode": "full_word",
+      "answer": "studentką",
+      "accepts": [
+        "studentką"
+      ]
+    },
+    {
+      "prompt_en": "teacher (m)",
+      "mode": "full_word",
+      "answer": "nauczycielem",
+      "accepts": [
+        "nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "teacher (f)",
+      "mode": "full_word",
+      "answer": "nauczycielką",
+      "accepts": [
+        "nauczycielką"
+      ]
+    },
+    {
+      "prompt_en": "doctor (m)",
+      "mode": "full_word",
+      "answer": "lekarzem",
+      "accepts": [
+        "lekarzem"
+      ]
+    },
+    {
+      "prompt_en": "doctor (f)",
+      "mode": "full_word",
+      "answer": "lekarką",
+      "accepts": [
+        "lekarką"
+      ]
+    },
+    {
+      "prompt_en": "waiter (m)",
+      "mode": "full_word",
+      "answer": "kelnerem",
+      "accepts": [
+        "kelnerem"
+      ]
+    },
+    {
+      "prompt_en": "waitress (f)",
+      "mode": "full_word",
+      "answer": "kelnerką",
+      "accepts": [
+        "kelnerką"
+      ]
+    },
+    {
+      "prompt_en": "I am a student (m) — job word",
+      "mode": "full_word",
+      "answer": "studentem",
+      "accepts": [
+        "studentem"
+      ]
+    },
+    {
+      "prompt_en": "I am a teacher (f) — job word",
+      "mode": "full_word",
+      "answer": "nauczycielką",
+      "accepts": [
+        "nauczycielką"
+      ]
+    },
+    {
+      "prompt_en": "he is a doctor — job word",
+      "mode": "full_word",
+      "answer": "lekarzem",
+      "accepts": [
+        "lekarzem"
+      ]
+    },
+    {
+      "prompt_en": "she is a waitress — job word",
+      "mode": "full_word",
+      "answer": "kelnerką",
+      "accepts": [
+        "kelnerką"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I am a student. (m)",
+      "answer": "Jestem studentem.",
+      "accepts": [
+        "Jestem studentem.",
+        "Jestem studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am a student. (f)",
+      "answer": "Jestem studentką.",
+      "accepts": [
+        "Jestem studentką.",
+        "Jestem studentką"
+      ]
+    },
+    {
+      "prompt_en": "Type: You are a teacher. (sg, m)",
+      "answer": "Jesteś nauczycielem.",
+      "accepts": [
+        "Jesteś nauczycielem.",
+        "Jesteś nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Type: You are a teacher. (sg, f)",
+      "answer": "Jesteś nauczycielką.",
+      "accepts": [
+        "Jesteś nauczycielką.",
+        "Jesteś nauczycielką"
+      ]
+    },
+    {
+      "prompt_en": "Type: He is a doctor.",
+      "answer": "On jest lekarzem.",
+      "accepts": [
+        "On jest lekarzem.",
+        "On jest lekarzem",
+        "Jest lekarzem.",
+        "Jest lekarzem"
+      ]
+    },
+    {
+      "prompt_en": "Type: She is a doctor.",
+      "answer": "Ona jest lekarką.",
+      "accepts": [
+        "Ona jest lekarką.",
+        "Ona jest lekarką",
+        "Jest lekarką.",
+        "Jest lekarką"
+      ]
+    },
+    {
+      "prompt_en": "Type: He is a waiter.",
+      "answer": "On jest kelnerem.",
+      "accepts": [
+        "On jest kelnerem.",
+        "On jest kelnerem",
+        "Jest kelnerem.",
+        "Jest kelnerem"
+      ]
+    },
+    {
+      "prompt_en": "Type: She is a waitress.",
+      "answer": "Ona jest kelnerką.",
+      "accepts": [
+        "Ona jest kelnerką.",
+        "Ona jest kelnerką",
+        "Jest kelnerką.",
+        "Jest kelnerką"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am a teacher. (m)",
+      "answer": "Jestem nauczycielem.",
+      "accepts": [
+        "Jestem nauczycielem.",
+        "Jestem nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am a doctor. (f)",
+      "answer": "Jestem lekarką.",
+      "accepts": [
+        "Jestem lekarką.",
+        "Jestem lekarką"
+      ]
+    },
+    {
+      "prompt_en": "Type: You are a student. (sg, m)",
+      "answer": "Jesteś studentem.",
+      "accepts": [
+        "Jesteś studentem.",
+        "Jesteś studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: She is a teacher.",
+      "answer": "Ona jest nauczycielką.",
+      "accepts": [
+        "Ona jest nauczycielką.",
+        "Ona jest nauczycielką",
+        "Jest nauczycielką.",
+        "Jest nauczycielką"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "inst_identity"
+  ],
+  "uses_structures": [
+    "inst_identity",
+    "byc_present"
+  ],
+  "teaches_lemmas": [
+    "studentem",
+    "studentką",
+    "nauczycielem",
+    "nauczycielką",
+    "lekarzem",
+    "lekarką",
+    "kelnerem",
+    "kelnerką",
+    "student",
+    "studentka",
+    "nauczyciel",
+    "nauczycielka",
+    "lekarz",
+    "lekarka",
+    "kelner",
+    "kelnerka"
+  ],
+  "uses_lemmas": [
+    "studentem",
+    "studentką",
+    "nauczycielem",
+    "nauczycielką",
+    "lekarzem",
+    "lekarką",
+    "kelnerem",
+    "kelnerką",
+    "jestem",
+    "jesteś",
+    "jest"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_inst_job",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

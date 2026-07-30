@@ -6,155 +6,619 @@
   "tree_node": "a1_miec",
   "default_direction": "en_to_pl",
   "kind": "morphology",
-  "type": { "mode": "ending_gap" },
-  "check": { "sequence": ["match", "quiz"] },
-  "note": "mieć grid (full word) + Acc f -ę gaps. Soft negation: nie mam.",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "mieć present grid + Acc object (positive only). Genitive-of-negation chunks → planned a1_negation unit — not this pack.",
+  "focus_structures": [
+    "miec_present",
+    "miec_acc"
+  ],
   "intro": [
     {
-      "title": "Mieć — to have",
-      "title_pl": "Mieć",
-      "body": "Learn the forms of mieć (to have). After mam / masz / ma you often need the object form of the noun.",
-      "body_pl": "Formy mieć. Po mam / masz / ma rzeczownik często zmienia końcówkę."
+      "title": "What the accusative does",
+      "title_pl": "Co robi biernik",
+      "body": "The English name accusative comes from Latin ideas of “charging / pointing at” something. The Polish name biernik is linked to brać (to take): the form of the thing you take, have, want, or “aim the verb at”.\n\nIn plain terms: the accusative marks the object — what the action is directed at.",
+      "body_pl": "Angielskie accusative ≈ „wskazać / oskarżyć o”. Polskie biernik łączy się z brać: forma tego, co bierzemy, mamy, chcemy.\n\nProsto: biernik to dopełnienie — to, na co skierowane jest działanie."
     },
     {
-      "title": "Person × form",
-      "table": {
-        "headers": ["Person", "Polish", "English"],
-        "rows": [
-          ["ja", "mam", "I have"],
-          ["ty", "masz", "you have (sg)"],
-          ["on / ona / ono", "ma", "he / she / it has"],
-          ["my", "mamy", "we have"],
-          ["wy", "macie", "you have (pl)"],
-          ["oni / one", "mają", "they have"]
-        ]
-      }
-    },
-    {
-      "title": "Objects you need (accusative light)",
-      "body": "Feminine -a often → -ę in the object slot. Some words look the same in nom and acc.",
-      "table": {
-        "headers": ["Nominative", "As object (acc)", "In a phrase"],
-        "rows": [
-          ["kawa (f)", "kawę", "mam kawę"],
-          ["herbata (f)", "herbatę", "chcę herbatę"],
-          ["książka (f)", "książkę", "mam książkę"],
-          ["czas (m)", "czas", "mam czas / nie mam czasu*"],
-          ["pieniądze (pl)", "pieniądze", "mam pieniądze"]
-        ]
-      }
-    },
-    {
-      "title": "A fixed phrase",
-      "title_pl": "Stała fraza",
-      "body": "Learn nie mam czasu as a whole phrase: I don’t have time.",
-      "body_pl": "Naucz się w całości: nie mam czasu."
-    },
-    {
-      "title": "Examples",
+      "title": "Subject and object",
+      "title_pl": "Podmiot i dopełnienie",
+      "body": "Subject = who does the action (often nominative — mianownik).\nObject = what they act on (often accusative — biernik).\n\nEnglish: I (subject) have coffee (object).\nPolish: Ja mam kawę. — ja is the haver; kawę is what is had.",
+      "body_pl": "Podmiot = kto działa (często mianownik).\nDopełnienie = na czym działa (często biernik).\n\nJa mam kawę. — ja ma; kawę jest „brana” przez mieć.",
       "examples": [
-        { "en": "I have coffee.", "pl": "Mam kawę." },
-        { "en": "Do you have time?", "pl": "Masz czas?" },
-        { "en": "I don't have time.", "pl": "Nie mam czasu." },
-        { "en": "She has a book.", "pl": "Ona ma książkę." }
+        {
+          "en": "I have coffee.",
+          "pl": "Mam kawę."
+        },
+        {
+          "en": "She has a book.",
+          "pl": "Ona ma książkę."
+        }
+      ]
+    },
+    {
+      "title": "Mieć — the verb forms",
+      "title_pl": "Mieć — formy",
+      "body": "First lock the person forms of mieć. Then put the object in the accusative after them.",
+      "body_pl": "Najpierw formy mieć, potem dopełnienie w bierniku.",
+      "table": {
+        "headers": [
+          "Person",
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mam",
+            "I have"
+          ],
+          [
+            "ty",
+            "masz",
+            "you have (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "ma",
+            "he / she / it has"
+          ],
+          [
+            "my",
+            "mamy",
+            "we have"
+          ],
+          [
+            "wy",
+            "macie",
+            "you have (pl)"
+          ],
+          [
+            "oni / one",
+            "mają",
+            "they have"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Accusative by gender (A1 light)",
+      "title_pl": "Biernik według rodzaju",
+      "body": "The object form depends on the noun’s gender (and a bit more later). A1 pattern you need now:",
+      "body_pl": "Forma dopełnienia zależy od rodzaju. Na A1:",
+      "table": {
+        "headers": [
+          "Gender",
+          "Nominative (name it)",
+          "Accusative (have it)",
+          "Example"
+        ],
+        "rows": [
+          [
+            "masculine (thing)",
+            "dom, sok, chleb",
+            "often same as nom",
+            "mam dom · mam sok"
+          ],
+          [
+            "masculine (person/animal)",
+            "kot, brat",
+            "often -a",
+            "mam kota · mam brata"
+          ],
+          [
+            "feminine (-a)",
+            "kawa, książka, siostra",
+            "-a → -ę",
+            "mam kawę · mam książkę · mam siostrę"
+          ],
+          [
+            "neuter (-o / -e)",
+            "piwo, miasto, mleko",
+            "often same as nom",
+            "mam piwo · mam mleko"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Feminine -ę (the clear change)",
+      "title_pl": "Żeńskie -ę (widać zmianę)",
+      "body": "Most feminine nouns in -a show the accusative clearly: -a becomes -ę. Drill this first — it is the most visible Acc signal at A1.",
+      "body_pl": "Większość żeńskich na -a: -a → -ę. To najczytelniejszy sygnał biernika na A1.",
+      "table": {
+        "headers": [
+          "Nominative",
+          "Accusative",
+          "With mieć"
+        ],
+        "rows": [
+          [
+            "kawa",
+            "kawę",
+            "mam kawę"
+          ],
+          [
+            "herbata",
+            "herbatę",
+            "mam herbatę"
+          ],
+          [
+            "woda",
+            "wodę",
+            "mam wodę"
+          ],
+          [
+            "książka",
+            "książkę",
+            "mam książkę"
+          ],
+          [
+            "siostra",
+            "siostrę",
+            "mam siostrę"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Statements and questions",
+      "title_pl": "Zdania i pytania",
+      "body": "Same Acc after mieć in questions. (No negation here — nie + object uses another case later.)",
+      "body_pl": "W pytaniach ten sam biernik. (Bez przeczenia — nie + dopełnienie to inny przypadek, później.)",
+      "examples": [
+        {
+          "en": "I have coffee.",
+          "pl": "Mam kawę."
+        },
+        {
+          "en": "Do you have coffee? (sg)",
+          "pl": "Masz kawę?"
+        },
+        {
+          "en": "She has a book.",
+          "pl": "Ona ma książkę."
+        },
+        {
+          "en": "Do you have a book? (sg)",
+          "pl": "Masz książkę?"
+        },
+        {
+          "en": "I have a sister.",
+          "pl": "Mam siostrę."
+        },
+        {
+          "en": "We have beer.",
+          "pl": "Mamy piwo."
+        }
       ]
     }
   ],
   "match": [
-    { "en": "I have", "pl": "mam" },
-    { "en": "you have (sg)", "pl": "masz" },
-    { "en": "he/she has", "pl": "ma" },
-    { "en": "we have", "pl": "mamy" },
-    { "en": "coffee (as object)", "pl": "kawę" },
-    { "en": "I don't have time", "pl": "Nie mam czasu" }
+    {
+      "en": "I have",
+      "pl": "mam"
+    },
+    {
+      "en": "you have (sg)",
+      "pl": "masz"
+    },
+    {
+      "en": "he/she has",
+      "pl": "ma"
+    },
+    {
+      "en": "we have",
+      "pl": "mamy"
+    },
+    {
+      "en": "you have (pl)",
+      "pl": "macie"
+    },
+    {
+      "en": "they have",
+      "pl": "mają"
+    },
+    {
+      "en": "coffee (as object)",
+      "pl": "kawę"
+    },
+    {
+      "en": "tea (as object)",
+      "pl": "herbatę"
+    },
+    {
+      "en": "water (as object)",
+      "pl": "wodę"
+    },
+    {
+      "en": "book (as object)",
+      "pl": "książkę"
+    },
+    {
+      "en": "sister (as object)",
+      "pl": "siostrę"
+    },
+    {
+      "en": "I have coffee",
+      "pl": "Mam kawę."
+    }
   ],
   "quiz": [
     {
       "prompt": "I have → which form?",
-      "choices": ["mam", "masz", "ma", "mamy"],
+      "choices": [
+        "mam",
+        "masz",
+        "ma",
+        "mamy"
+      ],
       "answer": "mam"
     },
     {
       "prompt": "You (sg) have →",
-      "choices": ["mam", "masz", "mają", "macie"],
+      "choices": [
+        "mam",
+        "masz",
+        "mają",
+        "macie"
+      ],
       "answer": "masz"
     },
     {
-      "prompt": "Coffee as object of mam: mam ___",
-      "choices": ["kawa", "kawę", "kawy", "kawą"],
+      "prompt": "He/she has →",
+      "choices": [
+        "mam",
+        "masz",
+        "ma",
+        "mamy"
+      ],
+      "answer": "ma"
+    },
+    {
+      "prompt": "We have →",
+      "choices": [
+        "mam",
+        "macie",
+        "mamy",
+        "mają"
+      ],
+      "answer": "mamy"
+    },
+    {
+      "prompt": "They have →",
+      "choices": [
+        "ma",
+        "mamy",
+        "macie",
+        "mają"
+      ],
+      "answer": "mają"
+    },
+    {
+      "prompt": "Coffee as object: mam ___",
+      "choices": [
+        "kawa",
+        "kawę",
+        "kawy",
+        "kawą"
+      ],
       "answer": "kawę"
     },
     {
-      "prompt": "I don't have time (fixed chunk):",
-      "choices": ["Nie mam czas", "Nie mam czasu", "Nie masz czas", "Mam nie czas"],
-      "answer": "Nie mam czasu"
+      "prompt": "Tea as object: mam ___",
+      "choices": [
+        "herbata",
+        "herbatę",
+        "herbaty",
+        "herbatą"
+      ],
+      "answer": "herbatę"
+    },
+    {
+      "prompt": "Water as object: mam ___",
+      "choices": [
+        "woda",
+        "wodę",
+        "wody",
+        "wodą"
+      ],
+      "answer": "wodę"
+    },
+    {
+      "prompt": "Book as object: mam ___",
+      "choices": [
+        "książka",
+        "książkę",
+        "książki",
+        "książką"
+      ],
+      "answer": "książkę"
+    },
+    {
+      "prompt": "Sister as object: mam ___",
+      "choices": [
+        "siostra",
+        "siostrę",
+        "siostry",
+        "siostrą"
+      ],
+      "answer": "siostrę"
     },
     {
       "prompt": "She has a book:",
-      "choices": ["Ona ma książka", "Ona ma książkę", "Ona mam książkę", "Ona masz książkę"],
+      "choices": [
+        "Ona ma książka",
+        "Ona ma książkę",
+        "Ona mam książkę",
+        "Ona masz książkę"
+      ],
       "answer": "Ona ma książkę"
+    },
+    {
+      "prompt": "I have coffee:",
+      "choices": [
+        "Mam kawa.",
+        "Mam kawę.",
+        "Mam kawy.",
+        "Mam kawą."
+      ],
+      "answer": "Mam kawę."
     }
   ],
   "type_items": [
     {
-      "prompt_en": "I have (full form)",
+      "prompt_en": "I have (verb form only)",
       "mode": "full_word",
       "answer": "mam",
-      "accepts": ["mam"]
+      "accepts": [
+        "mam"
+      ]
     },
     {
-      "prompt_en": "you have (sg)",
+      "prompt_en": "you have sg (verb form only)",
       "mode": "full_word",
       "answer": "masz",
-      "accepts": ["masz"]
+      "accepts": [
+        "masz"
+      ]
     },
     {
-      "prompt_en": "he/she has",
+      "prompt_en": "he/she has (verb form only)",
       "mode": "full_word",
       "answer": "ma",
-      "accepts": ["ma"]
+      "accepts": [
+        "ma"
+      ]
     },
     {
-      "prompt_en": "we have",
+      "prompt_en": "we have (verb form only)",
       "mode": "full_word",
       "answer": "mamy",
-      "accepts": ["mamy"]
+      "accepts": [
+        "mamy"
+      ]
     },
-    { "prompt_en": "kawa → Acc ending", "stem": "kaw", "ending": "ę" },
-    { "prompt_en": "herbata → Acc ending", "stem": "herbat", "ending": "ę" },
-    { "prompt_en": "książka → Acc ending", "stem": "książk", "ending": "ę" },
-    { "prompt_en": "woda → Acc ending", "stem": "wod", "ending": "ę" }
+    {
+      "prompt_en": "you have pl (verb form only)",
+      "mode": "full_word",
+      "answer": "macie",
+      "accepts": [
+        "macie"
+      ]
+    },
+    {
+      "prompt_en": "they have (verb form only)",
+      "mode": "full_word",
+      "answer": "mają",
+      "accepts": [
+        "mają"
+      ]
+    },
+    {
+      "prompt_en": "kawa → Acc (one word)",
+      "mode": "full_word",
+      "answer": "kawę",
+      "accepts": [
+        "kawę"
+      ]
+    },
+    {
+      "prompt_en": "herbata → Acc (one word)",
+      "mode": "full_word",
+      "answer": "herbatę",
+      "accepts": [
+        "herbatę"
+      ]
+    },
+    {
+      "prompt_en": "woda → Acc (one word)",
+      "mode": "full_word",
+      "answer": "wodę",
+      "accepts": [
+        "wodę"
+      ]
+    },
+    {
+      "prompt_en": "książka → Acc (one word)",
+      "mode": "full_word",
+      "answer": "książkę",
+      "accepts": [
+        "książkę"
+      ]
+    },
+    {
+      "prompt_en": "siostra → Acc (one word)",
+      "mode": "full_word",
+      "answer": "siostrę",
+      "accepts": [
+        "siostrę"
+      ]
+    },
+    {
+      "prompt_en": "kot → Acc (one word)",
+      "mode": "full_word",
+      "answer": "kota",
+      "accepts": [
+        "kota"
+      ]
+    }
   ],
   "use_items": [
     {
       "prompt_en": "Type: I have coffee.",
       "answer": "Mam kawę.",
-      "accepts": ["Mam kawę.", "Mam kawę", "Mam kawe."]
+      "accepts": [
+        "Mam kawę.",
+        "Mam kawę"
+      ]
     },
     {
-      "prompt_en": "Type: You have time. (sg)",
-      "answer": "Masz czas.",
-      "accepts": ["Masz czas.", "Masz czas"]
+      "prompt_en": "Type: I have tea.",
+      "answer": "Mam herbatę.",
+      "accepts": [
+        "Mam herbatę.",
+        "Mam herbatę"
+      ]
     },
     {
-      "prompt_en": "Type: I don't have time.",
-      "answer": "Nie mam czasu.",
-      "accepts": ["Nie mam czasu.", "Nie mam czasu"]
+      "prompt_en": "Type: I have water.",
+      "answer": "Mam wodę.",
+      "accepts": [
+        "Mam wodę.",
+        "Mam wodę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a book.",
+      "answer": "Mam książkę.",
+      "accepts": [
+        "Mam książkę.",
+        "Mam książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: You have coffee. (sg)",
+      "answer": "Masz kawę.",
+      "accepts": [
+        "Masz kawę.",
+        "Masz kawę"
+      ]
     },
     {
       "prompt_en": "Type: She has a book.",
       "answer": "Ona ma książkę.",
       "accepts": [
         "Ona ma książkę.",
-        "Ona ma książkę",
         "Ma książkę.",
-        "Ma książkę"
+        "Ona ma książkę"
       ]
     },
     {
-      "prompt_en": "Type: We have money.",
-      "answer": "Mamy pieniądze.",
-      "accepts": ["Mamy pieniądze.", "Mamy pieniądze", "Mamy pieniadze."]
+      "prompt_en": "Type: I have a sister.",
+      "answer": "Mam siostrę.",
+      "accepts": [
+        "Mam siostrę.",
+        "Mam siostrę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a house.",
+      "answer": "Mam dom.",
+      "accepts": [
+        "Mam dom.",
+        "Mam dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a cat.",
+      "answer": "Mam kota.",
+      "accepts": [
+        "Mam kota.",
+        "Mam kota"
+      ]
+    },
+    {
+      "prompt_en": "Type: We have coffee.",
+      "answer": "Mamy kawę.",
+      "accepts": [
+        "Mamy kawę.",
+        "Mamy kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: He has tea.",
+      "answer": "On ma herbatę.",
+      "accepts": [
+        "On ma herbatę.",
+        "Ma herbatę.",
+        "On ma herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have beer.",
+      "answer": "Mam piwo.",
+      "accepts": [
+        "Mam piwo.",
+        "Mam piwo"
+      ]
     }
-  ]
+  ],
+  "teaches_structures": [
+    "miec_present",
+    "miec_acc"
+  ],
+  "uses_structures": [
+    "miec_present",
+    "miec_acc"
+  ],
+  "teaches_lemmas": [
+    "mam",
+    "masz",
+    "ma",
+    "mamy",
+    "macie",
+    "mają",
+    "kawę",
+    "herbatę",
+    "wodę",
+    "książkę",
+    "siostrę",
+    "kota"
+  ],
+  "uses_lemmas": [
+    "mam",
+    "masz",
+    "ma",
+    "mamy",
+    "macie",
+    "mają",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "woda",
+    "wodę",
+    "piwo",
+    "dom",
+    "książka",
+    "książkę",
+    "siostra",
+    "siostrę",
+    "kot",
+    "kota"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_miec",
+    "pool_model": "cumulative_focus_recycle"
+  }
 }

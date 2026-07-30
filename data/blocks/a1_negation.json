@@ -1,0 +1,507 @@
+{
+  "id": "a1_negation",
+  "title": "Przeczenie · nie mam + dopełniacz",
+  "title_en": "Negation · nie mam + genitive",
+  "level": "A1",
+  "tree_node": "a1_negation",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "P2: nie + mieć flips object to genitive (nie mam kawy). Positive Acc already known.",
+  "focus_structures": [
+    "negation"
+  ],
+  "intro": [
+    {
+      "title": "I don't have…",
+      "title_pl": "Nie mam…",
+      "body": "Positive: Mam kawę. (accusative)\nNegative: Nie mam kawy. (genitive)\n\nGenitive of negation after nie mam — A1 only with mieć + a small object set.",
+      "body_pl": "Mam kawę. → Nie mam kawy. (dopełniacz po przeczeniu mieć)."
+    },
+    {
+      "title": "Closed set",
+      "table": {
+        "headers": [
+          "Have (Acc)",
+          "Don't have (Gen)"
+        ],
+        "rows": [
+          [
+            "mam kawę",
+            "nie mam kawy"
+          ],
+          [
+            "mam herbatę",
+            "nie mam herbaty"
+          ],
+          [
+            "mam wodę",
+            "nie mam wody"
+          ],
+          [
+            "mam czas",
+            "nie mam czasu"
+          ],
+          [
+            "mam książkę",
+            "nie mam książki"
+          ],
+          [
+            "mam dom",
+            "nie mam domu"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "I don't have coffee.",
+          "pl": "Nie mam kawy."
+        },
+        {
+          "en": "I don't have time.",
+          "pl": "Nie mam czasu."
+        },
+        {
+          "en": "You don't have tea. (sg)",
+          "pl": "Nie masz herbaty."
+        },
+        {
+          "en": "She doesn't have a book.",
+          "pl": "Ona nie ma książki."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I don't have coffee",
+      "pl": "nie mam kawy"
+    },
+    {
+      "en": "I don't have tea",
+      "pl": "nie mam herbaty"
+    },
+    {
+      "en": "I don't have water",
+      "pl": "nie mam wody"
+    },
+    {
+      "en": "I don't have time",
+      "pl": "nie mam czasu"
+    },
+    {
+      "en": "I don't have a book",
+      "pl": "nie mam książki"
+    },
+    {
+      "en": "I don't have a house",
+      "pl": "nie mam domu"
+    },
+    {
+      "en": "you don't have coffee (sg)",
+      "pl": "nie masz kawy"
+    },
+    {
+      "en": "she doesn't have tea",
+      "pl": "nie ma herbaty"
+    },
+    {
+      "en": "we don't have water",
+      "pl": "nie mamy wody"
+    },
+    {
+      "en": "you don't have a book (sg)",
+      "pl": "nie masz książki"
+    },
+    {
+      "en": "he doesn't have coffee",
+      "pl": "nie ma kawy"
+    },
+    {
+      "en": "they don't have time",
+      "pl": "nie mają czasu"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I don't have coffee →",
+      "choices": [
+        "Nie mam kawy.",
+        "Nie mam kawę.",
+        "Mam kawy.",
+        "Nie mam kawa."
+      ],
+      "answer": "Nie mam kawy."
+    },
+    {
+      "prompt": "I don't have time →",
+      "choices": [
+        "Nie mam czasu.",
+        "Nie mam czas.",
+        "Mam czasu.",
+        "Nie mam czasę."
+      ],
+      "answer": "Nie mam czasu."
+    },
+    {
+      "prompt": "I don't have tea →",
+      "choices": [
+        "Nie mam herbaty.",
+        "Nie mam herbatę.",
+        "Mam herbaty.",
+        "Nie mam herbata."
+      ],
+      "answer": "Nie mam herbaty."
+    },
+    {
+      "prompt": "You don't have coffee (sg) →",
+      "choices": [
+        "Nie masz kawy.",
+        "Nie masz kawę.",
+        "Nie mam kawy.",
+        "Masz kawy."
+      ],
+      "answer": "Nie masz kawy."
+    },
+    {
+      "prompt": "She doesn't have a book →",
+      "choices": [
+        "Ona nie ma książki.",
+        "Ona nie ma książkę.",
+        "Ona ma książki.",
+        "Nie ma książkę."
+      ],
+      "answer": "Ona nie ma książki."
+    },
+    {
+      "prompt": "ERROR — Nie mam kawę →",
+      "choices": [
+        "Nie mam kawy.",
+        "Nie mam kawę.",
+        "Mam kawę.",
+        "Nie mam kawa."
+      ],
+      "answer": "Nie mam kawy."
+    },
+    {
+      "prompt": "I don't have water →",
+      "choices": [
+        "Nie mam wody.",
+        "Nie mam wodę.",
+        "Mam wody.",
+        "Nie mam woda."
+      ],
+      "answer": "Nie mam wody."
+    },
+    {
+      "prompt": "I don't have a house →",
+      "choices": [
+        "Nie mam domu.",
+        "Nie mam dom.",
+        "Mam domu.",
+        "Nie mam domem."
+      ],
+      "answer": "Nie mam domu."
+    },
+    {
+      "prompt": "We don't have tea →",
+      "choices": [
+        "Nie mamy herbaty.",
+        "Nie mamy herbatę.",
+        "Mamy herbaty.",
+        "Nie mam herbaty."
+      ],
+      "answer": "Nie mamy herbaty."
+    },
+    {
+      "prompt": "You don't have time (sg) →",
+      "choices": [
+        "Nie masz czasu.",
+        "Nie masz czas.",
+        "Nie mam czasu.",
+        "Masz czasu."
+      ],
+      "answer": "Nie masz czasu."
+    },
+    {
+      "prompt": "ERROR — Nie mam książkę →",
+      "choices": [
+        "Nie mam książki.",
+        "Nie mam książkę.",
+        "Mam książkę.",
+        "Nie ma książki."
+      ],
+      "answer": "Nie mam książki."
+    },
+    {
+      "prompt": "she doesn't have tea → form",
+      "choices": [
+        "nie ma herbaty",
+        "nie ma herbatę",
+        "nie mam herbaty",
+        "ma herbaty"
+      ],
+      "answer": "nie ma herbaty"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I don't have coffee",
+      "mode": "full_word",
+      "answer": "nie mam kawy",
+      "accepts": [
+        "nie mam kawy"
+      ]
+    },
+    {
+      "prompt_en": "I don't have tea",
+      "mode": "full_word",
+      "answer": "nie mam herbaty",
+      "accepts": [
+        "nie mam herbaty"
+      ]
+    },
+    {
+      "prompt_en": "I don't have water",
+      "mode": "full_word",
+      "answer": "nie mam wody",
+      "accepts": [
+        "nie mam wody"
+      ]
+    },
+    {
+      "prompt_en": "I don't have time",
+      "mode": "full_word",
+      "answer": "nie mam czasu",
+      "accepts": [
+        "nie mam czasu"
+      ]
+    },
+    {
+      "prompt_en": "I don't have a book",
+      "mode": "full_word",
+      "answer": "nie mam książki",
+      "accepts": [
+        "nie mam książki"
+      ]
+    },
+    {
+      "prompt_en": "I don't have a house",
+      "mode": "full_word",
+      "answer": "nie mam domu",
+      "accepts": [
+        "nie mam domu"
+      ]
+    },
+    {
+      "prompt_en": "you don't have coffee (sg)",
+      "mode": "full_word",
+      "answer": "nie masz kawy",
+      "accepts": [
+        "nie masz kawy"
+      ]
+    },
+    {
+      "prompt_en": "she doesn't have tea",
+      "mode": "full_word",
+      "answer": "nie ma herbaty",
+      "accepts": [
+        "nie ma herbaty"
+      ]
+    },
+    {
+      "prompt_en": "we don't have water",
+      "mode": "full_word",
+      "answer": "nie mamy wody",
+      "accepts": [
+        "nie mamy wody"
+      ]
+    },
+    {
+      "prompt_en": "you don't have time (sg)",
+      "mode": "full_word",
+      "answer": "nie masz czasu",
+      "accepts": [
+        "nie masz czasu"
+      ]
+    },
+    {
+      "prompt_en": "he doesn't have a book",
+      "mode": "full_word",
+      "answer": "nie ma książki",
+      "accepts": [
+        "nie ma książki"
+      ]
+    },
+    {
+      "prompt_en": "they don't have coffee",
+      "mode": "full_word",
+      "answer": "nie mają kawy",
+      "accepts": [
+        "nie mają kawy"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I don't have coffee.",
+      "answer": "Nie mam kawy.",
+      "accepts": [
+        "Nie mam kawy.",
+        "Nie mam kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have tea.",
+      "answer": "Nie mam herbaty.",
+      "accepts": [
+        "Nie mam herbaty.",
+        "Nie mam herbaty"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have water.",
+      "answer": "Nie mam wody.",
+      "accepts": [
+        "Nie mam wody.",
+        "Nie mam wody"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have time.",
+      "answer": "Nie mam czasu.",
+      "accepts": [
+        "Nie mam czasu.",
+        "Nie mam czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have a book.",
+      "answer": "Nie mam książki.",
+      "accepts": [
+        "Nie mam książki.",
+        "Nie mam książki"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have a house.",
+      "answer": "Nie mam domu.",
+      "accepts": [
+        "Nie mam domu.",
+        "Nie mam domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: You don't have coffee. (sg)",
+      "answer": "Nie masz kawy.",
+      "accepts": [
+        "Nie masz kawy.",
+        "Nie masz kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: She doesn't have tea.",
+      "answer": "Ona nie ma herbaty.",
+      "accepts": [
+        "Ona nie ma herbaty.",
+        "Ona nie ma herbaty",
+        "Nie ma herbaty.",
+        "Nie ma herbaty"
+      ]
+    },
+    {
+      "prompt_en": "Type: We don't have water.",
+      "answer": "Nie mamy wody.",
+      "accepts": [
+        "Nie mamy wody.",
+        "Nie mamy wody"
+      ]
+    },
+    {
+      "prompt_en": "Type: You don't have time. (sg)",
+      "answer": "Nie masz czasu.",
+      "accepts": [
+        "Nie masz czasu.",
+        "Nie masz czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: He doesn't have a book.",
+      "answer": "On nie ma książki.",
+      "accepts": [
+        "On nie ma książki.",
+        "On nie ma książki",
+        "Nie ma książki.",
+        "Nie ma książki"
+      ]
+    },
+    {
+      "prompt_en": "Type: They don't have coffee.",
+      "answer": "Nie mają kawy.",
+      "accepts": [
+        "Nie mają kawy.",
+        "Nie mają kawy"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "negation"
+  ],
+  "uses_structures": [
+    "negation",
+    "miec_present",
+    "miec_acc"
+  ],
+  "teaches_lemmas": [
+    "nie mam",
+    "nie masz",
+    "nie ma",
+    "nie mamy",
+    "kawy",
+    "herbaty",
+    "wody",
+    "czasu",
+    "książki",
+    "czas",
+    "nie mają"
+  ],
+  "uses_lemmas": [
+    "nie mam",
+    "nie masz",
+    "nie ma",
+    "nie mamy",
+    "kawy",
+    "herbaty",
+    "wody",
+    "czasu",
+    "książki",
+    "domu",
+    "kawa",
+    "herbata",
+    "woda",
+    "czas",
+    "książka",
+    "dom",
+    "mam",
+    "masz",
+    "ma",
+    "nie mają"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_negation",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

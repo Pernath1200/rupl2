@@ -1,0 +1,514 @@
+{
+  "id": "a1_poss_simple",
+  "title": "Mój / twój · mianownik",
+  "title_en": "My / your · nominative",
+  "level": "A1",
+  "tree_node": "a1_poss_simple",
+  "default_direction": "en_to_pl",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Simple possessives: mój/moja/moje + twój/twoja/twoje · Nom only. Nouns ONLY from a1_gender (already covered): dom kot sklep · kawa książka herbata · miasto piwo morze. Pisanie = 1–2 words (poss+N), not full sentences. Użycie = short To jest… sentences with the same nouns.",
+  "intro": [
+    {
+      "title": "My and your agree with the noun",
+      "title_pl": "Mój i twój dopasowują się do rzeczownika",
+      "body": "Like adjectives later, mój and twój change ending with the noun’s gender. Today: nominative only. Nouns you already know from Rodzaj + to jest.",
+      "body_pl": "Mój i twój mają ten sam rodzaj co rzeczownik. Dziś tylko mianownik. Rzeczowniki z Rodzaj + to jest."
+    },
+    {
+      "title": "Words you already know",
+      "title_pl": "Słowa, które znasz",
+      "table": {
+        "headers": [
+          "męski",
+          "żeński",
+          "nijaki"
+        ],
+        "rows": [
+          [
+            "dom · kot · sklep",
+            "kawa · książka · herbata",
+            "miasto · piwo · morze"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "mój · my",
+      "title_pl": "mój · my",
+      "table": {
+        "headers": [
+          "Rodzaj",
+          "Forma",
+          "Przykład"
+        ],
+        "rows": [
+          [
+            "męski",
+            "mój",
+            "mój dom · mój kot"
+          ],
+          [
+            "żeński",
+            "moja",
+            "moja kawa · moja książka"
+          ],
+          [
+            "nijaki",
+            "moje",
+            "moje piwo · moje miasto"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "twój · your",
+      "title_pl": "twój · your",
+      "table": {
+        "headers": [
+          "Rodzaj",
+          "Forma",
+          "Przykład"
+        ],
+        "rows": [
+          [
+            "męski",
+            "twój",
+            "twój dom · twój sklep"
+          ],
+          [
+            "żeński",
+            "twoja",
+            "twoja herbata · twoja książka"
+          ],
+          [
+            "nijaki",
+            "twoje",
+            "twoje morze · twoje piwo"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "In a sentence (for later)",
+      "title_pl": "W zdaniu (na Użycie)",
+      "body": "Pisanie drills the short form. Użycie puts it after To jest…",
+      "body_pl": "Pisanie = krótka forma. Użycie = To jest + mój/twój…",
+      "examples": [
+        {
+          "en": "This is my house.",
+          "pl": "To jest mój dom."
+        },
+        {
+          "en": "This is your book.",
+          "pl": "To jest twoja książka."
+        },
+        {
+          "en": "This is my beer.",
+          "pl": "To jest moje piwo."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "my house",
+      "pl": "mój dom"
+    },
+    {
+      "en": "my coffee",
+      "pl": "moja kawa"
+    },
+    {
+      "en": "my beer",
+      "pl": "moje piwo"
+    },
+    {
+      "en": "your house",
+      "pl": "twój dom"
+    },
+    {
+      "en": "your book",
+      "pl": "twoja książka"
+    },
+    {
+      "en": "your city",
+      "pl": "twoje miasto"
+    },
+    {
+      "en": "my cat",
+      "pl": "mój kot"
+    },
+    {
+      "en": "your tea",
+      "pl": "twoja herbata"
+    },
+    {
+      "en": "my shop",
+      "pl": "mój sklep"
+    },
+    {
+      "en": "your beer",
+      "pl": "twoje piwo"
+    },
+    {
+      "en": "my book",
+      "pl": "moja książka"
+    },
+    {
+      "en": "your cat",
+      "pl": "twój kot"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "dom — mój / moja / moje?",
+      "choices": [
+        "mój",
+        "moja",
+        "moje"
+      ],
+      "answer": "mój"
+    },
+    {
+      "prompt": "kawa — mój / moja / moje?",
+      "choices": [
+        "mój",
+        "moja",
+        "moje"
+      ],
+      "answer": "moja"
+    },
+    {
+      "prompt": "piwo — mój / moja / moje?",
+      "choices": [
+        "mój",
+        "moja",
+        "moje"
+      ],
+      "answer": "moje"
+    },
+    {
+      "prompt": "your book →",
+      "choices": [
+        "twój książka",
+        "twoja książka",
+        "twoje książka",
+        "twoją książka"
+      ],
+      "answer": "twoja książka"
+    },
+    {
+      "prompt": "my house →",
+      "choices": [
+        "mój dom",
+        "moja dom",
+        "moje dom",
+        "mojego dom"
+      ],
+      "answer": "mój dom"
+    },
+    {
+      "prompt": "your beer →",
+      "choices": [
+        "twój piwo",
+        "twoja piwo",
+        "twoje piwo",
+        "twojego piwo"
+      ],
+      "answer": "twoje piwo"
+    },
+    {
+      "prompt": "my city →",
+      "choices": [
+        "mój miasto",
+        "moja miasto",
+        "moje miasto",
+        "mojego miasto"
+      ],
+      "answer": "moje miasto"
+    },
+    {
+      "prompt": "your shop →",
+      "choices": [
+        "twój sklep",
+        "twoja sklep",
+        "twoje sklep",
+        "twojego sklep"
+      ],
+      "answer": "twój sklep"
+    },
+    {
+      "prompt": "This is my house.",
+      "choices": [
+        "To jest mój dom.",
+        "To jest moja dom.",
+        "To jest moje dom.",
+        "To mój jest dom."
+      ],
+      "answer": "To jest mój dom."
+    },
+    {
+      "prompt": "This is your book.",
+      "choices": [
+        "To jest twoja książka.",
+        "To jest twój książka.",
+        "To jest twoje książka.",
+        "To książka twoja."
+      ],
+      "answer": "To jest twoja książka."
+    },
+    {
+      "prompt": "my coffee →",
+      "choices": [
+        "mój kawa",
+        "moja kawa",
+        "moje kawa",
+        "mojego kawa"
+      ],
+      "answer": "moja kawa"
+    },
+    {
+      "prompt": "your tea →",
+      "choices": [
+        "twój herbata",
+        "twoja herbata",
+        "twoje herbata",
+        "twoją herbata"
+      ],
+      "answer": "twoja herbata"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "my house",
+      "answer": "mój dom",
+      "accepts": [
+        "mój dom"
+      ]
+    },
+    {
+      "prompt_en": "my coffee",
+      "answer": "moja kawa",
+      "accepts": [
+        "moja kawa"
+      ]
+    },
+    {
+      "prompt_en": "my beer",
+      "answer": "moje piwo",
+      "accepts": [
+        "moje piwo"
+      ]
+    },
+    {
+      "prompt_en": "your house",
+      "answer": "twój dom",
+      "accepts": [
+        "twój dom"
+      ]
+    },
+    {
+      "prompt_en": "your book",
+      "answer": "twoja książka",
+      "accepts": [
+        "twoja książka"
+      ]
+    },
+    {
+      "prompt_en": "your city",
+      "answer": "twoje miasto",
+      "accepts": [
+        "twoje miasto"
+      ]
+    },
+    {
+      "prompt_en": "my cat",
+      "answer": "mój kot",
+      "accepts": [
+        "mój kot"
+      ]
+    },
+    {
+      "prompt_en": "your tea",
+      "answer": "twoja herbata",
+      "accepts": [
+        "twoja herbata"
+      ]
+    },
+    {
+      "prompt_en": "my shop",
+      "answer": "mój sklep",
+      "accepts": [
+        "mój sklep"
+      ]
+    },
+    {
+      "prompt_en": "your beer",
+      "answer": "twoje piwo",
+      "accepts": [
+        "twoje piwo"
+      ]
+    },
+    {
+      "prompt_en": "my book",
+      "answer": "moja książka",
+      "accepts": [
+        "moja książka"
+      ]
+    },
+    {
+      "prompt_en": "your cat",
+      "answer": "twój kot",
+      "accepts": [
+        "twój kot"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: This is my house.",
+      "answer": "To jest mój dom.",
+      "accepts": [
+        "To jest mój dom.",
+        "To mój dom."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my coffee.",
+      "answer": "To jest moja kawa.",
+      "accepts": [
+        "To jest moja kawa.",
+        "To moja kawa."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my beer.",
+      "answer": "To jest moje piwo.",
+      "accepts": [
+        "To jest moje piwo.",
+        "To moje piwo."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is your house.",
+      "answer": "To jest twój dom.",
+      "accepts": [
+        "To jest twój dom.",
+        "To twój dom."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is your book.",
+      "answer": "To jest twoja książka.",
+      "accepts": [
+        "To jest twoja książka.",
+        "To twoja książka."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is your city.",
+      "answer": "To jest twoje miasto.",
+      "accepts": [
+        "To jest twoje miasto.",
+        "To twoje miasto."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my cat.",
+      "answer": "To jest mój kot.",
+      "accepts": [
+        "To jest mój kot.",
+        "To mój kot."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is your tea.",
+      "answer": "To jest twoja herbata.",
+      "accepts": [
+        "To jest twoja herbata.",
+        "To twoja herbata."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my shop.",
+      "answer": "To jest mój sklep.",
+      "accepts": [
+        "To jest mój sklep.",
+        "To mój sklep."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is your beer.",
+      "answer": "To jest twoje piwo.",
+      "accepts": [
+        "To jest twoje piwo.",
+        "To twoje piwo."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my book.",
+      "answer": "To jest moja książka.",
+      "accepts": [
+        "To jest moja książka.",
+        "To moja książka."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is your cat.",
+      "answer": "To jest twój kot.",
+      "accepts": [
+        "To jest twój kot.",
+        "To twój kot."
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "poss_nom"
+  ],
+  "uses_structures": [
+    "poss_nom",
+    "to_jest"
+  ],
+  "teaches_lemmas": [
+    "mój",
+    "moja",
+    "moje",
+    "twój",
+    "twoja",
+    "twoje"
+  ],
+  "uses_lemmas": [
+    "mój",
+    "moja",
+    "moje",
+    "twój",
+    "twoja",
+    "twoje",
+    "dom",
+    "kawa",
+    "piwo",
+    "książka",
+    "miasto",
+    "kot",
+    "herbata",
+    "sklep",
+    "morze"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_poss_simple",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "poss_nom"
+  ]
+}

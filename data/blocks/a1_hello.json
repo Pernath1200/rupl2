@@ -6,27 +6,56 @@
   "tree_node": "a1_hello",
   "kind": "morphology",
   "default_direction": "en_to_pl",
-  "type": { "mode": "full_word" },
-  "check": { "sequence": ["match", "quiz"] },
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
   "note": "Grammar: być present grid + to jest. Match always shows all 6 persons. Polite → RUPL3.",
   "intro": [
     {
-      "title": "This is grammar — not a phrasebook",
-      "title_pl": "To jest gramatyka, nie rozmówki",
-      "body": "Dzień dobry / proszę / dziękuję belong in RUPL3 (vocab). Here you only lock a tiny slice of być — the verb you build every sentence on.",
-      "body_pl": "Grzeczność → RUPL3. Tu tylko być."
-    },
-    {
       "title": "być — present (learn the slots)",
       "table": {
-        "headers": ["Person", "Form", "English"],
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
         "rows": [
-          ["ja", "jestem", "I am"],
-          ["ty", "jesteś", "you are (sg)"],
-          ["on / ona / ono", "jest", "he / she / it is"],
-          ["my", "jesteśmy", "we are"],
-          ["wy", "jesteście", "you are (pl)"],
-          ["oni / one", "są", "they are"]
+          [
+            "ja",
+            "jestem",
+            "I am"
+          ],
+          [
+            "ty",
+            "jesteś",
+            "you are (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "jest",
+            "he / she / it is"
+          ],
+          [
+            "my",
+            "jesteśmy",
+            "we are"
+          ],
+          [
+            "wy",
+            "jesteście",
+            "you are (pl)"
+          ],
+          [
+            "oni / one",
+            "są",
+            "they are"
+          ]
         ]
       }
     },
@@ -34,94 +63,452 @@
       "title": "to jest — this is / it is",
       "body": "Safe frame for nominative nouns (next pack drills gender on what follows).",
       "table": {
-        "headers": ["English", "Polish"],
+        "headers": [
+          "English",
+          "Polish"
+        ],
         "rows": [
-          ["This is… / It is…", "To jest…"],
-          ["Yes", "Tak"],
-          ["No", "Nie"]
+          [
+            "This is… / It is…",
+            "To jest…"
+          ],
+          [
+            "Yes",
+            "Tak"
+          ],
+          [
+            "No",
+            "Nie"
+          ]
         ]
       }
     },
     {
       "title": "Examples",
+      "body": "Only forms from this pack + words you already met (kawa, dom, książka, mój/twój).",
       "examples": [
-        { "en": "I am Anna.", "pl": "Jestem Anna." },
-        { "en": "You are here. (sg)", "pl": "Jesteś tutaj." },
-        { "en": "This is coffee.", "pl": "To jest kawa." },
-        { "en": "They are in Warsaw.", "pl": "Są w Warszawie." }
+        {
+          "en": "I am Anna.",
+          "pl": "Jestem Anna."
+        },
+        {
+          "en": "This is coffee.",
+          "pl": "To jest kawa."
+        },
+        {
+          "en": "This is my house.",
+          "pl": "To jest mój dom."
+        },
+        {
+          "en": "This is your book.",
+          "pl": "To jest twoja książka."
+        }
       ]
     }
   ],
   "match": [
-    { "en": "I (ja) · am", "pl": "jestem" },
-    { "en": "you (ty) · are sg", "pl": "jesteś" },
-    { "en": "he/she (on/ona) · is", "pl": "jest" },
-    { "en": "we (my) · are", "pl": "jesteśmy" },
-    { "en": "you (wy) · are pl", "pl": "jesteście" },
-    { "en": "they (oni) · are", "pl": "są" }
+    {
+      "en": "I (ja) · am",
+      "pl": "jestem"
+    },
+    {
+      "en": "you (ty) · are sg",
+      "pl": "jesteś"
+    },
+    {
+      "en": "he/she (on/ona) · is",
+      "pl": "jest"
+    },
+    {
+      "en": "we (my) · are",
+      "pl": "jesteśmy"
+    },
+    {
+      "en": "you (wy) · are pl",
+      "pl": "jesteście"
+    },
+    {
+      "en": "they (oni) · are",
+      "pl": "są"
+    },
+    {
+      "en": "this is / it is",
+      "pl": "to jest"
+    },
+    {
+      "en": "I am (full)",
+      "pl": "Jestem."
+    },
+    {
+      "en": "you are sg (full)",
+      "pl": "Jesteś."
+    },
+    {
+      "en": "he is (full)",
+      "pl": "Jest."
+    },
+    {
+      "en": "we are (full)",
+      "pl": "Jesteśmy."
+    },
+    {
+      "en": "they are (full)",
+      "pl": "Są."
+    }
   ],
   "quiz": [
     {
       "prompt": "I am →",
-      "choices": ["jestem", "jesteś", "jest", "są"],
+      "choices": [
+        "jestem",
+        "jesteś",
+        "jest",
+        "są"
+      ],
       "answer": "jestem"
     },
     {
       "prompt": "you are (sg) →",
-      "choices": ["jestem", "jesteś", "jesteście", "jest"],
+      "choices": [
+        "jestem",
+        "jesteś",
+        "jesteście",
+        "jest"
+      ],
       "answer": "jesteś"
     },
     {
+      "prompt": "he/she is →",
+      "choices": [
+        "jestem",
+        "jesteś",
+        "jest",
+        "są"
+      ],
+      "answer": "jest"
+    },
+    {
+      "prompt": "we are →",
+      "choices": [
+        "jesteśmy",
+        "jesteście",
+        "są",
+        "jestem"
+      ],
+      "answer": "jesteśmy"
+    },
+    {
+      "prompt": "you are (pl) →",
+      "choices": [
+        "jesteś",
+        "jesteście",
+        "jesteśmy",
+        "są"
+      ],
+      "answer": "jesteście"
+    },
+    {
       "prompt": "they are →",
-      "choices": ["jest", "jesteśmy", "są", "jesteście"],
+      "choices": [
+        "jest",
+        "jesteśmy",
+        "są",
+        "jesteście"
+      ],
       "answer": "są"
     },
     {
       "prompt": "this is / it is (two words) →",
-      "choices": ["to jest", "jestem", "jest to", "to są"],
+      "choices": [
+        "to jest",
+        "jestem",
+        "jest to",
+        "to są"
+      ],
       "answer": "to jest"
     },
     {
-      "prompt": "we are →",
-      "choices": ["jesteśmy", "jesteście", "są", "jestem"],
-      "answer": "jesteśmy"
+      "prompt": "I am Anna:",
+      "choices": [
+        "Jestem Anna.",
+        "Jesteś Anna.",
+        "Jest Anna.",
+        "Są Anna."
+      ],
+      "answer": "Jestem Anna."
     },
     {
-      "prompt": "he is →",
-      "choices": ["jestem", "jesteś", "jest", "są"],
-      "answer": "jest"
+      "prompt": "This is coffee:",
+      "choices": [
+        "To jest kawa.",
+        "To jest kawę.",
+        "Jestem kawa.",
+        "To kawa jest."
+      ],
+      "answer": "To jest kawa."
+    },
+    {
+      "prompt": "This is my house:",
+      "choices": [
+        "To jest mój dom.",
+        "To jest moja dom.",
+        "To jest moje dom.",
+        "To mój jest dom."
+      ],
+      "answer": "To jest mój dom."
+    },
+    {
+      "prompt": "This is your book:",
+      "choices": [
+        "To jest twoja książka.",
+        "To jest twój książka.",
+        "To jest twoje książka.",
+        "To książka twoja."
+      ],
+      "answer": "To jest twoja książka."
+    },
+    {
+      "prompt": "We are (form only):",
+      "choices": [
+        "jesteśmy",
+        "jesteście",
+        "są",
+        "jestem"
+      ],
+      "answer": "jesteśmy"
     }
   ],
   "type_items": [
-    { "prompt_en": "ja · być → I am", "answer": "jestem", "accepts": ["jestem"] },
-    { "prompt_en": "ty · być → you are (sg)", "answer": "jesteś", "accepts": ["jesteś"] },
-    { "prompt_en": "on/ona · być → he/she is", "answer": "jest", "accepts": ["jest"] },
-    { "prompt_en": "my · być → we are", "answer": "jesteśmy", "accepts": ["jesteśmy"] },
-    { "prompt_en": "wy · być → you are (pl)", "answer": "jesteście", "accepts": ["jesteście"] },
-    { "prompt_en": "oni/one · być → they are", "answer": "są", "accepts": ["są"] },
-    { "prompt_en": "this is / it is (two words)", "answer": "to jest", "accepts": ["to jest"] },
-    { "prompt_en": "ja · być again", "answer": "jestem", "accepts": ["jestem"] }
+    {
+      "prompt_en": "ja · być → I am",
+      "answer": "jestem",
+      "accepts": [
+        "jestem"
+      ]
+    },
+    {
+      "prompt_en": "ty · być → you are (sg)",
+      "answer": "jesteś",
+      "accepts": [
+        "jesteś"
+      ]
+    },
+    {
+      "prompt_en": "on/ona · być → he/she is",
+      "answer": "jest",
+      "accepts": [
+        "jest"
+      ]
+    },
+    {
+      "prompt_en": "my · być → we are",
+      "answer": "jesteśmy",
+      "accepts": [
+        "jesteśmy"
+      ]
+    },
+    {
+      "prompt_en": "wy · być → you are (pl)",
+      "answer": "jesteście",
+      "accepts": [
+        "jesteście"
+      ]
+    },
+    {
+      "prompt_en": "oni/one · być → they are",
+      "answer": "są",
+      "accepts": [
+        "są"
+      ]
+    },
+    {
+      "prompt_en": "this is / it is (two words)",
+      "answer": "to jest",
+      "accepts": [
+        "to jest"
+      ]
+    },
+    {
+      "prompt_en": "I am Anna.",
+      "answer": "Jestem Anna.",
+      "accepts": [
+        "Jestem Anna.",
+        "Jestem Anna"
+      ]
+    },
+    {
+      "prompt_en": "This is coffee.",
+      "answer": "To jest kawa.",
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
+    },
+    {
+      "prompt_en": "This is my house.",
+      "answer": "To jest mój dom.",
+      "accepts": [
+        "To jest mój dom.",
+        "To mój dom."
+      ]
+    },
+    {
+      "prompt_en": "This is your book.",
+      "answer": "To jest twoja książka.",
+      "accepts": [
+        "To jest twoja książka.",
+        "To twoja książka."
+      ]
+    },
+    {
+      "prompt_en": "We are.",
+      "answer": "Jesteśmy.",
+      "accepts": [
+        "Jesteśmy.",
+        "Jesteśmy",
+        "My jesteśmy."
+      ]
+    }
   ],
   "use_items": [
     {
       "prompt_en": "Type: I am Anna.",
       "answer": "Jestem Anna.",
-      "accepts": ["Jestem Anna.", "Jestem Anna"]
+      "accepts": [
+        "Jestem Anna.",
+        "Jestem Anna"
+      ]
     },
     {
       "prompt_en": "Type: This is coffee.",
       "answer": "To jest kawa.",
-      "accepts": ["To jest kawa.", "To jest kawa"]
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
     },
     {
-      "prompt_en": "Type: You are here. (sg)",
-      "answer": "Jesteś tutaj.",
-      "accepts": ["Jesteś tutaj.", "Jesteś tutaj"]
+      "prompt_en": "Type: This is my house.",
+      "answer": "To jest mój dom.",
+      "accepts": [
+        "To jest mój dom.",
+        "To mój dom."
+      ]
     },
     {
-      "prompt_en": "Type: We are in Warsaw.",
-      "answer": "Jesteśmy w Warszawie.",
-      "accepts": ["Jesteśmy w Warszawie.", "Jesteśmy w Warszawie"]
+      "prompt_en": "Type: This is your book.",
+      "answer": "To jest twoja książka.",
+      "accepts": [
+        "To jest twoja książka.",
+        "To twoja książka."
+      ]
+    },
+    {
+      "prompt_en": "Type: We are.",
+      "answer": "Jesteśmy.",
+      "accepts": [
+        "Jesteśmy.",
+        "Jesteśmy",
+        "My jesteśmy."
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my coffee.",
+      "answer": "To jest moja kawa.",
+      "accepts": [
+        "To jest moja kawa.",
+        "To moja kawa."
+      ]
+    },
+    {
+      "prompt_en": "Type: You are. (sg)",
+      "answer": "Jesteś.",
+      "accepts": [
+        "Jesteś.",
+        "Jesteś"
+      ]
+    },
+    {
+      "prompt_en": "Type: They are.",
+      "answer": "Są.",
+      "accepts": [
+        "Są.",
+        "Są"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a house.",
+      "answer": "To jest dom.",
+      "accepts": [
+        "To jest dom.",
+        "To dom."
+      ]
+    },
+    {
+      "prompt_en": "Type: I am.",
+      "answer": "Jestem.",
+      "accepts": [
+        "Jestem.",
+        "Jestem"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my sister.",
+      "answer": "To jest moja siostra.",
+      "accepts": [
+        "To jest moja siostra.",
+        "To moja siostra."
+      ]
+    },
+    {
+      "prompt_en": "Type: He is.",
+      "answer": "Jest.",
+      "accepts": [
+        "Jest.",
+        "On jest.",
+        "Jest"
+      ]
     }
+  ],
+  "teaches_structures": [
+    "byc_present",
+    "to_jest"
+  ],
+  "uses_structures": [
+    "byc_present",
+    "to_jest",
+    "poss_nom"
+  ],
+  "teaches_lemmas": [
+    "jestem",
+    "jesteś",
+    "jest",
+    "jesteśmy",
+    "jesteście",
+    "są"
+  ],
+  "uses_lemmas": [
+    "jestem",
+    "jesteś",
+    "jest",
+    "jesteśmy",
+    "jesteście",
+    "są",
+    "kawa",
+    "dom",
+    "książka",
+    "mój",
+    "moja",
+    "twoja"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_hello",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "byc_present",
+    "to_jest"
   ]
 }
